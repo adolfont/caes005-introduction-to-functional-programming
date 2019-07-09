@@ -14,6 +14,8 @@
 
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
 
+[StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2019)
+
 
 ## Funções: funções como cidadãos de primeira classe, funções nomeadas e funções anônimas, currying, módulos. 
 
