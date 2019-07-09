@@ -20,6 +20,6 @@ This is a course I (Adolfo Neto) am going to
 - Thomas, Dave. **[Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun.](https://pragprog.com/book/elixir16/programming-elixir-1-6)** Pragmatic Programmers, 2018.
 - Almeida, Ulisses. **[Learn Functional Programming with Elixir: New Foundations for a New World.](https://pragprog.com/book/cdc-elixir/learn-functional-programming-with-elixir)** Pragmatic Programmers, 2018.
 - Davi, Tiago. **[Elixir: Do zero à concorrência.](https://www.casadocodigo.com.br/products/livro-elixir)** Casa do Código, 2017.
-- Sebesta, Robert W. **[Concepts of Programming Languages.](https://www.amazon.com/Concepts-Programming-Languages-Robert-Sebesta/dp/013394302X/)** Pearson, 2015.
+- Sebesta, Robert W. **[Concepts of Programming Languages.](https://www.amazon.com/Concepts-Programming-Languages-Robert-Sebesta/dp/013394302X/)** 11th Edition, Pearson, 2015.
 - Scientific papers and gray literature (blog posts, podcast episodes, videos, etc.)
 
