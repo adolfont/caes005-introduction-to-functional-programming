@@ -6,8 +6,7 @@
 
 ### Principais Lingaugens
 
-- LISP
-- Clojure
+- LISP, Scheme, Clojure
 - Haskell
 - F# 
 - Elixir 
