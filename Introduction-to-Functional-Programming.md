@@ -1,6 +1,6 @@
 # Introduction to Functional Programming
 
-This is a course I (Adolfo Neto) am going to 
+This is a course I (Adolfo Neto) am going to offer
 
 ## Syllabus
 
