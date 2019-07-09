@@ -13,6 +13,8 @@
 - Elixir 
 - Erlang
 
+[Tiobe Index](https://www.tiobe.com/tiobe-index/)
+
 
 ## Funções: funções como cidadãos de primeira classe, funções nomeadas e funções anônimas, currying, módulos. 
 
