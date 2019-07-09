@@ -4,7 +4,7 @@
 
 ## Syllabus
 
-- Functional Programming: Concepts and main Languages. 
+- Functional Programming: Concepts and main languages. 
 - Functions: functions as first class citizens, named functions and anonymous functions, Currying, modules. 
 - Pattern Matching. 
 - Data structures and immutability. 
