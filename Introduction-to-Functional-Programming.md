@@ -15,6 +15,16 @@ This is a course I (Adolfo Neto) am going to offer next semester (2019/2) for gr
 - Implementation of projects using a functional language. 
 - Overview of functional languages for concurrency.
 
+
+### Suggested Additions
+
+- [Higher-order functions](https://twitter.com/ramalhoorg/status/1148778652655640579?s=20)
+- [Layers](https://twitter.com/redrapids/status/1148670656374091776?s=20)
+- [Purity, ie, separating effectful code](https://twitter.com/ktec/status/1148748154709446656?s=20)
+- [Why functional data structures are different from OOP or procedural data structures](https://twitter.com/redrapids/status/1148670656374091776?s=20)
+- [Why functional programming became interesting](https://twitter.com/renanranelli/status/1148793119946575875?s=20)
+- [Other paradigms](https://twitter.com/SWI_Prolog/status/1148905678758535169?s=20)
+
 ## References
 
 - Thomas, Dave. **[Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun.](https://pragprog.com/book/elixir16/programming-elixir-1-6)** Pragmatic Programmers, 2018.
