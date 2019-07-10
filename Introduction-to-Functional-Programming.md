@@ -24,6 +24,7 @@ This is a course I (Adolfo Neto) am going to offer next semester (2019/2) for gr
 - [Why functional data structures are different from OOP or procedural data structures](https://twitter.com/redrapids/status/1148670656374091776?s=20)
 - [Why functional programming became interesting](https://twitter.com/renanranelli/status/1148793119946575875?s=20)
 - [Other paradigms](https://twitter.com/SWI_Prolog/status/1148905678758535169?s=20)
+- [Parametric polymorphism?](https://twitter.com/rodinhart/status/1148975522833027078?s=20)
 
 ## References
 
