@@ -25,7 +25,7 @@ This is a course I (Adolfo Neto) am going to offer next semester (2019/2) for gr
 - [Why functional programming became interesting](https://twitter.com/renanranelli/status/1148793119946575875?s=20)
 - [Other paradigms](https://twitter.com/SWI_Prolog/status/1148905678758535169?s=20)
 - [Parametric polymorphism?](https://twitter.com/rodinhart/status/1148975522833027078?s=20)
-- [Lambda calculus](https://twitter.com/Kakadu18/status/1149567470635642881?s=20)
+- [Lambda calculus, call-by-value, call-by-name](https://twitter.com/Kakadu18/status/1149567470635642881?s=20). See also [this](https://pdfs.semanticscholar.org/9e1c/0bf9c3c2e0a293f7eb5a38a9253551dc2e1f.pdf).
 
 ## References
 
