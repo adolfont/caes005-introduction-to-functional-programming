@@ -6,3 +6,5 @@
 [Why am I interested in Elixir? (underjord.io)](https://news.ycombinator.com/item?id=20357055)
 
 [Thinking Elixir](https://thinkingelixir.com/)
+
+[Podcast ElixirMix 57 - The Elixir Community with Adolfo Neto](https://www.reddit.com/r/elixir/comments/c5b475/podcast_elixirmix_57_the_elixir_community_with/)
