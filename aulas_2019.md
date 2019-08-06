@@ -1,4 +1,4 @@
-# Inttrodução à Programação Funcional
+# Introdução à Programação Funcional
 
 ## Datas das Aulas
 
