@@ -2,6 +2,8 @@
 
 ## Datas das Aulas
 
+[Calendário UTFPR 2019](http://portal.utfpr.edu.br/alunos/calendario/ct/calendario-utfpr-ct-2019)
+
 - 24/09
 - 01/10
 - Não haverá em 08/10
