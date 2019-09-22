@@ -28,3 +28,8 @@
 - Casamento de padrões
 - Chamada de funções Módulo.nome
 
+
+
+### Depois
+
+-  mais detalhes sobre as aplicações de Elixir e a importãncia da Erlang VM
