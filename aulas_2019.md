@@ -27,9 +27,22 @@
 - Alguns tipos básicos
 - Casamento de padrões
 - Chamada de funções Módulo.nome
-
-
-
+- Alguns módulos que já vêm com Elixir:
+  - Kernel https://hexdocs.pm/elixir/Kernel.html
+  - No iex, Kernel. e TAB
+  - funções do Módulo Kernel não precisam do nome do Módulo antes
+  - h Kernel.trunc  round  abs is_integer
+  - h Kernel
+  - https://hexdocs.pm/elixir/Atom.html#summary
+    - Atom.to_string
+    - Também não precisa do nome do Módulo  
+  - https://hexdocs.pm/elixir/String.html#summary
+    - String.replace("a,b,c", ",", "-") 
+    - precisa do nome do Módulo 
+  
 ### Depois
 
 -  mais detalhes sobre as aplicações de Elixir e a importãncia da Erlang VM
+-  como contribuir? 
+-  pacotes de brasileiros 
+  - https://github.com/elixir-validation/validation
