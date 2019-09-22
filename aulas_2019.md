@@ -16,3 +16,15 @@
 - 26/11
 - 03/12
 - 10/12
+
+## Assuntos
+
+- Introdução rápida sobre a necessidade/utilidade de PF
+
+### Elixir
+
+- IEx
+- Alguns tipos básicos
+- Casamento de padrões
+- Chamada de funções Módulo.nome
+
