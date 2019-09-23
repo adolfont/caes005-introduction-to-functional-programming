@@ -12,3 +12,5 @@
 [The Erlang Rationale, Robert Virding](https://drive.google.com/file/d/1zKsOgwZJ_YZ1bY3b3gNRjAxpn6VneR8b/view)
 
 [Programação Concorrente, Luciano Ramalho](https://www.youtube.com/watch?v=FYKNHk3Ze8A)
+
+[Curso de Python](https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6)
