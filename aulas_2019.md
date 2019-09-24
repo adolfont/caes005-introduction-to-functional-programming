@@ -1,6 +1,8 @@
 # Introdução à Programação Funcional
 
-[Professor Adolfo Neto (DAINF-UTFPR)](http://www2.dainf.ct.utfpr.edu.br/Members/adolfo)
+Professor: [Adolfo Neto (DAINF-UTFPR)](http://www2.dainf.ct.utfpr.edu.br/Members/adolfo)
+
+Ementa(http://ppgca.dainf.ct.utfpr.edu.br/doku.php?id=caes005)/[Syllabus](Introduction-to-Functional-Programming.md)
 
 ## Aluno(a)s Matriculado(a)s
 
