@@ -1,5 +1,7 @@
 # Introdução à Programação Funcional
 
+[Professor Adolfo Neto (DAINF-UTFPR)](http://www2.dainf.ct.utfpr.edu.br/Members/adolfo)
+
 ## Aluno(a)s Matriculado(a)s
 
 - Doglas Andre Finco	
