@@ -31,6 +31,12 @@ Professor: [Adolfo Neto (DAINF-UTFPR)](http://www2.dainf.ct.utfpr.edu.br/Members
 - 03/12
 - 10/12
 
+## Avaliação
+
+- Apresentações de linguagens
+- Vídeos
+- Pesquisa Elixir Forum, Slack, Telegram
+
 ## Assuntos
 
 - Introdução rápida sobre a necessidade/utilidade de PF
