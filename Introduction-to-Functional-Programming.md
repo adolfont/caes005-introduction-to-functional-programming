@@ -1,6 +1,7 @@
 # Introduction to Functional Programming
 
-This is a course I (Adolfo Neto) am offerint this semester (2019/2) for graduate and undergraduate students at UTFPR Curitiba.
+
+A 45-hour course for graduate and undergraduate students at UTFPR Curitiba.
 
 ## Syllabus
 
