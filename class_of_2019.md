@@ -2,9 +2,11 @@
 
 [Syllabus](Introduction-to-Functional-Programming.md)
 
+This is a course I (Adolfo Neto) am offering this semester (2019/2) at UTFPR Curitiba.
+
 ## Professor
 
-Adolfo Neto (DAINF - UTFPR Curitiba)
+[Adolfo Neto (DAINF - UTFPR Curitiba)](https://twitter.com/adolfont)
 
 ## Students
 
