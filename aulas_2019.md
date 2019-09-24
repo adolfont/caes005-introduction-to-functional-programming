@@ -1,5 +1,15 @@
 # Introdução à Programação Funcional
 
+## Aluno(a)s Matriculado(a)s
+
+- Doglas Andre Finco	
+- Jean Carlos Rodrigues	
+- Laura Keity Shibukawa	
+- Mattheus Rodrigo Marzola Leite	
+- Yanaiara Graziele De Oliveira	
+ 
+
+
 ## Datas das Aulas
 
 [Calendário UTFPR 2019](http://portal.utfpr.edu.br/alunos/calendario/ct/calendario-utfpr-ct-2019)
