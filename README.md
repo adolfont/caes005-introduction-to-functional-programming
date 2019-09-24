@@ -4,7 +4,7 @@
 
 ## Programação Funcional: Conceitos e Principais Linguagens. 
 
-### Principais Lingaugens
+### Principais Linguagens
 
 - LISP, Scheme, Clojure
 - Haskell
