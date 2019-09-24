@@ -1,6 +1,6 @@
 # Introduction to Functional Programming
 
-This is a course I (Adolfo Neto) am going to offer next semester (2019/2) for graudate and undergraduate students at UTFPR Curitiba.
+This is a course I (Adolfo Neto) am offerint this semester (2019/2) for graduate and undergraduate students at UTFPR Curitiba.
 
 ## Syllabus
 
