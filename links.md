@@ -1,4 +1,7 @@
 # Links 
+
+[Which companies are using Elixir, and why? #MyTopdogStatus](https://www.erlang-solutions.com/blog/which-companies-are-using-elixir-and-why-mytopdogstatus.html?utm_source=facebook&utm_medium=social&utm_campaign=19Q3.Mark.Underdog.MRBlog)
+
 [Functional Programming Essentials with Elixir  - Slides Ulisses](https://speakerdeck.com/ulissesalmeida/functional-programming-essentials-with-elixir)
 
 [Think in Erlang! #Code BEAM STO 2019](https://codesync.global/media/think-in-erlang-viktoria-fordos-code-beam-sto)
