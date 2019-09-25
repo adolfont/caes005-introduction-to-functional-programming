@@ -1,5 +1,7 @@
 # Links 
 
+[History of Lisp, John McCarthy](http://jmc.stanford.edu/articles/lisp.html)
+
 [Who Cares About Functional Programming?, Thomas Bandt](https://thomasbandt.com/who-cares-about-functional-programming)
 
 [Suitability of functional programming for the development of mobile applications: A comparison of F# and C# involving Xamarin](https://thomasbandt.com/upload/thesis.pdf)
