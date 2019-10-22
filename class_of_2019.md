@@ -20,7 +20,7 @@ This is a course I am offering this semester (2019/2) at [UTFPR Curitiba](http:/
  ## Calendar
 
 - 24/09 - IEx, Variables, Values, Types
-- 01/10 - Functions
+- 01/10 - Pattern Matching, Named Functions
 - 08/10 - No class
 - 15/10 - Ada Lovelace Day
 - 22/10
