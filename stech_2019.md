@@ -4,6 +4,16 @@
 
 - José Valim
 - Erlang, BEAM, multicore e concorrência
+- Programação Funcional
+
+## Básico do Básico
+
+- iex
+- elixir arquivo.exs
+- Valores e Tipos
+- Variáveis e Casamento de Padrões
+- Funções e Módulos
+- Recursividade
 
 
 ## Pequeno Projeto
