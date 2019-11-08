@@ -17,6 +17,14 @@
 - Listas, Mapas
 - Enum
 
+## Code Katas
+
+- Maffetone
+
+- http://dojopuzzles.com/
+  - http://dojopuzzles.com/problemas/exibe/calculando-estatisticas-simples/
+  - http://dojopuzzles.com/problemas/exibe/fizzbuzz/
+  - http://dojopuzzles.com/problemas/exibe/numeros-romanos/
 
 ## Pequeno Projeto
 
