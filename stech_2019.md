@@ -19,7 +19,7 @@
 
 ## Code Katas
 
-- Maffetone
+- [Maffetone](https://github.com/adolfont/introducao-a-programacao-funcional/blob/master/maffetone.md)
 
 - http://dojopuzzles.com/
   - http://dojopuzzles.com/problemas/exibe/calculando-estatisticas-simples/
