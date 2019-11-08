@@ -14,6 +14,8 @@
 - Variáveis e Casamento de Padrões
 - Funções e Módulos
 - Recursividade
+- Listas, Mapas
+- Enum
 
 
 ## Pequeno Projeto
