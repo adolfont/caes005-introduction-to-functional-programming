@@ -1,5 +1,15 @@
 # Curso de Elixir na Semana Technológica
 
+## O que é Elixir?
+
+- José Valim
+- Erlang, BEAM, multicore e concorrência
+
+
+## Pequeno Projeto
+
+- Link da Pyettra
+
 
 ## Links
 
