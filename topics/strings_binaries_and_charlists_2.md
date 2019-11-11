@@ -23,6 +23,7 @@ mix = << int :: binary, float :: binary >>
 ```
 
 - [IEEE 754:  IEEE Standard for Floating-Point Arithmetic](https://en.wikipedia.org/wiki/IEEE_754)
+- "An IEEE 754 float has a sign bit, 11 bits of exponent, and 52 bits of mantissa. The exponent is biased by 1023, and the mantissa is a fraction with the top bit assumed to be 1." (Thomas, 2018)
 
 ```elixir
 << sign::size(1), exp::size(11), mantissa::size(52) >> = << 3.14159::float >>
