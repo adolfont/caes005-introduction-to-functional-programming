@@ -11,7 +11,9 @@
 
 ```elixir
 b = << 1, 2, 3 >>
+{byte_size(b), bit_size(b)}
 b = << 1::size(2), 1::size(3) >>
+{byte_size(b), bit_size(b)}
 ```
 
 
