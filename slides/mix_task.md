@@ -3,6 +3,8 @@
 ## Creating the Start task
 
 - [lib/mix/tasks/start.ex](https://media.pragprog.com/titles/cdc-elixir/code/design_your_application/tutorial/0/dungeon_crawl/lib/mix/tasks/start.ex)
+- [Using Mix.Shell.IO.info/1](http://media.pragprog.com/titles/cdc-elixir/code/design_your_application/tutorial/0/dungeon_crawl/lib/dungeon_crawl/cli/main.ex)
+- [Using Mix.Shell.IO.prompt/1](http://media.pragprog.com/titles/cdc-elixir/code/design_your_application/tutorial/1/dungeon_crawl/lib/dungeon_crawl/cli/main.ex) 
 
 
 # References  
