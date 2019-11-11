@@ -22,6 +22,15 @@ On iex:
 - """
 - "Heredocs are used extensively to add documentation to functions and modules."  (Thomas, 2018)
 
+```elixir
+IO.puts "start"
+IO.write """
+   my
+   string
+"""
+IO.puts "end"
+```
+
 ## Sigils
 
 - Tilde
