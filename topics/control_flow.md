@@ -15,6 +15,7 @@
 
 - Ulisses Almeida's CPF 
   - https://github.com/ulissesalmeida/cpf/
+  - https://ulisses.dev/elixir/2019/10/31/annoucing-cpf-1-0-0.html
   
 - Matheus Gontijo's Validation
   - https://github.com/elixir-validation/validation
