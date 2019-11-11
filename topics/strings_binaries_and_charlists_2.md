@@ -69,6 +69,13 @@ String.myers_difference("brasil", "brazil")
 
 ### String Processing with Binaries
 
+- << head :: utf8, tail :: binary >>
+- [utf-iterate.ex](http://media.pragprog.com/titles/elixir16/code/strings/utf-iterate.ex)
+
+## Strings and Erlang
+
+- "String handling in Elixir is the result of a long evolutionary process in the underlying Erlang environment." (Thomas, 2018)
+
 # References
 
 [Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas (2018)](http://bit.ly/2rqD9VF)
