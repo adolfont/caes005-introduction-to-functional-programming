@@ -11,11 +11,11 @@
 
 On iex:
 
-<code>
+```elixir
   IO.puts "\u00A9"
   name = "Adolfo"
   "Hello, #{String.capitalize name}!"
-</code>
+```
 
 # References
 
