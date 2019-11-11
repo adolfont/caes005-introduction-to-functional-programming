@@ -7,9 +7,20 @@
 
 ## cond
 
+- list a series of conditions
+
+- FizzBuzz examples (Thomas, 2018)
+
 ## case
 
+- First pattern that matches
+- May include guard clauses
+
 ## raise
+
+- "exceptions in Elixir are not control-flow structures." (Thomas, 2018)
+
+- "The trailing exclamation point in the method name is an Elixir convention—if you see it, you know the function will raise an exception on error, and that exception will be meaningful." (Thomas, 2018)
 
 ## Examples
 
