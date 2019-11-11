@@ -42,6 +42,7 @@ byte_size formula
 String.at(formula, 0)
 String.codepoints(formula)
 String.split(formula, "(")
+String.split(formula, ["(",")"])
 ```
 
 # References
