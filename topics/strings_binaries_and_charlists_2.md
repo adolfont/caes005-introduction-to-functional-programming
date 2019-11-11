@@ -48,6 +48,12 @@ String.split(formula, ["(",")"])
 ## Strings and Elixir Libraries
 
 - "When Elixir library documentation uses the word string (and most of the time it uses the word binary), it means double-quoted strings." (Thomas, 2018)
+- [String module: double-quoted strings](https://hexdocs.pm/elixir/String.html)
+
+```elixir
+String.ends_with? "adolfo", ["olfo", "ad", "elf"]
+String.jaro_distance("adolfo", "rodolfo")
+```
 
 # References
 
