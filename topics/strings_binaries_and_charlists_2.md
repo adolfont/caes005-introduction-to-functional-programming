@@ -45,6 +45,10 @@ String.split(formula, "(")
 String.split(formula, ["(",")"])
 ```
 
+## Strings and Elixir Libraries
+
+- "When Elixir library documentation uses the word string (and most of the time it uses the word binary), it means double-quoted strings." (Thomas, 2018)
+
 # References
 
 [Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas (2018)](http://bit.ly/2rqD9VF)
