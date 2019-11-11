@@ -26,6 +26,7 @@ mix = << int :: binary, float :: binary >>
 
 ```elixir
 << sign::size(1), exp::size(11), mantissa::size(52) >> = << 3.14159::float >>
+{sign, exp, mantissa}
 (1 + mantissa / :math.pow(2, 52)) * :math.pow(2, exp-1023) * (1 - 2*sign)
 ```
 
