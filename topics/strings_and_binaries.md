@@ -20,7 +20,7 @@ On iex:
 ## Heredocs
 
 - """
-- "Heredocs are used extensively to add documentation to functions and modules."
+- "Heredocs are used extensively to add documentation to functions and modules."  (Thomas, 2018)
 
 ## Sigils
 
@@ -42,4 +42,4 @@ On iex:
 
 # References
 
-[Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas](http://bit.ly/2rqD9VF)
+[Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas (2018)](http://bit.ly/2rqD9VF)
