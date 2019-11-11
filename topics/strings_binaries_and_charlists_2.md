@@ -16,6 +16,11 @@ b = << 1::size(2), 1::size(3) >>
 {byte_size(b), bit_size(b)}
 ```
 
+```elixir
+int = << 1 >>
+float = << 2.5 :: float >>
+mix = << int :: binary, float :: binary >>
+```
 
 # References
 
