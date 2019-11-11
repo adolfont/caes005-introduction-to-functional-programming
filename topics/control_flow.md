@@ -5,13 +5,20 @@
 
 ## if and unless
 
-https://github.com/ulissesalmeida/cpf/blob/master/lib/cpf/cpf.ex
-
 ## cond
 
 ## case
 
 ## raise
+
+## Examples
+
+- Ulisses Almeida's CPF 
+  - https://github.com/ulissesalmeida/cpf/
+  
+- Matheus Gontijo's Validation
+  - https://github.com/elixir-validation/validation
+
 
 # References
 
