@@ -22,6 +22,11 @@ float = << 2.5 :: float >>
 mix = << int :: binary, float :: binary >>
 ```
 
+```elixir
+<< sign::size(1), exp::size(11), mantissa::size(52) >> = << 3.14159::float >>
+(1 + mantissa / :math.pow(2, 52)) * :math.pow(2, exp-1023) * (1 - 2*sign)
+```
+
 # References
 
 [Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas (2018)](http://bit.ly/2rqD9VF)
