@@ -60,6 +60,15 @@ String.myers_difference("brasil", "brazil")
 
 - "The first rule of binaries is “if in doubt, specify the type of each field.”" (Thomas, 2018)
 
+- Types: binary, bits, bitstring, bytes, float, integer, utf8, utf16, utf32.
+- Qualifiers:
+  - size(n)
+  - signed or unsigned
+  - endianness
+- Hyphens
+
+### String Processing with Binaries
+
 # References
 
 [Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas (2018)](http://bit.ly/2rqD9VF)
