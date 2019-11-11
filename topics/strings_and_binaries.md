@@ -36,8 +36,9 @@ On iex:
 ~w[the c#{'a'}t sat on the mat]s
 ```
 
+## Strings vs. character lists
 
-
+- "In Elixir, the convention is that we call only double-quoted strings “strings.” The single-quoted form is a character list." (Thomas, 2018)
 
 
 # References
