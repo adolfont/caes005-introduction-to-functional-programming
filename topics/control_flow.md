@@ -13,6 +13,9 @@
 
 ## Examples
 
+- Philip Sampaio's Floki
+  - https://github.com/philss/floki
+
 - Ulisses Almeida's CPF 
   - https://github.com/ulissesalmeida/cpf/
   - https://ulisses.dev/elixir/2019/10/31/annoucing-cpf-1-0-0.html
