@@ -22,6 +22,8 @@ float = << 2.5 :: float >>
 mix = << int :: binary, float :: binary >>
 ```
 
+- [IEEE 754:  IEEE Standard for Floating-Point Arithmetic](https://en.wikipedia.org/wiki/IEEE_754)
+
 ```elixir
 << sign::size(1), exp::size(11), mantissa::size(52) >> = << 3.14159::float >>
 (1 + mantissa / :math.pow(2, 52)) * :math.pow(2, exp-1023) * (1 - 2*sign)
