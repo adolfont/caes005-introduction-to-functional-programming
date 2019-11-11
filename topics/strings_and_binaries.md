@@ -38,10 +38,22 @@ On iex:
 ~w[the c#{'a'}t sat on the mat]s
 ```
 
+- You can use heredocs
+- You can define your own sigils
+
 ## Strings vs. character lists
 
 - "In Elixir, the convention is that we call only double-quoted strings “strings.” The single-quoted form is a character list." (Thomas, 2018)
 
+### Single-Quoted Strings—Lists of Character Codes
+
+- "IEx says it is a list, but it shows the value as a string" (Thomas, 2018)
+
+```elixir
+[ 67, 65, 84 ]
+```
+
+- "Because a character list is a list, we can use the usual pattern matching and List functions" (Thomas, 2018). See [parse.exs](http://media.pragprog.com/titles/elixir16/code/strings/parse.exs)
 
 # References
 
