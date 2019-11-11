@@ -1,4 +1,4 @@
-# Using Mix Task
+# Creating an Interactive command-line application using Mix Task
 
 ## Creating the Start task
 
