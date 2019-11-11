@@ -1,4 +1,4 @@
-# Strings and Character Lists
+# Strings, Binaries and Character Lists - part 1
 
 ## String Literals
 
