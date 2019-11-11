@@ -1,5 +1,18 @@
 # Strings, Binaries and Character Lists - part 2
 
+[Strings, Binaries and Character Lists - part 1](https://github.com/adolfont/introducao-a-programacao-funcional/blob/master/topics/strings_binaries_and_charlists_1.md)
+
+## Binaries
+
+- A sequence of bits
+- << term,... >>
+- "The simplest term is just a number from 0 to 255" (Thomas, 2018)
+- byte_size, bit_syze
+
+```elixir
+b = << 1, 2, 3 >>
+b = << 1::size(2), 1::size(3) >>
+```
 
 
 # References
