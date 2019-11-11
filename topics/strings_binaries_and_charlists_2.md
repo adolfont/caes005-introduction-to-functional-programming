@@ -53,6 +53,7 @@ String.split(formula, ["(",")"])
 ```elixir
 String.ends_with? "adolfo", ["olfo", "ad", "elf"]
 String.jaro_distance("adolfo", "rodolfo")
+String.myers_difference("brasil", "brazil")
 ```
 
 # References
