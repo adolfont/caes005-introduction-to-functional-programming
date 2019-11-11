@@ -22,14 +22,7 @@ On iex:
 - """
 - "Heredocs are used extensively to add documentation to functions and modules."  (Thomas, 2018)
 
-```elixir
-IO.puts "start"
-IO.write """
-   my
-   string
-"""
-IO.puts "end"
-```
+- Run this with elixir https://gist.github.com/adolfont/f803d6014136bb94bf0daa8c5c2c9a47
 
 ## Sigils
 
