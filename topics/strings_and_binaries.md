@@ -14,7 +14,7 @@ On iex:
 ```elixir
   IO.puts "\u00A9"
   name = "Adolfo"
-  "Hello, \u00A9#{String.capitalize name}!"
+  "Hello, #{String.capitalize name}\u2757"
 ```
 
 # References
