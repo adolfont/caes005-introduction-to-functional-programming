@@ -24,10 +24,6 @@ On iex:
 
 ## Sigils
 
-A sigil starts with a tilde, followed by an upper- or lowercase letter, some
-delimited content, and perhaps some options. The delimiters can be <...> ,
-{...} , [...] , (...) , |...| , /.../ , "..." , and '...' .
-
 - Tilde
 - Upper- or lowercase letter
 - Delimited dontent ( <...> , {...} , [...] , (...) , |...| , /.../ , "..." , and '...')
