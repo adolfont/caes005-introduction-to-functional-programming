@@ -53,7 +53,10 @@ On iex:
 [ 67, 65, 84 ]
 ```
 
+- "The notation ?c returns the integer code for the character c" (Thomas, 2018)
+
 - "Because a character list is a list, we can use the usual pattern matching and List functions" (Thomas, 2018). See [parse.exs](http://media.pragprog.com/titles/elixir16/code/strings/parse.exs)
+
 
 # References
 
