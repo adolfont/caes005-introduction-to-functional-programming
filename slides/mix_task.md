@@ -2,10 +2,7 @@
 
 ## Creating the Start task
 
-- lib
-└── mix
-└── tasks
-└── start.ex
+- [lib/mix/tasks/start.ex](https://media.pragprog.com/titles/cdc-elixir/code/design_your_application/tutorial/0/dungeon_crawl/lib/mix/tasks/start.ex)
 
 
 # References  
