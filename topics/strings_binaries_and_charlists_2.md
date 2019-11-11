@@ -31,6 +31,19 @@ mix = << int :: binary, float :: binary >>
 (1 + mantissa / :math.pow(2, 52)) * :math.pow(2, exp-1023) * (1 - 2*sign)
 ```
 
+## Double-Quoted Strings Are Binaries
+
+- a consecutive sequence of bytes in UTF-8 encoding
+
+```elixir
+formula = "∀x,∃y(p(x,y))"
+String.length formula
+byte_size formula
+String.at(formula, 0)
+String.codepoints(formula)
+String.split(formula, "(")
+```
+
 # References
 
 [Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun, by Dave Thomas (2018)](http://bit.ly/2rqD9VF)
