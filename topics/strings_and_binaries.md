@@ -10,6 +10,7 @@
 ### Exercise
 
 On iex:
+
 <code>
   IO.puts "\u00A9"
   name = "Adolfo"
