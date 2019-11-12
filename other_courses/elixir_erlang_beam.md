@@ -16,6 +16,7 @@ Below I will list in text format some information about the university courses t
 - Offered in: 2019
 - Campus: Curitiba
 
+
 - Course name: Concurrent Functional Programming
 - Language(s): Elixir
 - Instructor: Adolfo Neto 
