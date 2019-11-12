@@ -2,6 +2,8 @@
 
 Source: https://docs.google.com/spreadsheets/d/18zSqsCDOmIc4c5J1VsbLMiUPdRSZnPpS8nvOTu7osOY/edit#gid=0
 
+Elixir Forum post: https://elixirforum.com/t/universities-teaching-beam-related-languages/26267
+
 Twitter thread: https://twitter.com/adolfont/status/1182310375909400576?s=20
 
 Below I will list in text format some information about the university courses that teach BEAM languages.
