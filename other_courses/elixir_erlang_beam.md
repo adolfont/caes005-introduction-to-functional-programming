@@ -35,6 +35,15 @@ Below I will list in text format some information about the university courses t
 - Instructor: Francisco Reverbel
 - Hours: 60
 - Links: [2012](https://www.ime.usp.br/~reverbel/PFC-12/), [2011](https://www.ime.usp.br/~reverbel/PFC-11/) [2010](https://www.ime.usp.br/~reverbel/PFC-10/) [2009](https://www.ime.usp.br/~reverbel/PFC-09/)
-- Offered in: 2012, 2011, 2010, 2009
+- Offered in: 2009-2012
 - Campus: São Paulo
+
+- Course name: Computational Logic
+- Language(s): Elixir (only in a part of the course)
+- Instructor: Ricardo Luis de Azevedo da Rocha
+- Hours: 60
+- Links: [2018](https://edisciplinas.usp.br/course/view.php?id=60568)  [Syllabus](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=PCS3556&codcur=3032&codhab=5060)
+- Offered in: 2018, 2019
+- Campus: São Paulo
+
 
