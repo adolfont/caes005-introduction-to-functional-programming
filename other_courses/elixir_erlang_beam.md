@@ -12,7 +12,7 @@ Below I will list in text format some information about the university courses t
 
 - Course name: Introduction to Functional Programming
 - Language(s): Elixir
-- Instructor: Adolfo Neto 
+- Instructor: Adolfo Neto https://twitter.com/adolfont
 - Hours: 45
 - Link: https://github.com/adolfont/introducao-a-programacao-funcional
 - Offered in: 2019
@@ -22,7 +22,7 @@ Below I will list in text format some information about the university courses t
 
 - Course name: Concurrent Functional Programming
 - Language(s): Elixir
-- Instructor: Adolfo Neto 
+- Instructor: Adolfo Neto https://twitter.com/adolfont
 - Hours: 45
 - Link: http://ppgca.dainf.ct.utfpr.edu.br/doku.php?id=caes004
 - Offered in: 2018
@@ -42,7 +42,7 @@ Below I will list in text format some information about the university courses t
 
 - Course name: Computational Logic (PCS3556 - Lógica Computacional)
 - Language(s): Elixir (only in a part of the course)
-- Instructor: Ricardo Luis de Azevedo da Rocha
+- Instructor: Ricardo Luis de Azevedo da Rocha https://twitter.com/rcephas
 - Hours: 60
 - Links: [Syllabus](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=PCS3556&codcur=3032&codhab=5060)  [2018](https://edisciplinas.usp.br/course/view.php?id=60568)  [2019](https://edisciplinas.usp.br/enrol/index.php?id=66248)
 - Offered in: 2018, 2019
