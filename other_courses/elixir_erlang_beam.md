@@ -13,5 +13,13 @@ Below I will list in text format some information about the university courses t
 - Instructor: Adolfo Neto 
 - Hours: 45
 - Link: https://github.com/adolfont/introducao-a-programacao-funcional
+- Offered in: 2019
+- Campus: Curitiba
 
-
+- Course name: Concurrent Functional Programming
+- Language(s): Elixir
+- Instructor: Adolfo Neto 
+- Hours: 45
+- Link: http://ppgca.dainf.ct.utfpr.edu.br/doku.php?id=caes004
+- Offered in: 2018
+- Campus: Curitiba
