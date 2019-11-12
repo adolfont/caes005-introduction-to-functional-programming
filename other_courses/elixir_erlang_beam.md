@@ -30,7 +30,7 @@ Below I will list in text format some information about the university courses t
 
 ## University of São Paulo
 
-- Course name: Contemporary Functional Programming
+- Course name: Contemporary Functional Programming 
 - Language(s): Erlang (and Scala)
 - Instructor: Francisco Reverbel
 - Hours: 60
@@ -38,11 +38,13 @@ Below I will list in text format some information about the university courses t
 - Offered in: 2009-2012
 - Campus: São Paulo
 
-- Course name: Computational Logic
+---
+
+- Course name: Computational Logic (PCS3556 - Lógica Computacional)
 - Language(s): Elixir (only in a part of the course)
 - Instructor: Ricardo Luis de Azevedo da Rocha
 - Hours: 60
-- Links: [2018](https://edisciplinas.usp.br/course/view.php?id=60568)  [Syllabus](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=PCS3556&codcur=3032&codhab=5060)
+- Links: [Syllabus](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=PCS3556&codcur=3032&codhab=5060)  [2018](https://edisciplinas.usp.br/course/view.php?id=60568)  [2019](https://edisciplinas.usp.br/enrol/index.php?id=66248)
 - Offered in: 2018, 2019
 - Campus: São Paulo
 
