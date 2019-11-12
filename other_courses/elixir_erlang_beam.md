@@ -31,7 +31,7 @@ Below I will list in text format some information about the university courses t
 - Course name: Contemporary Functional Programming
 - Language(s): Erlang (and Scala)
 - Instructor: Francisco Reverbel
-- Hours: 45
+- Hours: 60
 - Links: [2012](https://www.ime.usp.br/~reverbel/PFC-12/), [2011](https://www.ime.usp.br/~reverbel/PFC-11/) [2010](https://www.ime.usp.br/~reverbel/PFC-10/) [2009](https://www.ime.usp.br/~reverbel/PFC-09/)
 - Offered in: 2012, 2011, 2010, 2009
 - Campus: São Paulo
