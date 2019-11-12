@@ -41,7 +41,8 @@ Below I will list in text format some information about the university courses t
 ---
 
 - Course name: Computational Logic (PCS3556 - Lógica Computacional)
-- Language(s): Elixir (only in a part of the course)
+- Language(s): Elixir 
+  - Observation: It is not a course about Elixir or Functional Programming.
 - Instructor: Ricardo Luis de Azevedo da Rocha https://twitter.com/rcephas
 - Hours: 60
 - Links: [Syllabus](https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=PCS3556&codcur=3032&codhab=5060)  [2018](https://edisciplinas.usp.br/course/view.php?id=60568)  [2019](https://edisciplinas.usp.br/enrol/index.php?id=66248)
