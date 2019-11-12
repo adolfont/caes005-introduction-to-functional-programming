@@ -25,3 +25,14 @@ Below I will list in text format some information about the university courses t
 - Link: http://ppgca.dainf.ct.utfpr.edu.br/doku.php?id=caes004
 - Offered in: 2018
 - Campus: Curitiba
+
+## University of São Paulo
+
+- Course name: Contemporary Functional Programming
+- Language(s): Erlang (and Scala)
+- Instructor: Francisco Reverbel
+- Hours: 45
+- Links: https://www.ime.usp.br/~reverbel/PFC-12/ https://www.ime.usp.br/~reverbel/PFC-11/ https://www.ime.usp.br/~reverbel/PFC-10/ https://www.ime.usp.br/~reverbel/PFC-09/
+- Offered in: 2012, 2011, 2010, 2009
+- Campus: São Paulo
+
