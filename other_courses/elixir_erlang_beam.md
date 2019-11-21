@@ -49,4 +49,3 @@ Below I will list in text format some information about the university courses t
 - Offered in: 2018, 2019
 - Campus: São Paulo
 
-
