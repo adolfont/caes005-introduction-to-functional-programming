@@ -10,6 +10,9 @@ defmodule MapColoring do
   We’ll cover the states shown in Figure 4, Map of some south-eastern states, 
   on page 12. We do not want two states of the same color to touch."
 
+  [First version](https://github.com/adolfont/introducao-a-programacao-funcional/blob/9f92ce102b85088a58e941b468892e0e929617a5/examples/map_coloring.exs)
+
+
 
   """
 
@@ -26,27 +29,35 @@ defmodule MapColoring do
     )
   end
 
-  defp correct_coloring_helper(coloring, accumulator) do
-    {alabama, missisipi, georgia, tennesse, florida} = coloring
-
-    if _color(alabama, missisipi, georgia, tennesse, florida) do
-      {:halt, accumulator ++ [coloring]}
-    else
-      {:cont, accumulator}
-    end
+  defp _valid_coloring_accumulator(true, coloring, accumulator) do
+    {:halt, accumulator ++ [coloring]}
   end
 
-  defp correct_coloring_helper(coloring) do
-    {alabama, missisipi, georgia, tennesse, florida} = coloring
-
-    _color(alabama, missisipi, georgia, tennesse, florida)
+  defp _valid_coloring_accumulator(false, _, accumulator) do
+    {:cont, accumulator}
   end
 
-  defp _color(alabama, missisipi, georgia, tennesse, florida) do
+  defp valid_coloring_accumulator(
+         {alabama, missisipi, georgia, tennesse, florida} = coloring,
+         accumulator
+       ) do
+    _valid_coloring_accumulator(
+      valid_coloring?(alabama, missisipi, georgia, tennesse, florida),
+      coloring,
+      accumulator
+    )
+  end
+
+  defp valid_coloring_filter(coloring) do
+    {alabama, missisipi, georgia, tennesse, florida} = coloring
+
+    valid_coloring?(alabama, missisipi, georgia, tennesse, florida)
+  end
+
+  defp valid_coloring?(alabama, missisipi, georgia, tennesse, florida) do
     missisipi != tennesse and
       missisipi != alabama and
       alabama != tennesse and
-      alabama != missisipi and
       alabama != georgia and
       alabama != florida and
       georgia != florida and
@@ -60,7 +71,7 @@ defmodule MapColoring do
     generate_all_colorings()
     |> Enum.reduce_while(
       [],
-      &correct_coloring_helper/2
+      &valid_coloring_accumulator/2
     )
   end
 
@@ -69,7 +80,7 @@ defmodule MapColoring do
   """
   def color_all() do
     generate_all_colorings()
-    |> Enum.filter(&correct_coloring_helper/1)
+    |> Enum.filter(&valid_coloring_filter/1)
   end
 
   def show_coloring({alabama, missisipi, georgia, tennesse, florida}) do
