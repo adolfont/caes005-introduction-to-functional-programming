@@ -1,7 +1,9 @@
 defmodule MapColoring do
   @moduledoc """
-  This module implements two functions (color_first/0 and color_all/0) to solve the map 
-  coloring problem as presented in page 11 of https://media.pragprog.com/titles/btlang/prolog.pdf (Seven Languages in Seven Weeks by Bruce Tate).
+  This module implements two functions (color_first/0 and color_all/0) to solve 
+  the map   coloring problem as presented in 
+  page 11 of https://media.pragprog.com/titles/btlang/prolog.pdf 
+  (Seven Languages in Seven Weeks by Bruce Tate).
 
   As described there:
   "We  want  to  color  a  map  of  the  southeastern United States. 
