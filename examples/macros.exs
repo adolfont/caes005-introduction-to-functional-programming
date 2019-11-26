@@ -1,11 +1,11 @@
 defmodule AMenosQue do
-  def fun_unless(clause, do: expression) do
-    if(!clause, do: expression)
+  def funcao_amenosque(clausula, do: expressao) do
+    if(!clausula, do: expressao)
   end
 
-  defmacro macro_unless(clause, do: expression) do
+  defmacro macro_amenosque(clausula, do: expressao) do
     quote do
-      if(!unquote(clause), do: unquote(expression))
+      if(!unquote(clausula), do: unquote(expressao))
     end
   end
 end
