@@ -1,13 +1,13 @@
 defmodule MapColoring do
   @moduledoc """
-  This module implements two functions (color_first/0 and color_all/0) to solve 
-  the map   coloring problem as presented in 
-  page 11 of https://media.pragprog.com/titles/btlang/prolog.pdf 
+  This module implements two functions (color_first/0 and color_all/0) to solve
+  the map   coloring problem as presented in
+  page 11 of https://media.pragprog.com/titles/btlang/prolog.pdf
   (Seven Languages in Seven Weeks by Bruce Tate).
 
   As described there:
-  "We  want  to  color  a  map  of  the  southeastern United States. 
-  We’ll cover the states shown in Figure 4, Map of some south-eastern states, 
+  "We  want  to  color  a  map  of  the  southeastern United States.
+  We’ll cover the states shown in Figure 4, Map of some south-eastern states,
   on page 12. We do not want two states of the same color to touch."
 
   [First version](https://github.com/adolfont/introducao-a-programacao-funcional/blob/9f92ce102b85088a58e941b468892e0e929617a5/examples/map_coloring.exs)
@@ -69,10 +69,16 @@ defmodule MapColoring do
   """
   def color_first() do
     generate_all_colorings()
-    |> Enum.reduce_while(
+    |> find_first_valid_coloring()
+  end
+
+  defp find_first_valid_coloring(colorings) do
+    Enum.reduce_while(
+      colorings,
       [],
       &valid_coloring_accumulator/2
     )
+    |> Enum.at(0)
   end
 
   @doc """
@@ -80,9 +86,16 @@ defmodule MapColoring do
   """
   def color_all() do
     generate_all_colorings()
-    |> Enum.filter(&valid_coloring_filter/1)
+    |> filter_valid_colorings()
   end
 
+  defp filter_valid_colorings(colorings) do
+    Enum.filter(colorings, &valid_coloring_filter/1)
+  end
+
+  @doc """
+  Shows a map coloring as a string.
+  """
   def show_coloring({alabama, missisipi, georgia, tennesse, florida}) do
     """
     Alabama = #{alabama}
@@ -93,9 +106,3 @@ defmodule MapColoring do
     """
   end
 end
-
-IO.puts("Only the first valid coloring:")
-for x <- MapColoring.color_first(), do: IO.puts(MapColoring.show_coloring(x))
-
-IO.puts("All valid colorings:")
-for x <- MapColoring.color_all(), do: IO.puts(MapColoring.show_coloring(x))
