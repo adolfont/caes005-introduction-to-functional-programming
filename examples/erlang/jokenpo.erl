@@ -14,7 +14,7 @@ play(rock,scissors) -> {win, rock};
 play(scissors,rock) -> {win, rock};
 play(scissors,paper) -> {win, scissors};
 play(paper,scissors) -> {win, scissors};
-play(X,Y) -> {"Error: invalid options!", {X, Y}}.
+play(X,Y) -> {error, "Error: invalid options!", {X, Y}}.
 
 % c("jokenpo.erl").
 % jokenpo:play(paper, scissors).
