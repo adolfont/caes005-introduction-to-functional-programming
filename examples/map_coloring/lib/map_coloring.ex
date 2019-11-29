@@ -42,7 +42,13 @@ defmodule MapColoring do
          accumulator
        ) do
     _valid_coloring_accumulator(
-      valid_coloring?(alabama, missisipi, georgia, tennesse, florida),
+      all_neighbourin_states_have_different_coloring?(
+        alabama,
+        missisipi,
+        georgia,
+        tennesse,
+        florida
+      ),
       coloring,
       accumulator
     )
@@ -51,10 +57,22 @@ defmodule MapColoring do
   defp valid_coloring_filter(coloring) do
     {alabama, missisipi, georgia, tennesse, florida} = coloring
 
-    valid_coloring?(alabama, missisipi, georgia, tennesse, florida)
+    all_neighbourin_states_have_different_coloring?(
+      alabama,
+      missisipi,
+      georgia,
+      tennesse,
+      florida
+    )
   end
 
-  defp valid_coloring?(alabama, missisipi, georgia, tennesse, florida) do
+  defp all_neighbourin_states_have_different_coloring?(
+         alabama,
+         missisipi,
+         georgia,
+         tennesse,
+         florida
+       ) do
     missisipi != tennesse and
       missisipi != alabama and
       alabama != tennesse and
