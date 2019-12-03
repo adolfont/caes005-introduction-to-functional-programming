@@ -31,6 +31,8 @@ REPL: `ocaml`
 
 O compilador de [Hack](https://hacklang.org/) é escrito em OCaml.
 
+F# foi criada para ser uma versão de OCaml para .Net.
+
 OCaml não é apenas fincional.
 
 Estaticamente tipada.
@@ -40,6 +42,9 @@ Inferência de tipos que pode fazer você pensar que é dinamicamente tipada.
 Orientada a expressões.
 
 Compilação nativa (`ocamlopt`) ou para *bytecode* (`ocamlc`). 
+
+Uso interativo ou em *batch*.
+
 
 
 
