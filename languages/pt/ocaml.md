@@ -56,11 +56,28 @@ Uso interativo ou em *batch*.
 
 ## Currying?
 
+Currificação
+https://github.com/tautologico/opfp/blob/master/capitulos/c05-progfun.ml
+
 ## Roda em máquina virtual (se sim, qual?), é compilada, é interpretada?
 
 ## Características peculiares da linguagem
 
 OO + Funcional!
+
+## Exemplos
+
+https://github.com/tautologico/opfp/tree/master/capitulos
+
+## Tipos básicos na REPL
+
+https://github.com/tautologico/opfp/blob/master/capitulos/c02-basico.ml
+
+
+### Fatorial recursivo
+
+https://pt.wikipedia.org/wiki/OCaml#Factorial_recursivo
+
 
 
 
