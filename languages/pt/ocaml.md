@@ -52,6 +52,10 @@ Uso interativo ou em *batch*.
 
 ## Como definir funções
 
+```ocaml
+ let mult x y = x * y;;
+```
+
 ## Tipagem estática ou dinâmica?
 
 ## Currying?
