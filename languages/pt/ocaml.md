@@ -27,6 +27,21 @@ Como instalar: https://ocaml.org/docs/install.html
 
 REPL: `ocaml`
 
+## Livro Andrei Formiga
+
+O compilador de [Hack](https://hacklang.org/) é escrito em OCaml.
+
+OCaml não é apenas fincional.
+
+Estaticamente tipada.
+
+Inferência de tipos que pode fazer você pensar que é dinamicamente tipada.
+
+Orientada a expressões.
+
+Compilação nativa (`ocamlopt`) ou para *bytecode* (`ocamlc`). 
+
+
 
 # Referências
 
