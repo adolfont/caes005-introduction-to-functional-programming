@@ -46,6 +46,23 @@ Compilação nativa (`ocamlopt`) ou para *bytecode* (`ocamlc`).
 Uso interativo ou em *batch*.
 
 
+## Breve histórico da linguagem: criadores, razão de ter sido criada, ano em que foi criada, popularidade hoje em dia, principais aplicações
+
+## Tipos de dados
+
+## Como definir funções
+
+## Tipagem estática ou dinâmica?
+
+## Currying?
+
+## Roda em máquina virtual (se sim, qual?), é compilada, é interpretada?
+
+## Características peculiares da linguagem
+
+OO + Funcional!
+
+
 
 
 # Referências
