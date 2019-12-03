@@ -56,6 +56,10 @@ Uso interativo ou em *batch*.
  let mult x y = x * y;;
 ```
 
+```ocaml
+mult 2 4 
+```
+
 ## Tipagem estática ou dinâmica?
 
 ## Currying?
