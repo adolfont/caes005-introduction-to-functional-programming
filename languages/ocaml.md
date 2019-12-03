@@ -21,7 +21,7 @@ How to install: https://ocaml.org/docs/install.html
 
 REPL: `ocaml`
 
-# Carachteristics
+# Characteristics
 
 
 
