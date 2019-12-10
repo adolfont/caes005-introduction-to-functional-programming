@@ -2,6 +2,7 @@
 
 - Doglas André Finco
   - LISP e Clojure https://speakerdeck.com/doglas/lisp-clojure
+- Entrevistas com alunos https://anchor.fm/a-g-s-s-n/episodes/Introduo--Programao-Funcional-2019-e97nds
 
 # 2018
 
