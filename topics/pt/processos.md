@@ -20,8 +20,7 @@ Fonte:  The Little Elixir & OTP Guidebook  https://www.goodreads.com/book/show/2
   - Não são processos nativos do sistema operacional.
   
 ~~~elixir
-spawn(fn -> IO.puts "Hello, World!" end)
-|> Process.info(:memory)
+spawn(fn -> IO.puts "Hello, World!" end) |> Process.info(:memory)
 ~~~
   
 # Referências
