@@ -29,6 +29,8 @@ spawn(IO, :puts, ["Hello, Alpha Centauri!"])
 
 spawn(fn -> IO.puts "Hello, World!" end) |> Process.info(:memory)
 ~~~
+
+- PID: número de identificação do processo
   
 # Referências
 
