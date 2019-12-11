@@ -18,6 +18,9 @@ Fonte:  The Little Elixir & OTP Guidebook  https://www.goodreads.com/book/show/2
 
 - A unidade básica de concorrência em Elixir é o processo.
   - Não são processos nativos do sistema operacional.
+- `spawn/1`
+- `spawn/3`
+- `Process.info/2`
   
 ~~~elixir
 spawn(fn -> IO.puts("Hello, Alpha Centauri!") end)
