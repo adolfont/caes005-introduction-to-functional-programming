@@ -16,6 +16,14 @@ Fonte:  The Little Elixir & OTP Guidebook  https://www.goodreads.com/book/show/2
 
 # Processos 
 
+- A unidade básica de concorrência em Elixir é o processo.
+  - Não são processos nativos do sistema operacional.
+  
+~~~elixir
+spawn(fn -> IO.puts "Hello, World!" end)
+|> Process.info(:memory)
+~~~
+  
 # Referências
 
 - Elixir Processes: Spawn, Send, and Receive https://samuelmullen.com/articles/elixir-processes-send-and-receive
