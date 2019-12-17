@@ -1,5 +1,7 @@
 # Universities teaching BEAM languages
 
+**The latest version of this document is now on https://github.com/adolfont/elixir_cop/blob/master/university_courses.md**
+
 Source: https://docs.google.com/spreadsheets/d/18zSqsCDOmIc4c5J1VsbLMiUPdRSZnPpS8nvOTu7osOY/edit#gid=0
 
 Elixir Forum post: https://elixirforum.com/t/universities-teaching-beam-related-languages/26267
