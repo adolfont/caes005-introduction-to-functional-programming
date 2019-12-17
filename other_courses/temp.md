@@ -14,3 +14,25 @@ https://www.youtube.com/watch?v=lypqlGlK1So&feature=youtu.be
 https://github.com/ElixirCourse
 
 https://twitter.com/valentinmihov/status/1182578371600871424?s=03
+
+# Japan
+
+
+
+    adolfont:
+
+    Is “Computer Systems, Digital System Design and Software for Embedded Systems” the name of the course?
+
+These are three courses: “Computer Systems”, “Digital System Design” and “Software for Embedded Systems”
+
+    adolfont:
+
+    Do you have a page in English for this course?
+
+I’m sorry because pages in English for these course are unavailable now but I’d like to create them as soon as possible.
+
+    adolfont:
+
+    Do you know the name of the professor?
+
+Prof. Akio Nakata, Dr. Yoshihiro Murata and Mr. Yasuomi Sato.
