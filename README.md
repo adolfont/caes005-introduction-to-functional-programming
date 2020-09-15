@@ -1,10 +1,10 @@
-# CAES005 - Introdução à Programação Funcional
+# CAES005 - Introduction to Functional Programming
 
-# Ementa
+# Syllabus
 
-## Programação Funcional: Conceitos e Principais Linguagens. 
+## Functional Programming: Concepts and Main Languages
 
-### Principais Linguagens
+### Main Languages
 
 - LISP, Scheme, Clojure
 - Haskell
@@ -14,26 +14,26 @@
 
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
 
-[StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2019)
+[StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020)
 
 
-## Funções: funções como cidadãos de primeira classe, funções nomeadas e funções anônimas, currying, módulos. 
+## Functions: functions as first-class citizes, named and anonymous functions, currying, modules
 
-## Casamento de Padrões. 
+## Pattern Matching 
 
-## Estruturas de dados e imutabilidade. 
+## Data structures and Immutability
 
-## Recursão. 
+## Rescursion
 
-## Processamento de coleções. 
+## Collection processing 
 
 ## Lazy evaluation. 
 
-## Fluxo de controle. 
+## Control flow 
 
-## Implementação de projetos envolvendo uma linguagem funcional. 
+## Implementing projects using a functional programming language  
 
-## Visão geral de linguagens funcionais para concorrência. 
+## General view of concurrent functional programming languages  
 
 - Erlang
 - Elixir
