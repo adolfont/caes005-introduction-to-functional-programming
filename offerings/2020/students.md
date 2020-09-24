@@ -1,8 +1,8 @@
 # Students
 
-- Matheus Vinicius Barcaro Turatti
-- GABRIEL DE ANDRADE TORELLI
+- Gabriel de Andrade Torelli
 - Gustavo Brunholi Chierici
+- Matheus Vinicius Barcaro Turatti
 
 
 
