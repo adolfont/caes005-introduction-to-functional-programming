@@ -1,8 +1,8 @@
 # Students
 
-- Gabriel de Andrade Torelli
-- Gustavo Brunholi Chierici
-- Matheus Vinicius Barcaro Turatti
+- Gabriel de Andrade Torelli - Ph.D. student at UTFPR - CPGEI
+- Gustavo Brunholi Chierici - undergraduate student at UTFPR - Computer Engineering
+- Matheus Vinicius Barcaro Turatti - undergraduate student at UTFPR - Computer Engineering
 
 
 
