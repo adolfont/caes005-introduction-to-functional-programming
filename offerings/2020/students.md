@@ -9,5 +9,9 @@
 - [Gabriel Henrique de Oliveira](https://github.com/oliveigah) - Bachelor of Information Systems - EACH USP 
 
 
+# Listeners
+
+- Cristine Guadalupe 
+
 ## Maybe
 - Moises de Paulo Dias
