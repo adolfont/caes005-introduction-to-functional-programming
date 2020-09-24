@@ -7,6 +7,7 @@
 - [Gustavo Brunholi Chierici](https://github.com/GustavoChierici/) - undergraduate student at UTFPR - Computer Engineering
 - Matheus Vinicius Barcaro Turatti - undergraduate student at UTFPR - Computer Engineering
 - [Gabriel Henrique de Oliveira](https://github.com/oliveigah) - Bachelor of Information Systems - EACH USP 
+- [Lucas de Alencar Barbosa](https://github.com/alencarlucas) - Bachelor of Science and Technology at ICT-UNIFESP
 
 
 # Listeners
