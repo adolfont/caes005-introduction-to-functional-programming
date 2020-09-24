@@ -6,7 +6,7 @@
 - Gabriel de Andrade Torelli - Ph.D. student at UTFPR - CPGEI
 - Gustavo Brunholi Chierici - undergraduate student at UTFPR - Computer Engineering
 - Matheus Vinicius Barcaro Turatti - undergraduate student at UTFPR - Computer Engineering
-- Gabriel Henrique de Oliveira - Bachelor of Information Systems - EACH USP - oliveigah
+- Gabriel Henrique de Oliveira - Bachelor of Information Systems - EACH USP - https://github.com/oliveigah
 
 
 ## Maybe
