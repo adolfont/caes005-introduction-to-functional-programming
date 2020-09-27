@@ -14,5 +14,3 @@
 
 - Cristine Guadalupe 
 
-## Maybe
-- Moises de Paulo Dias
