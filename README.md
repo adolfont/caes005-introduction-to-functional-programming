@@ -23,7 +23,7 @@
 
 ## Data structures and Immutability
 
-## Rescursion
+## Recursion
 
 ## Collection processing 
 
