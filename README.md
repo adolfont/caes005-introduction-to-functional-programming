@@ -17,7 +17,7 @@
 [StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020)
 
 
-## Functions: functions as first-class citizes, named and anonymous functions, currying, modules
+## Functions: functions as first-class citizens, named and anonymous functions, currying, modules
 
 ## Pattern Matching 
 
