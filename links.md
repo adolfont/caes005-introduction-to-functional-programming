@@ -25,3 +25,5 @@
 [Curso de Python](https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6)
 
 [An Introduction to the basic principles of Functional Programming](https://www.freecodecamp.org/news/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84/)
+
+[Spreadsheets: Functional Programming for the Masses](https://www.slideshare.net/kfrdbs/peyton-jones)
