@@ -2,6 +2,7 @@
 # Introduction to Functional Programming
  - Class Notes October 1st, 2020
  - Adolfo Neto
+ - Video: https://youtu.be/X6XcAARZgn4
 
 I am not the "owner of truth", as we say in Portuguese. You can know more than me about many things. I like that!
 
