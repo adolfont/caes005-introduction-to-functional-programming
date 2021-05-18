@@ -6,6 +6,10 @@
 
 # Syllabus
 
+https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/documentos/ementario/disciplinas-especificas/linha-de-pesquisa-em-engenharia-de-software/copy_of_caes101-topicos-avancados-em-engenharia-de-software-1
+
+*Functional Programming: concepts and main Languages. Functions: functions as first class citizens, named functions and anonymous functions, currying, modules. Pattern Matching. Data structures and immutability. Recursion. Collection processing. Lazy evaluation. Control flow. Project implementation involving a functional language. Overview of functional languages for concurrency.*
+
 - Functional Programming: Concepts and Main Languages (LISP, Scheme, Clojure, Haskell, F# , Elixir, Erlang)
 - Functions: functions as first-class citizens, named and anonymous functions, currying, modules
 - Pattern Matching 
