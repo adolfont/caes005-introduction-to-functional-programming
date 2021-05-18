@@ -2,7 +2,7 @@
 
 # Learning Obejctives
 
-//In consctruction//
+*In construction*
 
 # Syllabus
 
