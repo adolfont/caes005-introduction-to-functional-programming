@@ -13,6 +13,10 @@ Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education
 
 *In construction*
 
+At the end of this course, you will be able to:
+- solve problems using a functional programming language of your choice
+- describe the main functional programming concepts 
+
 # Syllabus
 
 https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/documentos/ementario/disciplinas-especificas/linha-de-pesquisa-em-engenharia-de-software/copy_of_caes101-topicos-avancados-em-engenharia-de-software-1
