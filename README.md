@@ -6,7 +6,7 @@ The course has been taught in English to Brazilian and foreign students since 20
 
 ## Professor 
 
-Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community. You can [watch some videos here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
+Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community. You can [watch some videos related to this course here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
 
 
 ## Learning Objectives
@@ -15,13 +15,18 @@ Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education
 
 At the end of this course, you will be able to:
 - solve problems using a functional programming language of your choice
-- describe the main functional programming concepts 
+- describe and discuss the main functional programming concepts 
+- apply the main functional programming concepts in your programs
 
-# Syllabus
+## Syllabus
 
-https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/documentos/ementario/disciplinas-especificas/linha-de-pesquisa-em-engenharia-de-software/copy_of_caes101-topicos-avancados-em-engenharia-de-software-1
 
-*Functional Programming: concepts and main Languages. Functions: functions as first class citizens, named functions and anonymous functions, currying, modules. Pattern Matching. Data structures and immutability. Recursion. Collection processing. Lazy evaluation. Control flow. Project implementation involving a functional language. Overview of functional languages for concurrency.*
+Functional Programming: concepts and main Languages. Functions: functions as first class citizens, named functions and anonymous functions, currying, modules. Pattern Matching. Data structures and immutability. Recursion. Collection processing. Lazy evaluation. Control flow. Project implementation involving a functional language. Overview of functional languages for concurrency.
+
+
+## Schedule
+
+*In construction*
 
 - Functional Programming: Concepts and Main Languages (LISP, Scheme, Clojure, Haskell, F# , Elixir, Erlang)
 - Functions: functions as first-class citizens, named and anonymous functions, currying, modules
@@ -35,8 +40,7 @@ https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/documento
 - General view of concurrent functional programming languages  (Erlang and Elixir)
 
 
-
-# Links
+## Links
 
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
 
