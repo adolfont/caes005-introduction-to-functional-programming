@@ -6,7 +6,7 @@ The course has been taught in English to Brazilian and foreign students since 20
 
 ## Professor 
 
-Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community.
+Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community. You can [watch some videos here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
 
 
 ## Learning Objectives
