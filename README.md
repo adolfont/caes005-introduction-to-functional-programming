@@ -32,6 +32,9 @@ Functional Programming: concepts and main Languages. Functions: functions as fir
 
 ## Schedule
 
+Important Dates: The course will start July 2 and will finish August 27. Classes will be online, on Friday
+mornings, from 8:20 a.m. to 12:00 a.m.
+
 *In construction*
 
 - Functional Programming: Concepts and Main Languages (LISP, Scheme, Clojure, Haskell, F# , Elixir, Erlang)
@@ -55,6 +58,11 @@ Students will produce digests/abstracts of the texts that will be uploaded previ
 texts will be discussed. At the end of the course, students will be submitted to a final exam by means of
 which we will attempt to assess how well they are able to understand and reason about the different
 issues that were discussed."
+
+## Technological Support
+
+We will use Discord for discussion and Zoom or Google Meet sessions for our synchronous meetings.
+
 
 ## Links
 
