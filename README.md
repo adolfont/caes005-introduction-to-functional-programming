@@ -46,6 +46,16 @@ Functional Programming: concepts and main Languages. Functions: functions as fir
 - General view of concurrent functional programming languages  (Erlang and Elixir)
 
 
+## Learning methodology and assessment
+
+"students will be invited to read papers, essays and books whose
+content has to be prepared for debate in class so that they can develop an understanding of what
+motivates and how can human efforts and knowledge be harnessed for specific intended objectives.
+Students will produce digests/abstracts of the texts that will be uploaded previous to classes in which the
+texts will be discussed. At the end of the course, students will be submitted to a final exam by means of
+which we will attempt to assess how well they are able to understand and reason about the different
+issues that were discussed."
+
 ## Links
 
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
