@@ -32,8 +32,9 @@ Functional Programming: concepts and main Languages. Functions: functions as fir
 
 ## Schedule
 
-Important Dates: The course will start July 2 and will finish August 27. Classes will be online, on Friday
-mornings, from 8:20 a.m. to 12:00 a.m.
+Important Dates: The course will start on JUne 17th, 2021 and will finish on September 2nd, 2021. 
+
+Classes will be online, on Thurday afternoons, from 1:50PM to 5:20PM, at most. We will try to be at have classes lasting at most two hours (except, maybe, in the last class when students will present a talk).
 
 *In construction*
 
