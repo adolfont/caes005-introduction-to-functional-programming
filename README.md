@@ -11,18 +11,20 @@ Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education
 
 ## Learning Objectives
 
-*In construction*
 
 At the end of this course, you will be able to:
 - solve problems using a functional programming language of your choice
 - describe and discuss the main functional programming concepts 
 - apply the main functional programming concepts in your programs
+- describe the main features of a concurrent functional programming language
 
 
 ## Prerequisites
 
 The course is intended for Masters and PhD students but undergraduate foreign students and local undergrads with an interest in the topic are more than welcome. 
 There is no formal prerequisite in addition to a good understanding of English, as the discussed literature and interaction in class will be in that language.
+
+It is free. Send an email to adolfo at utfpr.edu.br asking how to enroll.
 
 ## Syllabus
 
@@ -32,7 +34,7 @@ Functional Programming: concepts and main Languages. Functions: functions as fir
 
 ## Schedule
 
-Important Dates: The course will start on JUne 17th, 2021 and will finish on September 2nd, 2021. 
+Important Dates: The course will start on June 17th, 2021 and will finish on September 2nd, 2021. 
 
 Classes will be online, on Thurday afternoons, from 1:50PM to 5:20PM, at most. We will try to be at have classes lasting at most two hours (except, maybe, in the last class when students will give a talk).
 
@@ -52,13 +54,17 @@ Classes will be online, on Thurday afternoons, from 1:50PM to 5:20PM, at most. W
 
 ## Learning methodology and assessment
 
-"students will be invited to read papers, essays and books whose
-content has to be prepared for debate in class so that they can develop an understanding of what
-motivates and how can human efforts and knowledge be harnessed for specific intended objectives.
-Students will produce digests/abstracts of the texts that will be uploaded previous to classes in which the
-texts will be discussed. At the end of the course, students will be submitted to a final exam by means of
-which we will attempt to assess how well they are able to understand and reason about the different
-issues that were discussed."
+Students will read papers, book chapters and gray literature
+on the topics of the course.
+
+Besides that, the students will solve
+programming assignments.
+
+Assessment will be based on participation on
+synchronous classes, 
+on solving the programming assignments,
+and on other assignments to be defined during the course.
+
 
 ## Technological Support
 
