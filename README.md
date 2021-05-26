@@ -2,7 +2,7 @@
 
 This is a course offered by the Graduate Program in Applied Computing (PPGCA) of the 
 Federal University of Technology - Parana (UTFPR), originally intended for graduate students. 
-The course has been taught in English to Brazilian and foreign students since 2016. 
+
 
 ## Professor 
 
