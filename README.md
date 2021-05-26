@@ -4,7 +4,7 @@ This is a course offered by the Graduate Program in Applied Computing (PPGCA) of
 Federal University of Technology - Parana (UTFPR), originally intended for graduate students. 
 
 
-## Professor 
+## Instructor
 
 Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community. You can [watch some videos related to this course here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
 
