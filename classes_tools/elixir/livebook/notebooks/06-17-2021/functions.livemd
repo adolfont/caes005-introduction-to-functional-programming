@@ -1,0 +1,81 @@
+# Functions
+
+## Named Functions
+
+```elixir
+defmodule BMI do
+  def calculate(weight, height) do
+    weight / (height * height)
+  end
+
+  def obese?(weight, height) do
+    calculate(weight, height) > 30
+  end
+end
+```
+
+```elixir
+BMI.calculate(100, 1.8)
+```
+
+```elixir
+BMI.calculate(70, 1.8)
+```
+
+```elixir
+BMI.obese?(90, 1.80)
+```
+
+## Anonymous Functions
+
+```elixir
+fn x -> x + 1 end
+```
+
+```elixir
+(fn x -> x + 1 end).(3)
+```
+
+```elixir
+fn weight, height -> weight / (height * height) end
+```
+
+```elixir
+(fn weight, height -> weight / (height * height) end).(100, 1.80)
+```
+
+## Functions as First-Class Citizens
+
+An anonymous function assigned to a variable
+
+```elixir
+f = fn weight, height -> weight / (height * height) end
+f.(100, 1.80)
+```
+
+A function that, when applied, returns another function
+
+```elixir
+g = fn x -> fn y -> x + y + 1 end end
+h = g.(4)
+h.(10)
+```
+
+A function received as a parameter
+
+```elixir
+f = fn x -> x + 1 end
+g = fn y -> y.(4) end
+h = g.(f)
+```
+
+## A different syntax for anonymous functions
+
+```elixir
+&(&1 + 1)
+
+fn x -> x + 1 end
+
+h = &(&2 * &3 + &1)
+h.(1, 2, 3)
+```
