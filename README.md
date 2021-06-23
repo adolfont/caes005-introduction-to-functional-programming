@@ -42,6 +42,8 @@ Classes will be online, on Thurday afternoons, from 1:00PM to 3:00PM (GMT-3) at 
 
 - Functional Programming: Concepts and Main Languages (LISP, Scheme, Clojure, Haskell, F# , Elixir, Erlang)
 - Functions: functions as first-class citizens, named and anonymous functions, currying, modules
+- Collections
+- Variables
 - Pattern Matching 
 - Data structures and Immutability
 - Recursion
