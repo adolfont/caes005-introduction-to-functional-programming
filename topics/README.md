@@ -15,3 +15,8 @@
 ## What is functional programming?
 
 ## What is a recursive function?
+
+
+## What is currying?
+
+## What are higher-order functions?
