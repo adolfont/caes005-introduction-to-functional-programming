@@ -19,3 +19,4 @@
 ## Functions
 
 - Arity
+- Several ways to see a function (Carnielli- Epstein)
