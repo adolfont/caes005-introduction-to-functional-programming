@@ -17,3 +17,5 @@
 ## Relations
 
 ## Functions
+
+- Arity
