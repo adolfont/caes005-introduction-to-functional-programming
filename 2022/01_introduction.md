@@ -16,6 +16,8 @@
 
 ## Relations
 
+- [Relation (mathematics)](https://en.wikipedia.org/wiki/Relation_(mathematics))
+
 ## Functions
 
 - Arity
