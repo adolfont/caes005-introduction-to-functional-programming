@@ -14,6 +14,12 @@
 - Empty set
 - Infinite sets
 
+
+### "Famous" sets
+  - Natural Numbers https://en.wikipedia.org/wiki/Natural_number
+  - Integers https://en.wikipedia.org/wiki/Integer 
+  - Reals https://en.wikipedia.org/wiki/Real_number
+
 ## Relations
 
 - [Relation (mathematics)](https://en.wikipedia.org/wiki/Relation_(mathematics))
