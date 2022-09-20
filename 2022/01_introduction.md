@@ -35,7 +35,7 @@
 
 When two functions are the same function?
 
-### SOme functions
+### Some functions
 
 - Identity
 - Increment
