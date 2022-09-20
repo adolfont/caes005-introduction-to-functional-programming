@@ -49,6 +49,10 @@ When two functions are the same function?
 - Impure function = relation (i.e., not a function)
 
 
+## Other materials
+
+"A mathematical function is a rule that gives value of a dependent variable that corresponds to specified values of one or more independent variables. A function can be represented in several ways, such as by a table, a formula, or a graph. Except for isolated points, the mathematical functions found in physical chemistry are single-valued. " Chapter 2 - Mathematical Functions. Robert G.Mortimer https://www.sciencedirect.com/science/article/pii/B9780124158092000021
+
 # Practice
 
 Using [Elixir](https://elixir-lang.org/)'s [Livebook](https://livebook.dev/)
