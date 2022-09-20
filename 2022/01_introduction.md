@@ -26,7 +26,12 @@
 
 ## Mathematical Functions
 
-- Several ways to see a function (Carnielli- Epstein)
+- [Several ways to see a function (Carnielli- Epstein)](https://drive.google.com/file/d/1hV1CMonW-o8p5vayXo_MRVTTI3LoHn8-/view?usp=sharing)
+  - Black-boxes   
+  - Domains and ranges
+  - As rules
+  - As collections of ordered pairs
+  - 
 
 ### SOme functions
 
