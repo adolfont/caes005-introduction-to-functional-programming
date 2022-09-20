@@ -24,9 +24,8 @@
 
 - [Relation (mathematics)](https://en.wikipedia.org/wiki/Relation_(mathematics))
 
-## Functions
+## Mathematical Functions
 
-- Arity
 - Several ways to see a function (Carnielli- Epstein)
 
 ### SOme functions
@@ -34,3 +33,10 @@
 - Identity
 - Increment
 - Decrement
+
+
+## Functions in Programming
+
+- Arity
+- Pure function = mathematical fucntion
+- Impure function = relation (i.e., not a function)
