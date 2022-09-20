@@ -28,3 +28,9 @@
 
 - Arity
 - Several ways to see a function (Carnielli- Epstein)
+
+### SOme functions
+
+- Identity
+- Increment
+- Decrement
