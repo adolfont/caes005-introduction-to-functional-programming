@@ -32,6 +32,9 @@
   - As rules
   - As collections of ordered pairs
 
+
+When two functions are the same function?
+
 ### SOme functions
 
 - Identity
