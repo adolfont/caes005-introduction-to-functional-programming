@@ -31,7 +31,6 @@
   - Domains and ranges
   - As rules
   - As collections of ordered pairs
-  - 
 
 ### SOme functions
 
