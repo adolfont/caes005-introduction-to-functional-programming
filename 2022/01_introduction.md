@@ -45,5 +45,10 @@ When two functions are the same function?
 ## Functions in Programming
 
 - Arity
-- Pure function = mathematical fucntion
+- Pure function = mathematical function
 - Impure function = relation (i.e., not a function)
+
+
+# Practice
+
+Using [Elixir](https://elixir-lang.org/)'s [Livebook](https://livebook.dev/)
