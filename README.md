@@ -70,7 +70,7 @@ and on other assignments to be defined during the course.
 
 ## Technological Support
 
-We will use Discord for discussion and Zoom or Google Meet sessions for our synchronous meetings.
+We will use Discord for discussion and Google Meet sessions for our synchronous meetings.
 
 
 ## Links
