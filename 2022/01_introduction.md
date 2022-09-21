@@ -17,6 +17,7 @@
   - The ones we are interested on have one or more elements   
      - \{1958, 1962, 1970, 1994, 2002\}   
 
+The order is not important. 
 
 ### "Famous" sets
   - Natural Numbers https://en.wikipedia.org/wiki/Natural_number
@@ -24,6 +25,9 @@
   - Reals https://en.wikipedia.org/wiki/Real_number
 
 ## Relations
+
+- A relation is also a set.
+- Pair, Tuple
 
 - [Relation (mathematics)](https://en.wikipedia.org/wiki/Relation_(mathematics))
 
