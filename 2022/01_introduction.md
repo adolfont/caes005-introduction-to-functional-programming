@@ -15,6 +15,7 @@
 - Infinite sets
 - Finite sets
   - The ones we are interested on have one or more elements   
+     - \{1958, 1962, 1970, 1994, 2002\}   
 
 
 ### "Famous" sets
