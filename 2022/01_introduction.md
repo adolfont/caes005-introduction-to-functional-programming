@@ -17,7 +17,10 @@
   - The ones we are interested on have one or more elements   
      - \{1958, 1962, 1970, 1994, 2002\}   
 
-The order is not important. 
+### Basic properties of sets
+
+- The order is not important. 
+- There is no repetition
 
 ### "Famous" sets
   - Natural Numbers https://en.wikipedia.org/wiki/Natural_number
