@@ -13,6 +13,8 @@
 
 - Empty set
 - Infinite sets
+- Finite sets
+  - The ones we are interested on have one or more elements   
 
 
 ### "Famous" sets
