@@ -67,10 +67,11 @@ synchronous classes,
 on solving the programming assignments,
 and on other assignments to be defined during the course.
 
+At the end of the course you should give a talk either about a functional programming language or about a library that provides functional programming support to non-functional programmng languages.  
 
 ## Technological Support
 
-We will use Discord for discussion and Google Meet sessions for our synchronous meetings.
+We will use Discord for discussions and Google Meet sessions for our synchronous meetings.
 
 
 ## Links
