@@ -14,7 +14,7 @@
 - Empty set
 - Infinite sets
 - Finite sets
-  - The ones we are interested on have one or more elements   
+  - The ones we are interested in have one or more elements   
      - \{1958, 1962, 1970, 1994, 2002\}   
 
 ### Basic properties of sets
