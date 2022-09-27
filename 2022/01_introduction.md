@@ -57,6 +57,8 @@ When two functions are the same function?
 - Pure function = mathematical function
 - Impure function = relation (i.e., not a function)
 
+- State!!!
+
 ###
 
 - Arity
