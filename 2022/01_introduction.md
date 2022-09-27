@@ -68,7 +68,7 @@ When two functions are the same function?
 - Function composition
   
   
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I strongly believe that the most important first step for new functional developers is to learn to build functions for composition.</p>&mdash; Bruce Tate (sending love to 🇺🇦) (@redrapids) <a href="https://twitter.com/redrapids/status/1574807012013137931?ref_src=twsrc%5Etfw">September 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I strongly believe that the most important first step for new functional developers is to learn to build functions for composition.</p>&mdash; Bruce Tate (sending love to 🇺🇦) (@redrapids) <a href="https://twitter.com/redrapids/status/1574807012013137931?ref_src=twsrc%5Etfw">September 27, 2022</a></blockquote> 
 
 ## Other materials
 
