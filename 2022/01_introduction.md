@@ -54,9 +54,14 @@ When two functions are the same function?
 
 ## Functions in Programming
 
-- Arity
 - Pure function = mathematical function
 - Impure function = relation (i.e., not a function)
+
+
+- Arity
+- Types
+- Anonymous functions
+- Function composition
 
 
 ## Other materials
