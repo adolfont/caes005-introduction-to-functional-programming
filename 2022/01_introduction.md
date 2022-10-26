@@ -1,5 +1,7 @@
 # Basic concepts for functional programming
 
+Video https://youtu.be/wTPfqpbFPQk
+
 ## Values
 
 - Numbers
