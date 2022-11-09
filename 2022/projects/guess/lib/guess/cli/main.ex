@@ -9,12 +9,7 @@ defmodule Guess.CLI.Main do
 
   def play_game() do
     sorted_number = Enum.random(1..100)
-
-    # Shell.info("The number is #{sorted_number}.")
-
-    {choice, _} =
-      Shell.prompt("Type a number between 1 and 100 (-1 to quit): ")
-      |> Integer.parse()
+    choice = get_number()
 
     cond do
       choice == -1 ->
@@ -22,6 +17,11 @@ defmodule Guess.CLI.Main do
 
       choice == sorted_number ->
         Shell.info("You won!")
+        Shell.info("")
+        play_game()
+
+      choice == :error ->
+        Shell.info("You must type an integer number!")
         Shell.info("")
         play_game()
 
@@ -35,5 +35,15 @@ defmodule Guess.CLI.Main do
   defp welcome_message do
     Shell.info("== Guess Game ==")
     Shell.info("Guess the right number.")
+  end
+
+  defp get_number() do
+    try do
+      Shell.prompt("Type an integer number between 1 and 100 (-1 to quit): ")
+      |> String.trim()
+      |> String.to_integer()
+    rescue
+      ArgumentError -> :error
+    end
   end
 end
