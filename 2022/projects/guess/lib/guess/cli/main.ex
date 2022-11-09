@@ -1,14 +1,15 @@
 defmodule Guess.CLI.Main do
   alias Mix.Shell.IO, as: Shell
 
+  @max 10
+
   def start_game do
     Shell.cmd("clear")
     welcome_message()
-    play_game()
+    play_game(Enum.random(1..@max))
   end
 
-  def play_game() do
-    sorted_number = Enum.random(1..100)
+  def play_game(sorted_number) do
     choice = get_number()
 
     cond do
@@ -18,17 +19,15 @@ defmodule Guess.CLI.Main do
       choice == sorted_number ->
         Shell.info("You won!")
         Shell.info("")
-        play_game()
+        play_game(Enum.random(1..@max))
 
       choice == :error ->
         Shell.info("You must type an integer number!")
         Shell.info("")
-        play_game()
+        play_game(Enum.random(1..@max))
 
       true ->
-        Shell.info("You lost! The number was #{sorted_number}.")
-        Shell.info("")
-        play_game()
+        try_again(sorted_number)
     end
   end
 
@@ -45,5 +44,11 @@ defmodule Guess.CLI.Main do
     rescue
       ArgumentError -> :error
     end
+  end
+
+  defp try_again(sorted_number) do
+    Shell.info("You lost! Try again!")
+    Shell.info("")
+    play_game(sorted_number)
   end
 end
