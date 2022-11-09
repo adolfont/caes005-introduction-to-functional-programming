@@ -13,17 +13,23 @@ defmodule Guess.CLI.Main do
     # Shell.info("The number is #{sorted_number}.")
 
     {choice, _} =
-      Shell.prompt("Type a number between 1 and 100: ")
+      Shell.prompt("Type a number between 1 and 100 (-1 to quit): ")
       |> Integer.parse()
 
-    if choice == sorted_number do
-      Shell.info("You won!")
-    else
-      Shell.info("You lost! The number was #{sorted_number}.")
-    end
+    cond do
+      choice == -1 ->
+        Shell.info("Bye bye! See you next time!")
 
-    Shell.info("")
-    play_game()
+      choice == sorted_number ->
+        Shell.info("You won!")
+        Shell.info("")
+        play_game()
+
+      true ->
+        Shell.info("You lost! The number was #{sorted_number}.")
+        Shell.info("")
+        play_game()
+    end
   end
 
   defp welcome_message do
