@@ -10,7 +10,7 @@ defmodule TicTacToe.CLI.Main do
 
   defp welcome_message do
     Shell.info("== Tic-tac-toe Game ==")
-    Shell.info("The first play is yours!")
+    Shell.info("The first move is yours!")
   end
 
   def play_game(pseudo_random) do
@@ -34,7 +34,7 @@ defmodule TicTacToe.CLI.Main do
 
     choice =
       Shell.prompt(
-        "Type line and column of your play (two numbers between 1 and 3 separated by a blank space, or -1 to quit): "
+        "Type line and column of your move (two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit): "
       )
       |> String.trim()
 
