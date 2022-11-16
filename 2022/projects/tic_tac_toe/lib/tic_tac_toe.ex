@@ -27,6 +27,10 @@ defmodule TicTacToe do
     end
   end
 
+  def allowed_play?(board, line, column) do
+    Enum.at(board, position(line, column)) == @empty
+  end
+
   defp position(line, column) do
     (line - 1) * 3 + (column - 1)
   end
@@ -38,14 +42,14 @@ defmodule TicTacToe do
   def player_symbol(1), do: "X"
   def player_symbol(2), do: "O"
 
-  def finished?([s, _, _, s, _, _, s, _, _]), do: {s, true}
-  def finished?([_, s, _, _, s, _, _, s, _]), do: {s, true}
-  def finished?([_, _, s, _, _, s, _, _, s]), do: {s, true}
-  def finished?([s, s, s, _, _, _, _, _, _]), do: {s, true}
-  def finished?([_, _, _, s, s, s, _, _, _]), do: {s, true}
-  def finished?([_, _, _, _, _, _, s, s, s]), do: {s, true}
-  def finished?([s, _, _, _, s, _, _, _, s]), do: {s, true}
-  def finished?([_, _, s, _, s, _, s, _, _]), do: {s, true}
+  def finished?([s, _, _, s, _, _, s, _, _]) when s != @empty, do: {s, true}
+  def finished?([_, s, _, _, s, _, _, s, _]) when s != @empty, do: {s, true}
+  def finished?([_, _, s, _, _, s, _, _, s]) when s != @empty, do: {s, true}
+  def finished?([s, s, s, _, _, _, _, _, _]) when s != @empty, do: {s, true}
+  def finished?([_, _, _, s, s, s, _, _, _]) when s != @empty, do: {s, true}
+  def finished?([_, _, _, _, _, _, s, s, s]) when s != @empty, do: {s, true}
+  def finished?([s, _, _, _, s, _, _, _, s]) when s != @empty, do: {s, true}
+  def finished?([_, _, s, _, s, _, s, _, _]) when s != @empty, do: {s, true}
 
   def finished?(list) do
     {nil, not Enum.any?(list, fn s -> s == @empty end)}
