@@ -20,7 +20,7 @@ defmodule TicTacToe do
   end
 
   @doc """
-  Registers a play (consisting of player, line and column) on a board. 
+  Registers a play (consisting of player, line and column) on a board.
 
   ## Examples
 
@@ -45,7 +45,7 @@ defmodule TicTacToe do
   end
 
   @doc """
-  Returns true when a position is empty. Otherwise, it returns false. 
+  Returns true when a position is empty. Otherwise, it returns false.
 
   ## Examples
 
@@ -65,9 +65,38 @@ defmodule TicTacToe do
     (line - 1) * 3 + (column - 1)
   end
 
+  defp line_column(position) when position in 0..8 do
+    {div(position, 3) + 1, rem(position, 3) + 1}
+  end
+
+  defp empty_positions(board) do
+    Enum.with_index(board)
+    |> Enum.filter(fn {symbol, _position} -> symbol == @empty end)
+    |> Enum.map(fn {_symbol, position} -> position end)
+    |> Enum.map(&line_column/1)
+  end
+
+  @doc """
+  Returns the symbol that is used to represent an empty position of the board
+
+  ## Examples
+
+      iex> TicTacToe.empty_symbol()
+      "_"
+  """
   @spec empty_symbol :: String.t()
   def empty_symbol(), do: @empty
 
+  @doc """
+  Returns the symbol that is used for a given player.
+
+  ## Examples
+
+      iex> TicTacToe.player_symbol(1)
+      "X"
+      iex> TicTacToe.player_symbol(2)
+      "O"
+  """
   @spec player_symbol(1..2) :: String.t()
   def player_symbol(1), do: "X"
   def player_symbol(2), do: "O"
@@ -96,5 +125,29 @@ defmodule TicTacToe do
 
   def finished?(list) do
     {nil, not Enum.any?(list, fn s -> s == @empty end)}
+  end
+
+  @doc """
+  Plays in a randomly chosen position.
+
+  _This is not a mathematical function. Therefore, I have used :rand.seed/2 to get always the same
+  results in our test._
+
+  ## Examples
+
+      iex> is_tuple(:rand.seed(:exsss, {100, 101, 102}))
+      true
+      iex> TicTacToe.play_random(["X", "_", "_", "X", "_", "_", "X", "_", "_"],2)
+      ["X", "_", "O", "X", "_", "_", "X", "_", "_"]
+
+  """
+  @spec play_random(list, 1 | 2) :: list
+  def play_random(board, player) do
+    {line, column} =
+      board
+      |> empty_positions()
+      |> Enum.random()
+
+    TicTacToe.play(board, player, line, column)
   end
 end

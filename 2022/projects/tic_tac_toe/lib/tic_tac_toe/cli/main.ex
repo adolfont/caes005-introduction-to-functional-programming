@@ -41,15 +41,7 @@ defmodule TicTacToe.CLI.Main do
   defp keep_playing(board) do
     show_board(board)
 
-    choice =
-      Shell.prompt(
-        "Type line and column of your move\n(two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit): "
-      )
-      |> String.trim()
-
-    # Shell.info("Your choice was \"#{choice}\"!")
-
-    case parse_choice(choice) do
+    case parse_choice(choose_position()) do
       [-1] ->
         Shell.info("Bye bye! See you next time!")
 
@@ -61,6 +53,13 @@ defmodule TicTacToe.CLI.Main do
         Shell.info("Wrong input! Your input should be two numbers between 1 and 3!")
         keep_playing(board)
     end
+  end
+
+  defp choose_position() do
+    Shell.prompt(
+      "Type line and column of your move\n(two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit): "
+    )
+    |> String.trim()
   end
 
   defp show_board([p11, p12, p13, p21, p22, p23, p31, p32, p33]) do
@@ -102,11 +101,6 @@ defmodule TicTacToe.CLI.Main do
   end
 
   def computer_plays(board) do
-    {_, chosen_position} =
-      Enum.with_index(board)
-      |> Enum.filter(fn {symbol, _position} -> symbol == "_" end)
-      |> Enum.random()
-
-    List.replace_at(board, chosen_position, TicTacToe.player_symbol(2))
+    TicTacToe.play_random(board, 2)
   end
 end
