@@ -72,5 +72,44 @@ Do you want a random game? (yes/no)?
 ```
 
 
+## Example
+
+```
+$ mix start
+== Tic-tac-toe Game ==
+Do you want a random game? (yes/no)? yes
+OK, random game chosen!
+The first move is yours!
+Current board
+_ _ _
+_ _ _
+_ _ _
+
+Type line and column of your move
+(two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit):  1 1
+You chose line=1, column=1!
+Current board
+X _ O
+_ _ _
+_ _ _
+
+Type line and column of your move
+(two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit):  2 2
+You chose line=2, column=2!
+Current board
+X _ O
+_ X _
+_ O _
+
+Type line and column of your move
+(two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit):  3 3
+You chose line=3, column=3!
+Current board
+X _ O
+_ X _
+_ O X
+
+Congrats! You won!
+```
 
 
