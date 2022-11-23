@@ -1,6 +1,6 @@
 # TicTacToe
 
-TicTacToe is a text-based implementation of the Tic-tac-toe game where the user plays against the computer that chooses its move using a pseudorandom number generator.
+TicTacToe is a text-based implementation of the [Tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe) where the user plays against the computer that chooses its move using a pseudorandom number generator.
 
 To run it, clone this repository and do the following:
 
