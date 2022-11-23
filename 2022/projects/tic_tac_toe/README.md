@@ -1,12 +1,13 @@
 # TicTacToe
 
-This is a text-based implementation of the Tic-tac-toe game where the user plays against the computer, the chooses its move pseudorandomly. 
+This is a text-based implementation of the Tic-tac-toe game where the user plays against the computer, that chooses its move using a pseudorandom number generator. 
 
 To run it, just clone this repository
 
 
 ```
 $ git clone https://github.com/adolfont/caes005-introduction-to-functional-programming.git
+
 Cloning into 'caes005-introduction-to-functional-programming'...
 remote: Enumerating objects: 1150, done.
 remote: Counting objects: 100% (515/515), done.
@@ -18,6 +19,7 @@ Resolving deltas: 100% (590/590), done.
 $ cd caes005-introduction-to-functional-programming/2022/projects/tic_tac_toe/
 
 $ mix deps.get
+
 Resolving Hex dependencies...
 Resolution completed in 0.023s
 Unchanged:
@@ -35,6 +37,7 @@ Unchanged:
 * Getting nimble_parsec (Hex package)
 
 $ mix start
+
 ==> earmark_parser
 Compiling 1 file (.yrl)
 Compiling 2 files (.xrl)
@@ -69,10 +72,6 @@ Do you want a random game? (yes/no)?
 ```
 
 
-go to the tic_tac_toe folder and run it with: 
-```
-$ mix start
-```
 
 ## Implementation details (in construction)
 
