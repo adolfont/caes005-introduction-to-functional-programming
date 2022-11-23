@@ -2,15 +2,24 @@ defmodule TicTacToe.CLI.Main do
   alias Mix.Shell.IO, as: Shell
 
   def start_game do
-    Shell.cmd("clear")
-    welcome_message()
-    play_game(false)
-    # play_game(true)
+    Shell.info("== Tic-tac-toe Game ==")
+    type = ask_type_of_game()
+    Shell.info("The first move is yours!")
+    play_game(type)
   end
 
-  defp welcome_message do
-    Shell.info("== Tic-tac-toe Game ==")
-    Shell.info("The first move is yours!")
+  defp ask_type_of_game() do
+    answer =
+      Shell.prompt("Do you want a random game? (yes/no)?")
+      |> String.trim()
+
+    if answer == "yes" do
+      Shell.info("OK, random game chosen!")
+      true
+    else
+      Shell.info("OK, my moves will be predictable!")
+      false
+    end
   end
 
   def play_game(pseudo_random) do
@@ -34,7 +43,7 @@ defmodule TicTacToe.CLI.Main do
 
     choice =
       Shell.prompt(
-        "Type line and column of your move (two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit): "
+        "Type line and column of your move\n(two numbers, line and column, between 1 and 3 separated by a blank space, or -1 to quit): "
       )
       |> String.trim()
 
@@ -69,12 +78,14 @@ defmodule TicTacToe.CLI.Main do
       if winner?(board_after_the_human_played) do
         show_board(board_after_the_human_played)
         Shell.info("Congrats! You won!")
+        start_game()
       else
         board_after_the_computer_played = computer_plays(board_after_the_human_played)
 
         if winner?(board_after_the_computer_played) do
           show_board(board_after_the_computer_played)
           Shell.info("Sorry, the computer won!")
+          start_game()
         else
           keep_playing(board_after_the_computer_played)
         end
