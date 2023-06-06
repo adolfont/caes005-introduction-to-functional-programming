@@ -1,7 +1,7 @@
 # CAES005 - Introduction to Functional Programming
 
 This is a course offered by the Graduate Program in Applied Computing (PPGCA) of the 
-Federal University of Technology - Parana (UTFPR), originally intended for graduate students. 
+Federal University of Technology - Parana (UTFPR), originally intended for graduate students, but some undegraduate students and professionals can attend.
 
 ## 2023 offering
 
