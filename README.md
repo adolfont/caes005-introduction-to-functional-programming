@@ -3,6 +3,12 @@
 This is a course offered by the Graduate Program in Applied Computing (PPGCA) of the 
 Federal University of Technology - Parana (UTFPR), originally intended for graduate students. 
 
+## 2023 offering
+
+This course will probably happen between October 5th and December 20th, following [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view).
+
+If the course is remote, I will want that all students be with their cameras open.
+
 
 ## Instructor
 
