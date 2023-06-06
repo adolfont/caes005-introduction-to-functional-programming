@@ -9,6 +9,8 @@ This course will probably happen between October 5th and December 20th, followin
 
 If the course is conducted remotely, I will demand that all students have their cameras turned on.
 
+Are you interested? Send me an email: adolfo AT utfpr.edu.br.
+
 
 ## Instructor
 
