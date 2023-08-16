@@ -1,4 +1,4 @@
-# CAES003 2023
+# CAES005 - Introduction to Functional Programming (2023)
 
 ## Blog posts
 
