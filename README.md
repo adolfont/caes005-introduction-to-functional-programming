@@ -5,9 +5,9 @@ Federal University of Technology - Parana (UTFPR), originally intended for gradu
 
 ## 2023 offering
 
-This course will happen between October 5th and December 20th, following [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view). It will be on Tuesdays, from 18:40 to 22:10 (GMT-3).
+The "Introduction to Functional Programming" course, which is scheduled to take place from October 5th to December 20th, has been designed as a fully remote learning experience. This course will be conducted on Tuesdays, from 18:40 to 22:10 (GMT-3). I will expect all students to have their cameras turned on.
 
-If the course is conducted remotely, I will demand that all students have their cameras turned on.
+Link: [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view).
 
 Are you interested? Send me an email: adolfo AT utfpr.edu.br.
 
