@@ -42,9 +42,8 @@ Functional Programming: concepts and main Languages. Functions: functions as fir
 
 ## Schedule
 
-Important Dates: The course will start on September 21st, 2022 and will finish on December 14th, 2022. 
+Important Dates: (SOON)
 
-Classes will be online, on Wednesdat afternoons, from 1:00PM to 4:30PM (UTC-3) at most. 
 
 *In construction*
 
