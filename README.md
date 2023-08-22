@@ -85,4 +85,4 @@ We will use Discord for discussions and Google Meet sessions for our synchronous
 
 [Tiobe Index](https://www.tiobe.com/tiobe-index/)
 
-[StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2020)
+[StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/)
