@@ -27,3 +27,8 @@
 [An Introduction to the basic principles of Functional Programming](https://www.freecodecamp.org/news/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84/)
 
 [Spreadsheets: Functional Programming for the Masses](https://www.slideshare.net/kfrdbs/peyton-jones)
+
+
+## In Portuguese
+
+- [Curso de Clojure e Programação Funcional](https://cursos.segunda.tech)
