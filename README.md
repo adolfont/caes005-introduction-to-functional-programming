@@ -5,7 +5,7 @@ Federal University of Technology - Parana (UTFPR), originally intended for gradu
 
 ## 2023 offering
 
-The "Introduction to Functional Programming" course, which is scheduled to take place from October 5th to December 20th, has been designed as a fully remote learning experience. This course will be conducted on **Wednesdays or Mondays (to be decided)**, from 18:40 to 22:10 (GMT-3). I will expect all students to have their cameras turned on.
+The "Introduction to Functional Programming" course, which is scheduled to take place from October 5th to December 20th, has been designed as a fully remote learning experience. This course will be conducted on **Tuesdays (to be decided)**, from 18:40 to 22:10 (GMT-3). I will expect all students to have their cameras turned on.
 
 [If you want to attend this course and you are not Brazilian, fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdo_F3cPFyDdCfjqyx1qfI0X7F1lEdMrty2SdOJTEeCdNCm0A/viewform?usp=sf_link). 
 
