@@ -41,7 +41,29 @@ It is free. Send an email to adolfo at utfpr.edu.br asking how to enroll.
 ## Syllabus
 
 
-Functional Programming: concepts and main Languages. Functions: functions as first class citizens, named functions and anonymous functions, currying, modules. Pattern Matching. Data structures and immutability. Recursion. Collection processing. Lazy evaluation. Control flow. Project implementation involving a functional language. Overview of functional languages for concurrency.
+Functional Programming: concepts and main Languages. 
+
+Functions: 
+- functions as first class citizens
+- named functions and anonymous functions
+- currying
+- modules.
+
+Pattern Matching. 
+
+Data structures and immutability. 
+
+Recursion. 
+
+Collection processing. 
+
+Lazy evaluation. 
+
+Control flow. 
+
+Project implementation involving a functional language. 
+
+Overview of functional languages for concurrency.
 
 
 ## Schedule
