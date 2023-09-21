@@ -9,7 +9,7 @@ The "Introduction to Functional Programming" course, which is scheduled to take 
 
 [If you want to attend this course and you are not Brazilian, fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdo_F3cPFyDdCfjqyx1qfI0X7F1lEdMrty2SdOJTEeCdNCm0A/viewform?usp=sf_link). 
 
-The form for Brazilians will be posted later. _Se apenas pessoas brasileiras se inscreverem, o curso será em português._ 
+[The instructions for Brazilians is here](https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/destaques/disciplinas-da-fase-3-de-2023). _Se apenas pessoas brasileiras se inscreverem, o curso será em português._ 
 
 Link: [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view).
 
