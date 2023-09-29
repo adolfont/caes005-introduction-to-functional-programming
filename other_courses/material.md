@@ -6,6 +6,7 @@
 - C9 Lectures: Erik Meijer (Microsoft) https://learn.microsoft.com/en-us/shows/c9-lectures-erik-meijer-functional-programming-fundamentals/lecture-series-erik-meijer-functional-programming-fundamentals-chapter-1
 - An Introduction to Functional Programming through Lambda Calculus, Greg Michaelson https://www.amazon.com/Introduction-Functional-Programming-Calculus-Mathematics/dp/0486478831
 - OCaml Programming: Correct + Efficient + Beautiful  https://cs3110.github.io/textbook/cover.html
+- Programming Languages - University of Washington. A: ML https://www.coursera.org/learn/programming-languages, B: Racket https://www.coursera.org/learn/programming-languages-part-b
 
 
 ## Disciplinas em português 
