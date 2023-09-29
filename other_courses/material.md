@@ -7,6 +7,7 @@
 - An Introduction to Functional Programming through Lambda Calculus, Greg Michaelson https://www.amazon.com/Introduction-Functional-Programming-Calculus-Mathematics/dp/0486478831
 - OCaml Programming: Correct + Efficient + Beautiful  https://cs3110.github.io/textbook/cover.html
 - Programming Languages - University of Washington. A: ML https://www.coursera.org/learn/programming-languages, B: Racket https://www.coursera.org/learn/programming-languages-part-b
+- Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 https://www.youtube.com/watch?v=0if71HOyVjY
 
 
 ## Disciplinas em português 
