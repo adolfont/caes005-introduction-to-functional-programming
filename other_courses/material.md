@@ -14,4 +14,5 @@
 ## Disciplinas em português 
 
 - BCC222 - Programação Funcional (UFOP). Professor: Rodrigo Geraldo Ribeiro https://github.com/rodrigogribeiro/bcc222-material
+- GRUPO DE ESTUDOS EM HASKELL DA UFABC https://haskell.pesquisa.ufabc.edu.br/
 
