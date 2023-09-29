@@ -6,3 +6,8 @@
 - C9 Lectures: Erik Meijer (Microsoft)
 - An Introduction to Functional Programming through Lambda Calculus, Greg Micahelson
 
+
+## Disciplinas em português 
+
+- BCC222 - Programação Funcional (UFOP). Professor: Rodrigo Geraldo Ribeiro https://github.com/rodrigogribeiro/bcc222-material
+
