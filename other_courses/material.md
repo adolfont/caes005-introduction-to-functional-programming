@@ -9,6 +9,8 @@
 - Programming Languages - University of Washington. A: ML https://www.coursera.org/learn/programming-languages, B: Racket https://www.coursera.org/learn/programming-languages-part-b
 - Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 https://www.youtube.com/watch?v=0if71HOyVjY
 - Haskell - 2023/2 https://www.youtube.com/playlist?list=PLfdR3_dt2rbctdMHwZG2h4aKGROujEG3j
+- Functional programming books, comparison https://alvinalexander.com/photos/functional-programming-books-comparison-2023/
+
 
 
 ## Disciplinas em português 
