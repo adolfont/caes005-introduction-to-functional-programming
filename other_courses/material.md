@@ -10,8 +10,11 @@
 - Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 https://www.youtube.com/watch?v=0if71HOyVjY
 - Haskell - 2023/2 https://www.youtube.com/playlist?list=PLfdR3_dt2rbctdMHwZG2h4aKGROujEG3j
 - Functional programming books, comparison https://alvinalexander.com/photos/functional-programming-books-comparison-2023/
-
-
+- Haskell Programming https://haskellbook.com/
+- Learn Haskell by building a blog generator https://learn-haskell.blog/
+- Learn you Some Haskell http://learnyouahaskell.com/
+- Algoritmos funcionais: introdução minimalista à lógica de programação funcional pura aplicada à teoria dos conjuntos https://www.amazon.com.br/dp/8550814474
+- Awesome Funcional Programming Studies https://web.archive.org/web/20220108200614/https://github.com/lambda-study-group/awesome-functional-studies
 
 ## Disciplinas em português 
 
