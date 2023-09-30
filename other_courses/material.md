@@ -16,6 +16,7 @@
 - Algoritmos funcionais: introdução minimalista à lógica de programação funcional pura aplicada à teoria dos conjuntos https://www.amazon.com.br/dp/8550814474
 - Awesome Funcional Programming Studies https://web.archive.org/web/20220108200614/https://github.com/lambda-study-group/awesome-functional-studies
 - Haskell for Imperative Programmers https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV
+- Functional Programming in Scala  https://www.manning.com/books/functional-programming-in-scala
 
 ## Disciplinas em português 
 
