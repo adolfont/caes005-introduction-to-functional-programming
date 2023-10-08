@@ -108,7 +108,7 @@ At the end of the course you should give a talk either about a functional progra
 
 ## Technological Support
 
-We will use Discord for discussions and Google Meet sessions for our synchronous meetings.
+We will use Google Classroom for discussions and Google Meet sessions for our synchronous meetings.
 
 
 ## Links
