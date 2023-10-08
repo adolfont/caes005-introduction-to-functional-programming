@@ -36,7 +36,9 @@ At the end of this course, you will be able to:
 The course is intended for Masters and PhD students but undergraduate foreign students and local undergrads with an interest in the topic are more than welcome. 
 There is no formal prerequisite in addition to a good understanding of English, as the discussed literature and interaction in class will be in that language.
 
-It is free. Send an email to adolfo at utfpr.edu.br asking how to enroll.
+This course will be taught in English.
+
+<!-- It is free. Send an email to adolfo at utfpr.edu.br asking how to enroll. -->
 
 ## Syllabus
 
