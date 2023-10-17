@@ -8,5 +8,6 @@ I know about the channel on the Lean zulip, this ain't the only hive mind that I
 -  one automated-bounded-verification based, "Logic for Systems": https://csci1710.github.io/2023/
 -  Software Fiável https://fenix.ciencias.ulisboa.pt/courses/sfia-2536354281948960/pagina-inicial
 -  Construction and Verification of Software (2021/2022) http://ctp.di.fct.unl.pt/~btoninho/teaching/cvs-22/
+-  Robert Rand teaches program verification at the undergrad level at UChicago: https://rand.cs.uchicago.edu/cmsc224/winter22/
 
 
