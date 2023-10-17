@@ -11,5 +11,8 @@ I know about the channel on the Lean zulip, this ain't the only hive mind that I
 -  Robert Rand teaches program verification at the undergrad level at UChicago: https://rand.cs.uchicago.edu/cmsc224/winter22/
 -  More Programming Than Programming: Teaching Formal Methods in a Software Engineering Programme https://link.springer.com/chapter/10.1007/978-3-031-06773-0_23
 -  PROOF AUTOMATION https://dependenttyp.es/classes/598fa2022.html
-
+-  Tobias Nipkow's courses on programming language semantics and functional data structures, both taught with Isabelle/HOL:
+  - Semantics of Programming Languages https://www21.in.tum.de/teaching/semantics/WS23/index.html
+  - Functional Data Structures https://www21.in.tum.de/teaching/fds/SS23/index.html
+  - Practical Course ‘Specification and Verification’ https://www21.in.tum.de/teaching/psv/WS23/index.html
 
