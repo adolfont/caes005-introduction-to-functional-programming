@@ -15,4 +15,5 @@ I know about the channel on the Lean zulip, this ain't the only hive mind that I
   - Semantics of Programming Languages https://www21.in.tum.de/teaching/semantics/WS23/index.html
   - Functional Data Structures https://www21.in.tum.de/teaching/fds/SS23/index.html
   - Practical Course ‘Specification and Verification’ https://www21.in.tum.de/teaching/psv/WS23/index.html
+- Formal Methods (UFMG) https://hanielb.github.io/2023.2-fm/
 
