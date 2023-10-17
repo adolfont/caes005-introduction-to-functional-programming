@@ -15,6 +15,7 @@ I know about the channel on the Lean zulip, this ain't the only hive mind that I
   - Semantics of Programming Languages https://www21.in.tum.de/teaching/semantics/WS23/index.html
   - Functional Data Structures https://www21.in.tum.de/teaching/fds/SS23/index.html
   - Practical Course ‘Specification and Verification’ https://www21.in.tum.de/teaching/psv/WS23/index.html
+  - 10 years ago there was also a course at TUM on verifying C programs with Isabelle/HOL, taught by an external lecturer: https://www21.in.tum.de/teaching/isv/SS13/
 - Formal Methods (UFMG) https://hanielb.github.io/2023.2-fm/
 - Master Course on Advanced Functional Programming https://www.cs.uu.nl/docs/vakken/afp/
 - CS6225 Programs and Proofs @ IITM (Coq + F*) https://www.youtube.com/playlist?list=PLt0HgEXFOHdkfd7phdKKmTIuwHEvPX0qb
