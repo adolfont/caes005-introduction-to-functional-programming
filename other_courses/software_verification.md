@@ -16,4 +16,9 @@ I know about the channel on the Lean zulip, this ain't the only hive mind that I
   - Functional Data Structures https://www21.in.tum.de/teaching/fds/SS23/index.html
   - Practical Course ‘Specification and Verification’ https://www21.in.tum.de/teaching/psv/WS23/index.html
 - Formal Methods (UFMG) https://hanielb.github.io/2023.2-fm/
+- Master Course on Advanced Functional Programming https://www.cs.uu.nl/docs/vakken/afp/
+- CS6225 Programs and Proofs @ IITM (Coq + F*) https://www.youtube.com/playlist?list=PLt0HgEXFOHdkfd7phdKKmTIuwHEvPX0qb
+- CS5232: Formal Specification and Design Techniques  https://ilyasergey.net/CS5232/index.html
+- CMSC631: Program Analysis and Understanding https://www.cs.umd.edu/class/fall2022/cmsc631/index.html
+
 
