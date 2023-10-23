@@ -3,7 +3,7 @@
 ## Books
 - [Functional Programming in Lean by David Thrane Christiansen](https://bit.ly/3tFnHoJ)
 
-### My examples adpated from "Functional Programming in Lean"
+### Examples (some adpted by me) from "Functional Programming in Lean"
 
  - [Chapter 1](./examples_1.lean)
 
