@@ -17,6 +17,7 @@
 - Awesome Funcional Programming Studies https://web.archive.org/web/20220108200614/https://github.com/lambda-study-group/awesome-functional-studies
 - Haskell for Imperative Programmers https://www.youtube.com/playlist?list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV
 - Functional Programming in Scala  https://www.manning.com/books/functional-programming-in-scala
+- Programación funcional con Haskell https://jaalonso.github.io/materias/PFconHaskell/
 
 ## Disciplinas em português 
 
