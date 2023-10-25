@@ -127,3 +127,39 @@ SideEffects.f({7_632_746, 234_234, :ok})
 ```elixir
 Enum.random(even)
 ```
+
+## Exercise: Smallest and largest
+
+```elixir
+defmodule Math do
+  def smallest_largest([head | tail] = a_list) when is_list(a_list) do
+    smallest_largest(tail, {head, head})
+  end
+
+  def smallest_largest(_),
+    do: {:error, "!!! Wrong Argument !!! It should be a non-empty list !!!"}
+
+  defp smallest_largest([], {smallest_so_far, largest_so_far}),
+    do: {smallest_so_far, largest_so_far}
+
+  defp smallest_largest([head | tail], {smallest_so_far, largest_so_far}) do
+    if head > largest_so_far do
+      smallest_largest(tail, {smallest_so_far, head})
+    else
+      if head < smallest_so_far do
+        smallest_largest(tail, {head, largest_so_far})
+      else
+        smallest_largest(tail, {smallest_so_far, largest_so_far})
+      end
+    end
+  end
+end
+```
+
+```elixir
+Math.smallest_largest([12, 34, 48, 48, 3])
+```
+
+```elixir
+Math.smallest_largest([1, -1, 100, 48, 3])
+```
