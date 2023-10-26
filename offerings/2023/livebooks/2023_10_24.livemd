@@ -1,0 +1,164 @@
+# October 24th, 2023
+
+## Side effects
+
+```elixir
+defmodule M do
+  def f(x) do
+    2 * x
+  end
+end
+```
+
+```elixir
+x = 30
+```
+
+```elixir
+M.f(x)
+```
+
+```elixir
+x
+```
+
+```elixir
+x = 6000
+```
+
+```elixir
+M.f(x)
+```
+
+```elixir
+x = M.f(x)
+```
+
+```elixir
+x
+```
+
+```elixir
+IO.puts("1200")
+2300
+```
+
+```elixir
+IO.puts("1200")
+IO.puts("10")
+IO.puts("200")
+IO.puts("13200")
+IO.puts("124400")
+x = 10
+y = 20
+z = 30
+x * y * z
+```
+
+```elixir
+IO.puts("2742893749")
+```
+
+```elixir
+x = IO.puts("x")
+```
+
+```elixir
+x
+```
+
+## Immutability in lists
+
+```elixir
+# range
+1..100
+```
+
+```elixir
+100..1
+```
+
+```elixir
+1..100//2
+```
+
+```elixir
+even = Enum.to_list(10..50//2)
+```
+
+```elixir
+newlist = List.replace_at(even, 2, 13)
+```
+
+```elixir
+even
+```
+
+```elixir
+newlist
+```
+
+## Function with side effects
+
+```elixir
+defmodule SideEffects do
+  def f(x) do
+    IO.inspect(x)
+    x
+  end
+end
+```
+
+```elixir
+SideEffects.f(10)
+```
+
+```elixir
+SideEffects.f({7_632_746, 234_234, :ok})
+```
+
+```elixir
+# IO.gets("Type a number: ")
+# only on an elixir program or on iex
+```
+
+## This is not a mathematical function!
+
+```elixir
+Enum.random(even)
+```
+
+## Exercise: Smallest and largest
+
+```elixir
+defmodule Math do
+  def smallest_largest([head | tail] = a_list) when is_list(a_list) do
+    smallest_largest(tail, {head, head})
+  end
+
+  def smallest_largest(_),
+    do: {:error, "!!! Wrong Argument !!! It should be a non-empty list !!!"}
+
+  defp smallest_largest([], {smallest_so_far, largest_so_far}),
+    do: {smallest_so_far, largest_so_far}
+
+  defp smallest_largest([head | tail], {smallest_so_far, largest_so_far})
+       when head > largest_so_far,
+       do: smallest_largest(tail, {smallest_so_far, head})
+
+  defp smallest_largest([head | tail], {smallest_so_far, largest_so_far})
+       when head < smallest_so_far,
+       do: smallest_largest(tail, {head, largest_so_far})
+
+  defp smallest_largest([_head | tail], {smallest_so_far, largest_so_far}),
+    do: smallest_largest(tail, {smallest_so_far, largest_so_far})
+end
+```
+
+```elixir
+Math.smallest_largest([12, 34, 48, 48, 3])
+```
+
+```elixir
+Math.smallest_largest([1, -1, 100, 48, 3])
+```
