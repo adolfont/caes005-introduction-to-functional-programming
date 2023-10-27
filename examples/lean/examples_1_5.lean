@@ -82,3 +82,34 @@ def minus (n : Nat) (k : Nat) : Nat :=
   match k with
   | Nat.zero => n
   | Nat.succ k' => pred (minus n k')
+
+#eval plus 3 2
+
+#eval times 3 5
+
+#eval minus 10 5
+
+#eval "Not every function can be easily written using structural recursion. "
+
+
+-- def div (n : Nat) (k : Nat) : Nat :=
+--  if n < k then
+--    0
+--  else Nat.succ (div (n - k) k)
+
+-- "it is not structurally recursive,
+-- because it doesn't follow the pattern of
+-- finding a result for zero and transforming
+-- a result for a smaller Nat into a result for its successor."
+-- "In particular, the recursive invocation of the function
+-- is applied to the result of another function call, rather
+-- than to an input constructor's argument."
+
+def factorial (n : Nat)  : Nat :=
+  match n with
+  | Nat.zero => 1
+  | Nat.succ k => n * (factorial k)
+
+#eval factorial 10
+
+-- 1.6 Polymorphism https://lean-lang.org/functional_programming_in_lean/getting-to-know/polymorphism.html
