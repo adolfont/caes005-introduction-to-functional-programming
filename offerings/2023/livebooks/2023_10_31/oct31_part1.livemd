@@ -1,0 +1,296 @@
+# October 31st, 2023 - Part I
+
+## Derli's second solution
+
+```elixir
+defmodule SomeList2 do
+  # two passes
+  def min_max(list) do
+    {max(list), min(list)}
+  end
+
+  def max([]) do
+    nil
+  end
+
+  def max([head | tail]) when tail == [] do
+    head
+  end
+
+  def max([head | tail]) do
+    if head > max(tail) do
+      head
+    else
+      max(tail)
+    end
+  end
+
+  def min([]) do
+    nil
+  end
+
+  def min([head | tail]) when tail == [] do
+    head
+  end
+
+  def min([head | tail]) do
+    if head < min(tail) do
+      head
+    else
+      min(tail)
+    end
+  end
+end
+```
+
+```elixir
+list = Enum.shuffle(1..30)
+SomeList2.min_max(list)
+```
+
+## Derli's fist version
+
+```elixir
+defmodule SomeList do
+  def smallest_largest(list) do
+    {the_smaller(list), the_biggest(list)}
+  end
+
+  def the_biggest(list) when is_list(list) do
+    the_biggest(list, hd(list))
+  end
+
+  defp the_biggest([current | rest], max) when current > max do
+    the_biggest(rest, current)
+  end
+
+  defp the_biggest([_ | rest], max) do
+    the_biggest(rest, max)
+  end
+
+  defp the_biggest([], max) do
+    max
+  end
+
+  def the_smaller(list) when is_list(list) do
+    the_smaller(list, hd(list))
+  end
+
+  defp the_smaller([current | rest], min) when current < min do
+    the_smaller(rest, current)
+  end
+
+  defp the_smaller([_ | rest], min) do
+    the_smaller(rest, min)
+  end
+
+  defp the_smaller([], min) do
+    min
+  end
+end
+```
+
+```elixir
+list = Enum.shuffle(1..4000)
+SomeList.smallest_largest(list)
+```
+
+## Ricardo's version
+
+```elixir
+defmodule MathOperation do
+  def smallest_and_largest(list), do: {smallest(list), largest(list)}
+
+  defp smallest([head | tail]), do: smallest(head, tail)
+  defp smallest(smallest, []), do: smallest
+
+  defp smallest(smallest_so_far, [head | tail]) do
+    cond do
+      head < smallest_so_far -> smallest(head, tail)
+      true -> smallest(smallest_so_far, tail)
+    end
+  end
+
+  defp largest([head | tail]), do: largest(head, tail)
+  defp largest(largest, []), do: largest
+
+  defp largest(largest, [head | tail]) do
+    cond do
+      head > largest -> largest(head, tail)
+      true -> largest(largest, tail)
+    end
+  end
+end
+```
+
+```elixir
+list = Enum.shuffle(1..100_000)
+MathOperation.smallest_and_largest(list)
+```
+
+## Anonymous Functions
+
+```elixir
+defmodule MathOperationv2 do
+  def smallest_and_largest(list) do
+    {extreme(list, &Kernel.</2), extreme(list, &Kernel.>/2)}
+  end
+
+  defp extreme([head | tail], function), do: extreme(head, tail, function)
+  defp extreme(extreme_value, [], _function), do: extreme_value
+
+  defp extreme(extreme_value_so_far, [head | tail], function) do
+    cond do
+      function.(head, extreme_value_so_far) -> extreme(head, tail, function)
+      true -> extreme(extreme_value_so_far, tail, function)
+    end
+  end
+
+  # defp smaller(x,y) do
+  #   x < y
+  # end
+
+  # defp larger(x,y) do
+  #   x > y
+  # end
+end
+```
+
+```elixir
+list = Enum.shuffle(1..4_000_000)
+MathOperationv2.smallest_and_largest(list)
+```
+
+```elixir
+3 > 4
+
+Kernel.>(3, 4)
+```
+
+## How values are returned in functions
+
+```elixir
+defmodule Example do
+  def f(x, y, z) do
+    # x*2
+    # y*10 
+    # z*10
+    x + y * z
+  end
+end
+```
+
+```elixir
+Example.f(10, 20, 30)
+```
+
+## My solution
+
+```elixir
+defmodule Math do
+  def smallest_largest([head | tail] = a_list) when is_list(a_list) do
+    smallest_largest(tail, {head, head})
+  end
+
+  def smallest_largest(_),
+    do: {:error, "!!! Wrong Argument !!! It should be a non-empty list !!!"}
+
+  defp smallest_largest([], {smallest_so_far, largest_so_far}),
+    do: {smallest_so_far, largest_so_far}
+
+  defp smallest_largest([head | tail], {smallest_so_far, largest_so_far})
+       when head > largest_so_far,
+       do: smallest_largest(tail, {smallest_so_far, head})
+
+  defp smallest_largest([head | tail], {smallest_so_far, largest_so_far})
+       when head < smallest_so_far,
+       do: smallest_largest(tail, {head, largest_so_far})
+
+  defp smallest_largest([_head | tail], {smallest_so_far, largest_so_far}),
+    do: smallest_largest(tail, {smallest_so_far, largest_so_far})
+end
+```
+
+```elixir
+list = Enum.shuffle(1..4_000_000)
+Math.smallest_largest(list)
+```
+
+## Fibonacci
+
+```elixir
+length([1, 1, 2, 3, 5, 8, 13, 21, 34, 55])
+```
+
+```elixir
+defmodule Fibonacci do
+  # def calc(1) do
+  #   [1]
+  # end
+  # def calc(2) do
+  #   [1 | calc(1)]
+  # end
+  # def calc(3) do
+  #   [a, b] = calc(2)
+  #   [a, b, a+b]
+  # end
+  # def calc(4) do
+  #   [a, b, c] = calc(3)
+  #   [a, b, c, b+c]
+  # end
+
+  def calc(n) do
+    1..n
+    |> Enum.to_list()
+    |> Enum.map(&Fibonacci.nth/1)
+  end
+
+  def nth(1), do: 1
+  def nth(2), do: 1
+  def nth(n) when n > 2, do: nth(n - 1) + nth(n - 2)
+
+  def find(nth) do
+    list = [1, 1]
+    fib(list, nth)
+  end
+
+  defp fib(list, 2) do
+    Enum.reverse(list)
+  end
+
+  defp fib(list, n) do
+    [first_elem, second_elem | _] = list
+    fib([first_elem + second_elem | list], n - 1)
+  end
+
+  def nth_v2(n) do
+    find(n)
+    |> Enum.reverse()
+    |> hd()
+  end
+end
+```
+
+```elixir
+x = 10
+{t1, _} = :timer.tc(fn -> Fibonacci.calc(x) end)
+{t2, _} = :timer.tc(fn -> Fibonacci.find(x) end)
+
+{t1, t2}
+```
+
+```elixir
+Fibonacci.nth_v2(100)
+```
+
+```elixir
+# Enum.map(Enum.to_list(1..10), &Fibonacci.nth/1)
+
+1..10
+|> Enum.to_list()
+|> Enum.map(&Fibonacci.nth/1)
+```
+
+```elixir
+# Fibonacci.calc(200)
+```
