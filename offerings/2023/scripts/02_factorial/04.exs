@@ -16,7 +16,7 @@ defmodule Factorial do
       {integer_result, ""} ->
         IO.puts("The factorial of #{integer_result} is #{Factorial.of(integer_result)}")
 
-      :error ->
+      _ ->
         IO.puts("Invalid integer format.")
     end
   end

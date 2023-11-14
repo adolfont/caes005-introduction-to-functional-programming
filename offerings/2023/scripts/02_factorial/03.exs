@@ -7,6 +7,9 @@ defmodule Factorial do
   end
 end
 
+# defmodule AnotherModule do
+#   def f(), do: 5
+# end
 
 
 
@@ -20,6 +23,8 @@ case Integer.parse(String.trim(input)) do
   {integer_result, ""} ->
     IO.puts("The factorial of #{integer_result} is #{Factorial.of(integer_result)}")
 
-  :error ->
+  _ ->
     IO.puts("Invalid integer format.")
 end
+
+# IO.puts AnotherModule.f()
