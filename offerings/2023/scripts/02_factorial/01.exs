@@ -3,7 +3,6 @@
 # https://sharno.medium.com/an-anonymous-recursive-function-in-elixir-2fe1e5e89e59
 # https://levelup.gitconnected.com/implementing-recursion-with-the-y-combinator-in-any-language-9e83fa369ca
 
-
 factorial_aux = fn
   0, _ -> 1
   n, f when is_integer(n) and n > 0 -> n * f.(n - 1, f)
@@ -23,6 +22,6 @@ case Integer.parse(String.trim(input)) do
   {integer_result, ""} ->
     IO.puts("The factorial of #{integer_result} is #{factorial.(integer_result)}")
 
-  :error ->
+  _ ->
     IO.puts("Invalid integer format.")
 end

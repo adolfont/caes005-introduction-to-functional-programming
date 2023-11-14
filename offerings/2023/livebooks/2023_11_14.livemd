@@ -1,0 +1,19 @@
+# November 14th, 2023
+
+## Case
+
+```elixir
+# structure = [1, 2, 3]
+# structure = {1, 2, 3}
+# structure = %{"one" => :two, 3 => "four"}
+magic_number = 42
+structure = 42
+
+case structure do
+  [head | _tail] -> head
+  {element, _, _} -> element
+  %{"one" => value} -> value
+  ^magic_number -> "It is the magic number"
+  _ -> :error
+end
+```
