@@ -1,0 +1,36 @@
+# October 31st, 2023
+
+## 1. Review
+
+```elixir
+
+```
+
+## 1.1 Doing two things at the same time
+
+## 1.1.1 Math.smallest_largest/1
+
+## 1.2 Exercism topics
+
+* Basics (Modules and functions)
+* Anonymous functions
+* Bit Manipulation
+* Booleans
+* Floating Point Numbers
+* Integers
+* Lists
+* Atoms
+* Cond
+* ...
+
+So, it is basically:
+
+* Functions
+* Types
+* Conditional expressions
+
+## 2. Visitors
+
+```elixir
+visitors = ["Danilo Gazzoli", "Gabriel Aquino"]
+```
