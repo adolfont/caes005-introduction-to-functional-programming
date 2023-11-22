@@ -5,6 +5,8 @@ The goal of this task is to explore and compare two chosen programming languages
 
 ### Questions:
 
+Answer, for each language:
+
 1. **Define a Named Function:**
    - *Text Response:* Describe the syntax and structure for defining a named function in each language.
 
