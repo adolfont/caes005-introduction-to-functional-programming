@@ -1,4 +1,4 @@
-## Task Description: Comparative Analysis of Functional Programming Languages
+## Comparative Analysis of Functional Programming Languages
 
 **Objective:**
 The goal of this task is to explore and compare two chosen programming languages—one purely functional and the other non-purely functional. The focus is on understanding key aspects of functional programming and the characteristics of each language.
