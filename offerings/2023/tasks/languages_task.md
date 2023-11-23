@@ -10,6 +10,10 @@ Answer, for each language:
 1. **Define a Named Function:**
    - *Text Response:* Describe the syntax and structure for defining a named function in each language.
 
+
+Can I create a named function outside a module?
+
+
 2. **Define an Anonymous Function:**
    - *Text Response:* Explain how to define an anonymous function in both languages.
 
