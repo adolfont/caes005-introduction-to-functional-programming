@@ -60,12 +60,33 @@ def explicitPrimesUnder10 : List Nat :=
 
 #eval (List.cons 5 (List.cons 7 List.nil))
 
-def length (α : Type) (list : List α) : Nat :=
+def length_old (α : Type) (list : List α) : Nat :=
   match list with
   | List.nil => Nat.zero
-  | List.cons head tail => Nat.succ (length α tail)
+  | List.cons head tail => Nat.succ (length_old α tail)
 
-#eval length String  ["Sourdough", "bread"]
-#eval length Int  [-10, -78, 176, 76]
+#eval length_old String  ["Sourdough", "bread","oiu"]
+#eval length_old Int  [-10, -78, 176, 76]
 
---#eval List.length [10, "bread"]
+#eval List.length [10, 8754, 34534]
+
+def length {α : Type} (xs : List α) : Nat :=
+  match xs with
+  | [] => 0
+  | y :: ys => Nat.succ (length ys)
+
+
+#eval length ["Sourdough", "bread","oiu"]
+#eval length  [-10, -78, 176, 76]
+
+
+#eval ["Sourdough", "bread","oiu"].length
+#eval List.length  ["Sourdough", "bread","oiu"]
+
+#check List.length (α := Int)
+
+def f := List.length (α := Int)
+
+#eval f [12, 34, 5, 5, 6]
+
+-- ERRO #eval f ["djshfdjs", "jjj"]
