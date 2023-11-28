@@ -13,7 +13,7 @@
 | Raul | [Idris](https://www.idris-lang.org/) | Gleam |
 | Ricardo | Elm | Clojure |
 | Paulo Sérgio Ávila Júnior | PureScript | F# |
-
+| Ricardo Serathiuk | 
  
 ## Description
 
