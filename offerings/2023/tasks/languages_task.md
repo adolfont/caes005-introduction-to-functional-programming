@@ -14,6 +14,7 @@
 | Ricardo | Elm | Clojure |
 | Paulo Sérgio Ávila Júnior | PureScript | F# |
 | Ricardo Serathiuk | [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language)) | [LFE](https://en.wikipedia.org/wiki/LFE_(programming_language)) |
+| Gabriel Hitoshi Shimosaka | [Agda](https://github.com/agda/agda) | Clojure https://clojure.org/ |
  
 ## Description
 
