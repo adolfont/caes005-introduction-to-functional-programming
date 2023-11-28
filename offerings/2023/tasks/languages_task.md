@@ -7,8 +7,8 @@
 | Name               | "Pure" or "Mostly pure" language | "Impure" language                    |
 |--------------------|----------------------------------|--------------------------------------|
 | Martha Nieto       | [Lean](https://lean-lang.org/)                                 | [Gleam](https://gleam.run/)          |
-| Iva Conte          | [OCaml](https://ocaml.org/)      |                                      | 
-| Luciano Antonichen | [Elm](https://elm-lang.org/)     |                                      |
+| Iva Conte          |       |            [OCaml](https://ocaml.org/)                             | 
+| Luciano Antonichen | [Elm](https://elm-lang.org/)     |     [OCaml](https://ocaml.org/)                                  |
  
 ## Description
 
