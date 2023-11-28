@@ -11,6 +11,8 @@
 | Luciano Antonichen | [Elm](https://elm-lang.org/)     |     [OCaml](https://ocaml.org/)                                  |
 | Alessandro | PureScript https://www.purescript.org/ | Erlang https://www.erlang.org/ |
 | Raul | [Idris](https://www.idris-lang.org/) | Gleam |
+| Ricardo | Elm | Clojure |
+
  
 ## Description
 
