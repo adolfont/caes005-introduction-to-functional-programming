@@ -9,6 +9,7 @@
 | Martha Nieto       | [Lean](https://lean-lang.org/)                                 | [Gleam](https://gleam.run/)          |
 | Iva Conte          |  [Agda](https://github.com/agda/agda)     |            [OCaml](https://ocaml.org/)                             | 
 | Luciano Antonichen | [Elm](https://elm-lang.org/)     |     [OCaml](https://ocaml.org/)                                  |
+| Alessandro | PureScript https://www.purescript.org/ | Erlang https://www.erlang.org/ |
  
 ## Description
 
