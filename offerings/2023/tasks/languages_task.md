@@ -12,6 +12,7 @@
 | Alessandro | PureScript https://www.purescript.org/ | Erlang https://www.erlang.org/ |
 | Raul | [Idris](https://www.idris-lang.org/) | Gleam |
 | Ricardo | Elm | Clojure |
+| Paulo Sérgio Ávila Júnior | PureScript | F# |
 
  
 ## Description
