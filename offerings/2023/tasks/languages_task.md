@@ -15,7 +15,12 @@
 | Paulo Sérgio Ávila Júnior | PureScript | F# |
 | Ricardo Serathiuk | [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language)) | [LFE](https://en.wikipedia.org/wiki/LFE_(programming_language)) |
 | Gabriel Hitoshi Shimosaka | [Agda](https://github.com/agda/agda) | Clojure https://clojure.org/ |
-| Eric* | Lean https://lean-lang.org/ | F# |
+| Eric* | [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language))  | F# |
+| Leticia	| Lean https://lean-lang.org/ | Racket https://racket-lang.org/ |
+| Derli Aparecida Machado|  [Idris](https://www.idris-lang.org/)  |	Clojure https://clojure.org/ |
+| Maike Crisitian Rebelo de Lima*	| Erlang https://www.erlang.org/ |
+| Vitor Oliveira Dos Santos	| [Clean](https://wiki.clean.cs.ru.nl/Clean) |  Racket https://racket-lang.org/ |
+| Gabriel Prando	| [Clean](https://wiki.clean.cs.ru.nl/Clean) | Erlang https://www.erlang.org/ |
  
 ## Description
 
