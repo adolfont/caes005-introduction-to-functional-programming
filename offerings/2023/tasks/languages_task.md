@@ -27,6 +27,14 @@
 **Objective:**
 The goal of this task is to explore and compare two chosen programming languages—one purely functional and the other non-purely functional. The focus is on understanding key aspects of functional programming and the characteristics of each language.
 
+### History
+
+Write a paragraph or two about the history of the language.  Your paragraph(s) should cover:
+- who created the language
+- when
+- what for, that is, what was the goal of the creator(s)
+- was any company/university/organization involved? If so, which one(s)?
+
 ### Questions:
 
 Answer, for each language:
