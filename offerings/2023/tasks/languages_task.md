@@ -21,6 +21,7 @@
 | Maike Crisitian Rebelo de Lima*	| Curry https://curry.pages.ps.informatik.uni-kiel.de/curry-lang.org/ | Erlang https://www.erlang.org/ |
 | Vitor Oliveira Dos Santos	| [Clean](https://wiki.clean.cs.ru.nl/Clean) |  Racket https://racket-lang.org/ |
 | Gabriel Prando	| [Clean](https://wiki.clean.cs.ru.nl/Clean) | Erlang https://www.erlang.org/ |
+| Vinicius	| Curry https://curry.pages.ps.informatik.uni-kiel.de/curry-lang.org/ | [LFE](https://en.wikipedia.org/wiki/LFE_(programming_language)) |
  
 ## Description
 
