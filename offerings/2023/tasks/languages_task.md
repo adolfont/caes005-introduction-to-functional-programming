@@ -7,7 +7,7 @@
 | Name               | "Pure" or "Mostly pure" language | "Impure" language                    |
 |--------------------|----------------------------------|--------------------------------------|
 | Martha Nieto       | [Lean](https://lean-lang.org/)                                 | [Gleam](https://gleam.run/)          |
-| Iva Conte          |  [Agda](https://github.com/agda/agda)     |            [OCaml](https://ocaml.org/)                             | 
+| Iva Conte*          |  [Agda](https://github.com/agda/agda)     |            [OCaml](https://ocaml.org/)                             | 
 | Luciano Antonichen | [Elm](https://elm-lang.org/)     |     [OCaml](https://ocaml.org/)                                  |
 | Alessandro | PureScript https://www.purescript.org/ | Erlang https://www.erlang.org/ |
 | Raul | [Idris](https://www.idris-lang.org/) | Gleam |
@@ -15,6 +15,7 @@
 | Paulo Sérgio Ávila Júnior | PureScript | F# |
 | Ricardo Serathiuk | [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language)) | [LFE](https://en.wikipedia.org/wiki/LFE_(programming_language)) |
 | Gabriel Hitoshi Shimosaka | [Agda](https://github.com/agda/agda) | Clojure https://clojure.org/ |
+| Eric* | Lean https://lean-lang.org/ | F# |
  
 ## Description
 
