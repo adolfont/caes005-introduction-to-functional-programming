@@ -18,7 +18,7 @@
 | Eric* | [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language))  | F# |
 | Leticia	| Lean https://lean-lang.org/ | Racket https://racket-lang.org/ |
 | Derli Aparecida Machado|  [Idris](https://www.idris-lang.org/)  |	Clojure https://clojure.org/ |
-| Maike Crisitian Rebelo de Lima*	| PureScript https://www.purescript.org/ | Erlang https://www.erlang.org/ |
+| Maike Crisitian Rebelo de Lima*	| Curry https://curry.pages.ps.informatik.uni-kiel.de/curry-lang.org/ | Erlang https://www.erlang.org/ |
 | Vitor Oliveira Dos Santos	| [Clean](https://wiki.clean.cs.ru.nl/Clean) |  Racket https://racket-lang.org/ |
 | Gabriel Prando	| [Clean](https://wiki.clean.cs.ru.nl/Clean) | Erlang https://www.erlang.org/ |
  
