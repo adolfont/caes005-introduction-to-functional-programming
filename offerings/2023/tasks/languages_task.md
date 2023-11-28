@@ -13,7 +13,7 @@
 | Raul | [Idris](https://www.idris-lang.org/) | Gleam |
 | Ricardo | Elm | Clojure |
 | Paulo Sérgio Ávila Júnior | PureScript | F# |
-| Ricardo Serathiuk | 
+| Ricardo Serathiuk | [Miranda](https://en.wikipedia.org/wiki/Miranda_(programming_language)) | [LFE](https://en.wikipedia.org/wiki/LFE_(programming_language)) |
  
 ## Description
 
