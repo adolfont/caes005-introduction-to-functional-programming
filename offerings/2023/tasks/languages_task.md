@@ -2,7 +2,6 @@
 
 ## Languages
 
-[answers](https://docs.google.com/spreadsheets/d/1PSbxYvJ5O2TLiLQr2ZGnznB4c9q6Mm1x6cOjwIFMQhU/edit?resourcekey#gid=1644210545)
 
 | Name               | "Pure" or "Mostly pure" language | "Impure" language                    |
 |--------------------|----------------------------------|--------------------------------------|
