@@ -151,3 +151,71 @@ def sevens2 : String × (Int × Nat) := ("VII", (7, 4 + 3))
 
 #eval sevens2
 #eval sevens2
+
+-- Sum https://lean-lang.org/functional_programming_in_lean/getting-to-know/polymorphism.html#sum
+
+-- DO NOT USE SUM
+
+-- "Like Prod, Sum should be used either when writing very generic code, for a very small section of code where there is no sensible domain-specific type, or when the standard library contains useful functions. In most situations, it is more readable and maintainable to use a custom inductive type."
+
+def PetName : Type := String ⊕ String
+
+#check PetName
+
+def animals : List PetName :=
+  [Sum.inl "Spot", Sum.inr "Tiger", Sum.inl "Fifi", Sum.inl "Rex", Sum.inr "Floof"]
+
+#eval animals
+
+def howManyDogs (pets : List PetName) : Nat :=
+  match pets with
+  | [] => 0
+  | Sum.inl _ :: morePets => howManyDogs morePets + 1
+  | Sum.inr _ :: morePets => howManyDogs morePets
+
+#eval howManyDogs animals
+
+def NombreDePerroOEdad : Type := Sum String Int
+
+#check NombreDePerroOEdad
+def diverse : List NombreDePerroOEdad :=
+  [Sum.inl "Spot", Sum.inr 18,
+   Sum.inl "Fifi", Sum.inl "Rex", Sum.inr 45]
+
+#eval diverse
+
+
+-- Unit https://lean-lang.org/functional_programming_in_lean/getting-to-know/polymorphism.html#unit
+
+def ex0: Unit := ()
+
+#eval ex0
+
+
+inductive TestingUnit (aType : Type) : Type where
+  | value : aType → TestingUnit aType
+deriving Repr
+
+#check TestingUnit Int
+#check TestingUnit Unit
+
+def ex1 : TestingUnit Int := (TestingUnit.value 10)
+
+#eval ex1
+
+def ex2 : TestingUnit Unit := (TestingUnit.value Unit.unit)
+
+#eval ex2
+
+
+-- Empty https://lean-lang.org/functional_programming_in_lean/getting-to-know/polymorphism.html#empty
+
+def empty_one : Sum Empty String := Sum.inr "oi"
+
+#check (empty_one)
+-- #eval (empty_one) -- failed to be synthesized,
+
+-- Naming: Sums, Products, and Units
+-- https://lean-lang.org/functional_programming_in_lean/getting-to-know/polymorphism.html#naming-sums-products-and-units
+
+-- "Generally speaking, types that offer multiple constructors are called sum types, while types whose single constructor takes multiple arguments are called product types"
