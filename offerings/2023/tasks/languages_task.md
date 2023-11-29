@@ -94,3 +94,5 @@ Can I create a named function outside a module?
 
 **Submission Format:**
 Students should provide a comprehensive document that includes written responses to each question along with any necessary code snippets. The document should be organized clearly for easy comparison between the two languages. Additionally, students are encouraged to include references or links to relevant documentation or sources.
+
+**Upload the document to your private repo shared with me by December 19th, 19:00 (GMT-3).** If you can, use [markdown](https://www.markdownguide.org/). 
