@@ -64,9 +64,6 @@ Can I create a named function outside a module?
 7. **Static or Dynamic Typing:**
    - *Text Response:* Discuss whether each language is statically typed or dynamically typed.
 
-8. **Language Origin:**
-   - *Text Response:* Identify the creator(s) of each language, the year of creation, and any notable history.
-
 9. **Creation Details:**
    - *Text Response:* Explore whether the language was created by individuals, a company, academics, or industry professionals.
 
