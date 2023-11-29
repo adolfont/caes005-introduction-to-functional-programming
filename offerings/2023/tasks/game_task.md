@@ -2,6 +2,18 @@
 
 You will implement a game called ["TIC-TAC-TOE: 4 IN A ROW!"](https://emu.edu/gaming-hub/tic-tac-toe).
 
+
+## Description
+
+"TIC-TAC-TOE: 4 IN A ROW!" is a unique twist on the classic Tic-Tac-Toe game. In this version, players are challenged to achieve a victory by connecting four of their pieces in a row. The game provides an engaging and strategic experience, where players must carefully plan their moves to outsmart their opponent and form a winning combination.
+
+One distinctive feature of this version is the limitation of only four pieces for each player. Once a player places their fifth piece on the board, the oldest piece will disappear. This introduces an additional layer of strategy, requiring players to not only focus on their current moves but also to consider the consequences of their earlier placements.
+
+The objective remains the same – be the first to connect four pieces horizontally, vertically, or diagonally. With the dynamic element of disappearing pieces, players must think ahead and adapt their tactics throughout the game. This variation adds a fresh and exciting dimension to the traditional Tic-Tac-Toe, making it a compelling and fast-paced challenge for players of all ages.
+
+
+## Instructions
+
 Your project should be inside your private repo shared with me.
 
 You will create a [Mix Task](https://elixirschool.com/en/lessons/intermediate/mix_tasks) so that the game can be played on a terminal. See my sample [tasks] project(https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks).
