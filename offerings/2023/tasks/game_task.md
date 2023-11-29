@@ -2,6 +2,8 @@
 
 You will implement a game called ["TIC-TAC-TOE: 4 IN A ROW!"](https://emu.edu/gaming-hub/tic-tac-toe).
 
+Your project should be inside your private repo shared with me.
+
 You will create a [Mix Task](https://elixirschool.com/en/lessons/intermediate/mix_tasks) so that the game can be played on a terminal. See my sample [tasks] project(https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks).
 
 You do not have to implement the "computer plays". You can play like this:
