@@ -250,6 +250,21 @@ def last {α  : Type} (xs : List α) : Option α :=
 #eval last [1]
 #eval last (α := Int) []
 
+-- See https://leanprover.zulipchat.com/#narrow/stream/113489-new-members/topic/Write.20a.20function.20to.20find.20the.20last.20entry.20in.20a.20list
+
+def last2 {α : Type} (xs : List α) : Option α :=
+  match xs with
+  | [] => none
+  | [ls] => some ls
+  | _ :: tail => last tail
+
+def last3 {α : Type} : List α → Option α
+  | [] => none
+  | [ls] => some ls
+  | _ :: tail => last tail
+
+
+#eval last3 ([] : List Int)
 -- Write a function that finds the first entry in a list that satisfies a given predicate. Start the definition with def List.findFirst? {α : Type} (xs : List α) (predicate : α → Bool) : Option α :=
 -- Write a function Prod.swap that swaps the two fields in a pair. Start the definition with def Prod.swap {α β : Type} (pair : α × β) : β × α :=
 -- Rewrite the PetName example to use a custom datatype and compare it to the version that uses Sum.
