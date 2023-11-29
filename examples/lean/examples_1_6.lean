@@ -258,11 +258,18 @@ def last2 {α : Type} (xs : List α) : Option α :=
   | [ls] => some ls
   | _ :: tail => last tail
 
+#eval last2 [1,2,3]
+#eval last2 [1,2]
+#eval last2 [1]
+
 def last3 {α : Type} : List α → Option α
   | [] => none
   | [ls] => some ls
   | _ :: tail => last tail
 
+#eval last3 [1,2,3]
+#eval last3 [1,2]
+#eval last3 [1]
 
 #eval last3 ([] : List Int)
 -- Write a function that finds the first entry in a list that satisfies a given predicate. Start the definition with def List.findFirst? {α : Type} (xs : List α) (predicate : α → Bool) : Option α :=
