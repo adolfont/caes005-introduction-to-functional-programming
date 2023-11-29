@@ -53,3 +53,28 @@ _ _ _ _
 ```
 
 and so on.
+
+After Adolfo has played, in this order:
+```
+...
+(3,1)
+(1,1)
+(1,2)
+(1,3)
+```
+
+it is time for Adolfo to play again.
+
+```
+The current board is:
+X X X _
+_ O O _
+X O O _
+_ _ _ _ 
+Adolfo, choose an empty position between (1,1) and (4,4):
+(1,4) // you type
+Congrats, Adolfo! You won!
+// end of the game
+```
+
+
