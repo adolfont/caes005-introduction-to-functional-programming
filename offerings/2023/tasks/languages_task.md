@@ -34,6 +34,8 @@ Write a paragraph or two about the history of the language.  Your paragraph(s) s
 - when
 - what for, that is, what was the goal of the creator(s)
 - was any company/university/organization involved? If so, which one(s)?
+- **Creation Details:** Explore whether the language was created by individuals, a company, academics, or industry professionals.
+- **Scientific Paper:** Check if there is any scientific paper describing the language's design principles or features.
 
 ### Questions:
 
@@ -63,12 +65,6 @@ Can I create a named function outside a module?
 
 7. **Static or Dynamic Typing:**
    - *Text Response:* Discuss whether each language is statically typed or dynamically typed.
-
-9. **Creation Details:**
-   - *Text Response:* Explore whether the language was created by individuals, a company, academics, or industry professionals.
-
-10. **Scientific Paper:**
-    - *Text Response:* Check if there is any scientific paper describing the language's design principles or features.
 
 11. **Project Creation Commands:**
     - *Text and Code:* Provide the commands or steps for creating a project in each language.
