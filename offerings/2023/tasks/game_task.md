@@ -16,12 +16,12 @@ The objective remains the same – be the first to connect four pieces horizonta
 
 Your project should be inside your private repo shared with me.
 
-You will create a [Mix Task](https://elixirschool.com/en/lessons/intermediate/mix_tasks) so that the game can be played on a terminal. See my sample [tasks] project(https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks).
+You can create a [Mix Task](https://elixirschool.com/en/lessons/intermediate/mix_tasks) or an [escript](https://elixirschool.com/en/lessons/intermediate/escripts) so that the game can be played on a terminal. See my sample [tasks] project(https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks) or my [factorial](https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/factorial) project.
 
 You do not have to implement the "computer plays". You can play like this:
 
 ```
-$ mix play
+$ mix play  // or ./name_of_the_escript 
 What's Player 1 name?
 Adolfo // you type
 What's Player 2 name?
