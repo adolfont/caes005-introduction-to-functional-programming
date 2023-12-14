@@ -1,6 +1,6 @@
 # Digraphs
 
-## Section
+## Example
 
 ```elixir
 graph = :digraph.new()
