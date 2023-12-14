@@ -1,0 +1,55 @@
+# Function as first-class citizen
+
+## Function as an argument
+
+```elixir
+Enum.map([1, 2, 3], fn x -> x ** 3 end)
+```
+
+## Function as a return value
+
+```elixir
+defmodule Power do
+  def of_three(list) do
+    Enum.map(list, pow(3))
+  end
+
+  def of_two(list) do
+    Enum.map(list, pow(2))
+  end
+
+  def pow(n) do
+    fn x -> x ** n end
+  end
+end
+```
+
+```elixir
+Power.of_three([1, 2, 3])
+```
+
+```elixir
+Power.of_two([2, 4, 78])
+```
+
+## Assign a function to a variable
+
+```elixir
+power_of_four = Power.pow(4)
+```
+
+```elixir
+power_of_four
+```
+
+```elixir
+power_of_four.(3)
+```
+
+```elixir
+defmodule X do
+  def f(y) do
+    y * 3
+  end
+end
+```

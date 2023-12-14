@@ -1,0 +1,42 @@
+# Digraphs
+
+## Section
+
+```elixir
+graph = :digraph.new()
+```
+
+```elixir
+vertex1 = :digraph.add_vertex(graph, "Node 1")
+vertex2 = :digraph.add_vertex(graph, "Node 2")
+vertex3 = :digraph.add_vertex(graph, "Node 3")
+```
+
+```elixir
+:digraph.add_edge(graph, vertex1, vertex2)
+:digraph.add_edge(graph, vertex2, vertex3)
+```
+
+```elixir
+graph
+```
+
+```elixir
+:digraph.vertices(graph)
+```
+
+```elixir
+:digraph.edges(graph)
+```
+
+```elixir
+:digraph.get_path(graph, vertex1, vertex3)
+```
+
+```elixir
+:digraph.get_path(graph, vertex1, vertex2)
+```
+
+```elixir
+:digraph.get_path(graph, vertex2, vertex3)
+```

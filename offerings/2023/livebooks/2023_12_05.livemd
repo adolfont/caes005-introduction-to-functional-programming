@@ -1,0 +1,82 @@
+# A small task
+
+## Section
+
+```elixir
+f = fn x -> x end
+
+f.([{2, 1, 3}, {4, 5, 1}, {5, 2, 1}]) == {5, 5, 3}
+```
+
+```elixir
+f.([{2, 1, 3}, {4, 5, 1}]) == {4, 5, 3}
+```
+
+```elixir
+f.([{2, 1, 3}, {4, 5, 10}, {2, 10, 3}, {40, 5, 1}]) == {40, 10, 10}
+```
+
+```elixir
+Enum.max([10, 2, 3])
+```
+
+```elixir
+max_first =
+  [{2, 1, 3}, {4, 5, 10}, {2, 10, 3}, {40, 5, 1}]
+  |> Enum.map(fn {x, _, _} -> x end)
+  |> Enum.max()
+```
+
+```elixir
+max_second =
+  [{2, 1, 3}, {4, 5, 10}, {2, 10, 3}, {40, 5, 1}]
+  |> Enum.map(fn {_, x, _} -> x end)
+  |> Enum.max()
+```
+
+```elixir
+max_third =
+  [{2, 1, 3}, {4, 5, 10}, {2, 10, 3}, {40, 5, 1}]
+  |> Enum.map(fn {_, _, x} -> x end)
+  |> Enum.max()
+```
+
+```elixir
+defmodule SimpleTask do
+  def max_tuple(list) do
+    {
+      max_in(list, fn {x, _, _} -> x end),
+      max_in(list, fn {_, x, _} -> x end),
+      max_in(list, fn {_, _, x} -> x end)
+    }
+  end
+
+  defp max_in(list, function) do
+    list
+    |> Enum.map(function)
+    |> Enum.max()
+  end
+end
+```
+
+```elixir
+SimpleTask.max_tuple([{2, 1, 3}, {4, 5, 1}, {5, 2, 1}]) == {5, 5, 3}
+```
+
+```elixir
+SimpleTask.max_tuple([{2, 1, 3}, {4, 5, 10}, {2, 10, 3}, {40, 5, 1}]) == {40, 10, 10}
+```
+
+```elixir
+[{2, 1, 3}, {4, 5, 10}, {2, 10, 3}, {40, 5, 1}]
+|> Enum.reduce(fn {x, y, z}, {maxx, maxy, maxz} ->
+  {max(x, maxx), max(y, maxy), max(z, maxz)}
+end)
+```
+
+## Second sub-task
+
+```elixir
+f = fn {x, y, z} -> x * y * z end
+f.({4, 5, 10}) == 4 * 5 * 10
+```

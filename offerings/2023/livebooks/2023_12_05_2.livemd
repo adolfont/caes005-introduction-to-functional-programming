@@ -1,0 +1,68 @@
+# 2023 - 12 -05
+
+## Section
+
+```elixir
+defmodule Moves do
+  def new() do
+    []
+  end
+
+  def add([m1, m2, m3, _m4] = moves, x, y) when length(moves) == 4 do
+    [{x, y} | [m1, m2, m3]]
+  end
+
+  def add(moves, x, y) do
+    [{x, y} | moves]
+  end
+
+  # def add(moves, x, y) do
+  #   new_moves = [{x, y} | moves]
+
+  #   if length(new_moves) == 5 do
+  #     new_moves
+  #     |> Enum.reverse()
+  #     |> tl()
+  #     |> Enum.reverse()
+  #   else
+  #     new_moves
+  #   end
+  # end
+
+  def add_v2(moves, x, y) do
+    new_moves = moves ++ [{x, y}]
+
+    if length(new_moves) == 5 do
+      tl(new_moves)
+    else
+      new_moves
+    end
+  end
+end
+```
+
+```elixir
+Moves.new()
+|> Moves.add(1, 1)
+|> Moves.add(2, 2)
+|> Moves.add(3, 3)
+|> Moves.add(3, 2)
+|> Moves.add(1, 3)
+|> Moves.add(1, 1)
+```
+
+```elixir
+Moves.new()
+|> Moves.add_v2(1, 1)
+|> Moves.add_v2(2, 2)
+|> Moves.add_v2(3, 3)
+|> Moves.add_v2(3, 2)
+|> Moves.add_v2(1, 3)
+|> Moves.add_v2(1, 1)
+```
+
+## Queue
+
+```elixir
+:queue.from_list([1, 2, 3, 4, 5])
+```

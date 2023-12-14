@@ -1,0 +1,153 @@
+# Collections
+
+## Lists
+
+```elixir
+[1, 3, 4]
+```
+
+```elixir
+[1, 3, "a"]
+```
+
+## Tuples
+
+```elixir
+{1, 3, 4}
+```
+
+## Maps
+
+```elixir
+%{}
+```
+
+```elixir
+%{:A => 1}
+```
+
+```elixir
+%{"A" => 1}
+```
+
+```elixir
+%{:A => 1, :B => 3, :C => 45}
+```
+
+```elixir
+map = %{:A => 1, :B => 3, :C => 3, :A => 90}
+```
+
+```elixir
+Enum.map(map, fn x -> x end)
+```
+
+```elixir
+Enum.map(map, fn {x, _y} -> x end)
+```
+
+```elixir
+Enum.map(map, fn {_x, y} -> y end)
+```
+
+```elixir
+Enum.map(map, fn {key, value} -> {key, value * 2} end)
+```
+
+```elixir
+map
+|> Enum.reduce(
+  Map.new(),
+  fn {key, value}, acc ->
+    Map.put(acc, key, value * 2)
+  end
+)
+```
+
+```elixir
+[1, 2, 30]
+|> Enum.reduce(1, fn x, acc -> acc * x end)
+```
+
+## Keyword list
+
+```elixir
+[{:A, 90}, {:B, 3}, {:C, 45}]
+```
+
+```elixir
+x = 3
+```
+
+```elixir
+x = 4
+```
+
+```elixir
+x
+```
+
+```elixir
+Integer.parse("10")
+```
+
+```elixir
+Integer.parse("10AAA")
+```
+
+```elixir
+Integer.parse("AA")
+```
+
+```elixir
+input = "a"
+
+case Integer.parse(input) do
+  :error -> "This '#{input}' is not a number"
+  {number, ""} -> "Your number is #{number}"
+  _ -> "This '#{input}' is not only a number"
+end
+```
+
+```elixir
+x = [1, 2]
+```
+
+```elixir
+List.replace_at(x, 1, 300)
+```
+
+```elixir
+x
+```
+
+```elixir
+Enum.reduce_while(1..100, 0, fn x, acc ->
+  if x < 5 do
+    {:cont, acc + x}
+  else
+    {:halt, acc}
+  end
+end)
+```
+
+```elixir
+Enum.reduce_while(100..1, 0, fn x, acc ->
+  if x > 95 do
+    {:cont, acc + x}
+  else
+    {:halt, acc}
+  end
+end)
+```
+
+```elixir
+100 + 99 + 98 + 97 + 96
+```
+
+```elixir
+with {m, ""} <- Integer.parse("10"),
+     {n, ""} <- Integer.parse("BB20") do
+  m * n
+end
+```
