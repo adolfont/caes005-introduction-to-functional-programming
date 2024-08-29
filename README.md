@@ -5,17 +5,12 @@ Federal University of Technology - Parana (UTFPR), originally intended for gradu
 
 ## 2024 offering
 
-The "Introduction to Functional Programming" course, which is scheduled to take place from September 30th to December 18th, has been designed as a fully remote learning experience. This course will **probably** be conducted on **Mondays**, from 17:50 to 21:10 (GMT-3).  I expect all students to have their cameras turned on, at least for most classes.
+The "Introduction to Functional Programming" course, scheduled from September 30th to December 18th, will be a fully remote learning experience. Classes will **likely** be held on **Mondays** from 17:50 to 21:10 (GMT-3). I expect students to keep their cameras on during most of the sessions.
 
-<!-- 
-[If you want to attend this course and you are not Brazilian, fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdo_F3cPFyDdCfjqyx1qfI0X7F1lEdMrty2SdOJTEeCdNCm0A/viewform?usp=sf_link). -->
+Interested in joining? Please send an email to adolfo@utfpr.edu.br explaining why you would like to participate in the course. 
 
-<!--
-[The instructions for Brazilians is here](https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/destaques/disciplinas-da-fase-3-de-2023). _Se apenas pessoas brasileiras se inscreverem, o curso será em português._  -->
+Note: Enrollment is limited to 15 students.
 
-<!-- Link: [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view). -->
-
-Are you interested? Send me an email: adolfo@utfpr.edu.br.
 
 <!--
 
@@ -23,17 +18,14 @@ Are you interested? Send me an email: adolfo@utfpr.edu.br.
 
 The "Introduction to Functional Programming" course, which is scheduled to take place from October 5th to December 20th, has been designed as a fully remote learning experience. This course will be conducted on **Tuesdays**, from 19:00 to 22:00 (GMT-3).  I expect all students to have their cameras turned on, at least for most classes.
 
-<!-- 
-[If you want to attend this course and you are not Brazilian, fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdo_F3cPFyDdCfjqyx1qfI0X7F1lEdMrty2SdOJTEeCdNCm0A/viewform?usp=sf_link). -->
+[If you want to attend this course and you are not Brazilian, fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdo_F3cPFyDdCfjqyx1qfI0X7F1lEdMrty2SdOJTEeCdNCm0A/viewform?usp=sf_link).
 
-<!--
-[The instructions for Brazilians is here](https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/destaques/disciplinas-da-fase-3-de-2023). _Se apenas pessoas brasileiras se inscreverem, o curso será em português._  -->
+[The instructions for Brazilians is here](https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/destaques/disciplinas-da-fase-3-de-2023). _Se apenas pessoas brasileiras se inscreverem, o curso será em português._ 
 
-<!-- Link: [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view). -->
-
-<!-- Are you interested? Send me an email: adolfo AT utfpr.edu.br. -->
+Link: [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view)
 
 -->
+
 ## Instructor
 
 Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community. You can [watch some videos related to this course here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
