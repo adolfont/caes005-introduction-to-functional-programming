@@ -3,6 +3,22 @@
 This is a course offered by the Graduate Program in Applied Computing (PPGCA) of the 
 Federal University of Technology - Parana (UTFPR), originally intended for graduate students, but some undergraduate students and professionals can attend.
 
+## 2024 offering
+
+The "Introduction to Functional Programming" course, which is scheduled to take place from September 30th to December 18th, has been designed as a fully remote learning experience. This course will **probably** be conducted on **Mondays**, from 17:50 to 21:10 (GMT-3).  I expect all students to have their cameras turned on, at least for most classes.
+
+<!-- 
+[If you want to attend this course and you are not Brazilian, fill this form](https://docs.google.com/forms/d/e/1FAIpQLSdo_F3cPFyDdCfjqyx1qfI0X7F1lEdMrty2SdOJTEeCdNCm0A/viewform?usp=sf_link). -->
+
+<!--
+[The instructions for Brazilians is here](https://portal.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct/destaques/disciplinas-da-fase-3-de-2023). _Se apenas pessoas brasileiras se inscreverem, o curso será em português._  -->
+
+<!-- Link: [Phase 3 UTFPR 2023 Calendar](http://www.utfpr.edu.br/documentos/pesquisa-e-pos-graduacao/proppg/stricto-sensu/calendarios-2023/calendario_stricto_sensu_quadrimestrais_2023.pdf/view). -->
+
+Are you interested? Send me an email: adolfo@utfpr.edu.br.
+
+<!--
+
 ## 2023 offering
 
 The "Introduction to Functional Programming" course, which is scheduled to take place from October 5th to December 20th, has been designed as a fully remote learning experience. This course will be conducted on **Tuesdays**, from 19:00 to 22:00 (GMT-3).  I expect all students to have their cameras turned on, at least for most classes.
@@ -17,7 +33,7 @@ The "Introduction to Functional Programming" course, which is scheduled to take 
 
 <!-- Are you interested? Send me an email: adolfo AT utfpr.edu.br. -->
 
-
+-->
 ## Instructor
 
 Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a podcast about Elixir and the BEAM for the Portuguese-speaking community. You can [watch some videos related to this course here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
