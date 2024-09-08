@@ -7,7 +7,9 @@ Federal University of Technology - Parana (UTFPR), originally intended for gradu
 
 The "Introduction to Functional Programming" course, scheduled from September 30th to December 18th, will be a fully remote learning experience. Classes will be held on **Thursdays** from 17:50 to 21:10 (GMT-3). I expect students to keep their cameras on during most of the sessions.
 
-Interested in joining? Please send an email to adolfo@utfpr.edu.br explaining why you would like to participate in the course. 
+Interested in joining? Go to [PPGCA's site](https://www.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct) to learn more.
+
+
 
 Note: Enrollment is limited to 15 students.
 
