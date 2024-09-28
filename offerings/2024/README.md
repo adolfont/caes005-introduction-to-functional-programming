@@ -1,4 +1,7 @@
-# 2024 
+# CAES005 - Introduction to Functional Programming (2024)
+
+- Instructor: [Adolfo Neto](adolfont.github.io) 
+
 
 
 ## Evaluation
