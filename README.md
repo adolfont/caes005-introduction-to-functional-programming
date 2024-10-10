@@ -11,7 +11,6 @@ Interested in joining? Go to [PPGCA's site](https://www.utfpr.edu.br/cursos/coor
 
 
 
-Note: Enrollment is limited to 15 students.
 
 
 <!--
