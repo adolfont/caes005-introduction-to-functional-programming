@@ -1,0 +1,50 @@
+# Aniversário
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.11.0"},
+  {:jason, "~> 1.4"}
+])
+```
+
+## Módulo Aniversario
+
+```elixir
+defmodule Aniversario do
+  def celebrar(nome) do
+    fogos = "🎆"
+    bolo = "🎂"
+    festa = "🎉"
+    presente = "🎁"
+    estrelas = "✨"
+    baloes = "🎈"
+    
+    mensagem = """
+    #{String.duplicate(fogos, 3)}#{String.duplicate(baloes, 2)} FELIZ ANIVERSÁRIO #{nome}! #{String.duplicate(baloes, 2)}#{String.duplicate(fogos, 3)}
+    
+    #{estrelas} Que seu dia seja tão especial quanto você! #{estrelas}
+    #{bolo} Muita saúde, paz e realizações! #{bolo}
+    #{presente} Que todos os seus sonhos se realizem! #{presente}
+    #{festa} Aproveite seu dia ao máximo! #{festa}
+    """
+    
+    IO.puts mensagem
+    
+    # Função para gerar fogos de artifício animados
+    1..5
+    |> Enum.each(fn _ -> 
+      IO.puts String.duplicate("#{fogos}#{estrelas}", 5)
+      Process.sleep(500)
+    end)
+  end
+end
+
+```
+
+```elixir
+
+nome = "(Nome da Pessoa aqui)"
+
+# Executando a celebração
+Aniversario.celebrar(nome)
+```

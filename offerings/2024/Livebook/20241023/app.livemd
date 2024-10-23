@@ -1,0 +1,42 @@
+<!-- livebook:{"app_settings":{"access_type":"public","auto_shutdown_ms":3600000,"multi_session":true,"output_type":"rich","show_existing_sessions":true,"show_source":true,"slug":"meu-aplicativo-de-chat"}} -->
+
+# Meu primeiro aplicativo
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.10.0"}
+])
+```
+
+## Frame
+
+```elixir
+frame = Kino.Frame.new()
+```
+
+```elixir
+name = Kino.Input.text("Nome")
+message = Kino.Input.textarea("Mensagem")
+
+form =
+  Kino.Control.form(
+    [name: name, message: message],
+    submit: "Envie",
+    reset_on_submit: [:message]
+  )
+```
+
+```elixir
+Kino.listen(
+  form,
+  fn %{data: %{name: name, message: message}, origin: origin} ->
+    if name != "" and message != "" do
+      content = Kino.Markdown.new("**#{name}:** #{message}")
+      Kino.Frame.append(frame, content)
+    else
+      content = Kino.Markdown.new("**Nome e mensagem são obrigatórios!**")
+      Kino.Frame.append(frame, content, to: origin)
+    end
+  end
+)
+```

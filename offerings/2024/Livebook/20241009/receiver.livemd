@@ -1,0 +1,44 @@
+# Commmunicating Processes - The Receiver
+
+## 1. What is the name of this node?
+
+```elixir
+Node.self()
+
+```
+
+You will have to add the name of this node to the other notebook.
+
+## 4. Identifying the Sender Node
+
+```elixir
+# sender_node  = "<PUT HERE>"
+
+sender_node  = :"livebook_7louvomv--3732fjg3@127.0.0.1"
+
+
+```
+
+## 5. Connecting to other node
+
+```elixir
+Node.connect(sender_node)
+```
+
+## 6. Creating a process
+
+```elixir
+pid = spawn(fn -> receive do msg -> IO.inspect(msg) end end)
+```
+
+## 7. Registering a process
+
+```elixir
+Process.register(pid, :receiver)
+```
+
+## 8. Receiving a message
+
+```elixir
+IO.puts "Waiting"
+```

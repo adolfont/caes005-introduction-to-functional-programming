@@ -1,0 +1,14 @@
+# You can configure Livebook using environment variables,
+# for all options see the dedicated "Environment variables" section below
+
+
+docker run -p 8080:8080 -p 8081:8081 --pull always -u $(id -u):$(id -g) -e LIVEBOOK_PASSWORD="adolfontcaes0052024" -v .:/data ghcr.io/livebook-dev/livebook
+latest: Pulling from livebook-dev/livebook
+
+# It did work on October 23rd
+sudo docker run -p 8080:8080 -p 8081:8081 --pull always -u $(id -u):$(id -g) -e LIVEBOOK_PASSWORD="adolfontcaes0052024" -v .:/data ghcr.io/livebook-dev/livebook
+
+# It did work on October 23rd
+sudo docker run -p 8090:8090 -p 8091:8091 --pull always -e LIVEBOOK_PORT=8090 -e LIVEBOOK_IFRAME_PORT=8091 -u $(id -u):$(id -g) -e LIVEBOOK_PASSWORD="adolfontcaes0052024" -v .:/data ghcr.io/livebook-dev/livebook
+
+adolfontcaes0052024

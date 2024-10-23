@@ -1,0 +1,55 @@
+docker build -t my-app .
+docker run --rm -p 8080:8080 -p 8081:8081 my-app
+
+
+
+
+Funcionou em 23/10
+
+Abri o Livebook com 
+sudo docker run -p 8090:8090 -p 8091:8091 --pull always -e LIVEBOOK_PORT=8090 -e LIVEBOOK_IFRAME_PORT=8091 -u $(id -u):$(id -g) -e LIVEBOOK_PASSWORD="adolfontcaes0052024" -v .:/data ghcr.io/livebook-dev/livebook
+
+Abri https://gist.github.com/adolfont/1e0675a0b7e7ed77d677ccd4d3395a52
+
+Criei o app pra Docker
+
+Salvei o Dockerfile
+
+Chamei
+sudo docker build -t my-app .
+sudo docker run --rm -p 8080:8080 -p 8081:8081 my-app
+
+pois as portas são diferentes quando abri o Livebook
+
+Ele me deu este link
+http://localhost:8080/?token=7mixtcuqkq3xxapo3uchwgrnanaosloj
+
+Abri janela anônima
+Fui em Local apps
+Cliquei na URL do Meu primeiro aplicativo: http://localhost:8080/apps/meu-aplicativo-de-chat
+
+Ele mostrou janela com
+Meu primeiro aplicativo
+This is a multi-session app, pick an existing session or create a new one.
+
++ New session
+
+Cliquei em + New session
+
+Mostrou a tela do app em 
+http://localhost:8080/apps/meu-aplicativo-de-chat/sessions/ewrrf6d244kqtjrgsck4szwmttoegvv7z5ob3s6p6tf6ds3x
+
+
+Abri o Chrome com outro perfil
+Fui em http://localhost:8080/apps/meu-aplicativo-de-chat
+
+Aparece
+Meu primeiro aplicativo
+This is a multi-session app, pick an existing session or create a new one.
+
+New session
+Started less than a minute ago
+
+Cliquei em "Started less than a minute ago"
+
+Pronto. Agora o chat funciona.

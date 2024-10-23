@@ -1,0 +1,24 @@
+# Commmunicating Processes - The Sender
+
+## 2. What is the name of this node?
+
+```elixir
+Node.self()
+```
+
+You will have to add the name of this node to the other notebook.
+
+## 3. Identifying the Receiver Node
+
+```elixir
+# receiver_node  = "<PUT HERE>"
+
+receiver_node  = :"livebook_7louvomv--255mv4r6@127.0.0.1"
+
+```
+
+## 9. Sending a message
+
+```elixir
+send {:receiver, receiver_node}, :"Hi, this is the message from the sender!"
+```
