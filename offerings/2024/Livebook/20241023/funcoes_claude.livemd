@@ -1,0 +1,190 @@
+# Elixir Fundamentals
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.10.0"}
+])
+```
+
+## Introduction to Functions in Elixir
+
+Elixir is a functional programming language where functions are first-class citizens. Let's explore the different ways to create and use functions in Elixir.
+
+## Named Functions
+
+Named functions in Elixir are defined within modules using the `def` keyword. They must be defined inside modules, which serve as a way to group related functions together.
+
+### Basic Function Definition
+
+```elixir
+defmodule Math do
+  def add(x, y) do
+    x + y
+  end
+  
+  # Single-line function definition using do:
+  def subtract(x, y), do: x - y
+end
+```
+
+### Default Arguments
+
+Elixir allows you to specify default values for function arguments using the `\\` syntax:
+
+```elixir
+defmodule Calculator do
+  # y will default to 0 if not provided
+  def add(x, y \\ 0), do: x + y
+  
+  # z will default to 1 if not provided
+  def power(x, z \\ 1) do
+    x ** z
+  end
+end
+```
+
+Try it:
+```elixir
+Calculator.add(5)      # Returns 5
+Calculator.add(5, 3)   # Returns 8
+Calculator.power(2)    # Returns 2
+Calculator.power(2, 3) # Returns 8
+```
+
+## Anonymous Functions
+
+Anonymous functions (also called lambda functions) are functions without a name. They are created using the `fn` keyword:
+
+```elixir
+# Creating an anonymous function
+add = fn x, y -> x + y end
+
+# Calling an anonymous function (note the dot before the parentheses)
+add.(2, 3)  # Returns 5
+```
+
+### Capture Operator (&)
+
+Elixir provides a shorthand syntax using the capture operator (`&`), though it's recommended to use it sparingly for readability:
+
+```elixir
+# These are equivalent:
+add = fn x, y -> x + y end
+add = &(&1 + &2)
+```
+
+## Pattern Matching
+
+Pattern matching is a powerful feature in Elixir used for data destructuring and flow control.
+
+### Basic Pattern Matching
+
+```elixir
+# Simple assignment (pattern matching)
+x = 1
+
+# Tuple pattern matching
+{name, age} = {"Alice", 25}
+name  # Returns "Alice"
+age   # Returns 25
+```
+
+### Pattern Matching with Pin Operator (^)
+
+The pin operator (`^`) lets you match against an existing value instead of rebinding:
+
+```elixir
+name = "Alice"
+{^name, age} = {"Alice", 30}  # Matches
+{^name, age} = {"Bob", 30}    # Throws error
+```
+
+### Pattern Matching in Lists
+
+Lists can be deconstructed using pattern matching:
+
+```elixir
+[head | tail] = [1, 2, 3, 4]
+head  # Returns 1
+tail  # Returns [2, 3, 4]
+
+[first, second | rest] = [1, 2, 3, 4]
+first   # Returns 1
+second  # Returns 2
+rest    # Returns [3, 4]
+```
+
+## Pattern Matching in Function Definitions
+
+One of the most powerful features of Elixir is using pattern matching in function definitions:
+
+```elixir
+defmodule Greeting do
+  def say("hello"), do: "Hi there!"
+  def say("bye"), do: "Goodbye!"
+  def say(_), do: "I don't understand"
+end
+```
+
+Try it:
+```elixir
+Greeting.say("hello")  # Returns "Hi there!"
+Greeting.say("bye")    # Returns "Goodbye!"
+Greeting.say("hola")   # Returns "I don't understand"
+```
+
+### Example: List Processing with Pattern Matching
+
+Here's a practical example of using pattern matching to process lists recursively:
+
+```elixir
+defmodule ListUtil do
+  # Base case: empty list
+  def length([]), do: 0
+  
+  # Recursive case: list with head and tail
+  def length([_head | tail]) do
+    1 + length(tail)
+  end
+end
+```
+
+## Guards
+
+Guards add extra conditions to pattern matching using the `when` keyword:
+
+```elixir
+defmodule NumberHelper do
+  def positive?(x) when x > 0, do: true
+  def positive?(x) when x <= 0, do: false
+  
+  def type(x) when is_integer(x), do: "integer"
+  def type(x) when is_float(x), do: "float"
+  def type(_), do: "other"
+end
+```
+
+## Tips for Writing Elixir Functions
+
+1. Keep functions small and focused on a single task
+2. Use pattern matching instead of if/else when possible
+3. Leverage guards for input validation
+4. Use default arguments when it makes sense
+5. Consider using named functions over anonymous functions for better code organization
+6. Document your functions using @doc and @moduledoc
+
+## Practice Problems
+
+Try implementing these functions to practice what you've learned:
+
+1. Create a function that calculates the factorial of a number using pattern matching
+2. Write a function that reverses a list using recursion
+3. Implement a function that counts the occurrences of an element in a list
+
+## Common Gotchas and Best Practices
+
+- Remember to use dot notation when calling anonymous functions
+- Be careful with the pin operator to avoid accidental rebinding
+- Consider performance implications when working with large lists
+- Use pattern matching in function heads instead of conditional logic in the function body when possible
+- Avoid deep nesting of anonymous functions
