@@ -1,0 +1,420 @@
+# Funções
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.10.0"}
+])
+```
+
+## Funções Nomeadas
+
+Em Elixir você pode usar funções que já vem com Elixir, como ```String.upcase/1```.
+
+```elixir
+String.upcase("adolfo")
+```
+
+```elixir
+defmodule Matematica do
+  def incrementa(x) do
+    x+1    
+  end
+  # def soma(x, y) do
+  #   x+y
+  # end
+
+  # def soma(x) do
+  #   x
+  # end
+
+  def soma(x, y \\ 0), do: x+y
+  
+  def potencia(x, y \\ 1) do
+    x ** y
+  end
+end
+
+```
+
+```elixir
+Matematica.incrementa(2)
+```
+
+```elixir
+Matematica.soma(34, 45)
+```
+
+```elixir
+Matematica.soma(34.5, 45.5)
+```
+
+```elixir
+# Matematica.soma("Adolfo ", "Neto")
+```
+
+```elixir
+"Adolfo" <> "Neto"
+```
+
+```elixir
+Matematica.soma(10)
+```
+
+```elixir
+2 ** 30
+```
+
+```elixir
+Matematica.potencia(2,30)
+```
+
+```elixir
+Matematica.potencia(2)
+```
+
+```elixir
+Matematica.potencia(100)
+```
+
+```elixir
+2 + 3
+```
+
+```elixir
+Kernel.+(2,3)
+```
+
+```elixir
+Kernel.+ 2, 3
+```
+
+```elixir
+Kernel.**(2,3)
+```
+
+```elixir
+Kino.Mermaid.new("""
+flowchart TD
+    A([Início]) --> B[/Digite as três notas/]
+    B --> C[Lê n1, n2, n3]
+    C --> D["Calcula média = (n1 + n2 + n3) / 3"]
+    D --> E{média >= 6?}
+    E -->|Sim| F["Exibe 'Aprovado(a)'"]
+    F --> G["Exibe 'Parabéns!!!'"]
+    G --> I["Exibe 'Tchau!'"]
+    E -->|Não| H["Exibe 'Parabéns!!! Você está em recuperação!'"]
+    H --> I
+    I --> J([Fim])
+""")
+```
+
+## Funções anônimas (sem nome)
+
+```elixir
+fn x -> x + 1 end
+```
+
+```elixir
+minha_universidade = "UTFPR"
+
+minha_funcao = fn x, y -> x + y end
+```
+
+```elixir
+minha_universidade
+```
+
+```elixir
+minha_funcao.(2,3)
+```
+
+```elixir
+# :rand.uniform(100)
+```
+
+```erlang
+Minha_Funcao = fun(X,Y) -> X+Y end.
+```
+
+```erlang
+Minha_Funcao(2,3).
+
+```
+
+## Evitem usar &
+
+```elixir
+fn x, y -> x + y end
+```
+
+```elixir
+minha_funcao = &(&1+&2)
+```
+
+```elixir
+minha_funcao.(2,3)
+```
+
+```elixir
+divide = &(&2/&1)
+```
+
+```elixir
+divide.(4,2)
+```
+
+```elixir
+funcao_super_confusa = &(&2/&1*&3**&4+&1)
+```
+
+```elixir
+funcao_super_confusa.(5,2,3,5)
+```
+
+```elixir
+nome_completo = &(&1 <> " " <> &2)
+nome_completo.("Adolfo", "Neto")
+```
+
+```elixir
+# fn(x, y \\ 0) -> x+y end
+```
+
+## Mais exemplos confusos
+
+```elixir
+defmodule  TestePadrao do
+  def f(x \\ 0, y, z \\ 3) do
+    x+y*z
+  end
+end
+```
+
+```elixir
+TestePadrao.f(1,2)
+```
+
+## Casamento de Padrões (Pattern Matching)
+
+```elixir
+x = 3
+```
+
+```elixir
+x
+```
+
+```elixir
+y = 4
+```
+
+```elixir
+y
+```
+
+## Tupla
+
+```elixir
+{1, 45.5, "Adolfo"}
+```
+
+```elixir
+{nome, idade} = {"Adolfo", 100}
+```
+
+```elixir
+nome
+```
+
+```elixir
+idade
+```
+
+```elixir
+{filme, ano}  = {"Citizen Kane", 1941}
+```
+
+```elixir
+{filme, ano}
+```
+
+```elixir
+{"Citizen Kane", 1941} = {filme, ano} 
+```
+
+```elixir
+{filme, ano}  = {"Marca da Maldade", 1957}
+```
+
+```elixir
+{filme, ano}
+```
+
+```elixir
+# {^filme, ^ano}  = {"O Estranho", 1946}
+{^filme, ^ano}  = {"Marca da Maldade", 1957}
+```
+
+```elixir
+{1, 2, 4}
+```
+
+```elixir
+["Adolfo" | [ 6 | [1, 2, 4] ]]
+```
+
+```elixir
+Tuple.to_list {1, 2, 4}
+```
+
+```elixir
+List.to_tuple([])
+```
+
+## Casamento de Padrões em Listas
+
+```elixir
+[cabeca | cauda] = ["55", "35", "00", "BRANCO"]
+```
+
+```elixir
+cabeca
+```
+
+```elixir
+cauda
+```
+
+```elixir
+[segunda | _ ] = cauda
+```
+
+```elixir
+segunda
+```
+
+```elixir
+{_nome, _idade, _peso, endereco} = {"Adolfo", 100, 1000, "Rua do Sol, 1000"}
+```
+
+```elixir
+endereco
+```
+
+```elixir
+[_, _, terceiro | _] = [1000, 789, 656, 345, 1, 1, 1, 1]
+```
+
+```elixir
+terceiro
+```
+
+```elixir
+[cabeca | cauda] = [55467]
+```
+
+```elixir
+cabeca
+```
+
+```elixir
+cauda
+```
+
+## Casamento de Padrões em Funções
+
+```elixir
+defmodule Urna do
+
+  # def vota(numero) do
+  #   if numero == 55 do
+  #     "Voto pra Eduardo Pimentel"
+  #   else
+  #     "Voto pra Cristina Graeml"    
+  #   end
+  # end
+  
+  def vota(55), do: "Eduardo Pimentel"
+  def vota(35), do: "Cristina Graeml"
+  def vota("BRANCO"), do: "Voto em branco"
+  def vota(_), do: "Voto nulo"
+  
+end
+```
+
+```elixir
+Urna.vota(55)
+```
+
+```elixir
+Urna.vota(35)
+```
+
+```elixir
+Urna.vota("BRANCO")
+```
+
+```elixir
+Urna.vota(00)
+```
+
+```elixir
+Urna.vota(78676)
+```
+
+## Exemplo de Função com Casamento de Padrões
+
+```elixir
+defmodule Listas do
+  def inverte(lista = []) when is_list(lista)  do
+    []
+  end
+  def inverte(lista = [valor]) when is_list(lista)  do
+    [valor]
+  end
+  def inverte(lista = [cabeca | cauda]) when is_list(lista)  do
+    inverte(cauda) ++ [cabeca]
+  end
+end
+```
+
+```elixir
+[1, 45, 900] ++ [56, 78, 44]
+```
+
+```elixir
+Listas.inverte([1, 45, 900, 56, 78, 44])
+```
+
+```elixir
+IO.inspect(Listas.inverte([10]), charlists: :as_lists)
+
+```
+
+```elixir
+[10, 28, 65, 66, 67]
+```
+
+```elixir
+[10, 65, 66, 67]
+```
+
+```elixir
+Listas.inverte ["a", "c", "x"]
+```
+
+```elixir
+Enum.reverse ["a", "c", "x"]
+```
+
+```elixir
+lista_valores_aleatorios = Enum.shuffle(1..1000000)
+```
+
+```elixir
+Enum.reverse(lista_valores_aleatorios)
+```
+
+```elixir
+Listas.inverte(lista_valores_aleatorios)
+```
