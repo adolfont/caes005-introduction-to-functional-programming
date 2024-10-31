@@ -1,0 +1,1 @@
+mix run -e "MegaSena.main(100000)"

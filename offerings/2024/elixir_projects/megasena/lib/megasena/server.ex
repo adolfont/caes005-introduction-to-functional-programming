@@ -1,21 +1,20 @@
-defmodule Megasena.Server do
+defmodule MegaSena.Server do
   use GenServer
 
   # Client API
-  def start_link(_args) do
-    GenServer.start_link(__MODULE__, %{}, name: __MODULE__)
+  def start_link(numbers) do
+    GenServer.start_link(__MODULE__, numbers, name: __MODULE__)
   end
 
   # Server (GenServer) Callbacks
 
   # Called when the GenServer is first started
-  def init(_) do
-    six_numbers = 1..60 |> Enum.to_list() |> Enum.shuffle() |> Enum.take(6) |> Enum.sort()
+  def init(numbers) do
+    all_numbers = 1..60 |> Enum.shuffle() |> Enum.take(numbers) |> Enum.sort()
 
-    {:ok, six_numbers}
+    {:ok, all_numbers}
   end
 
-  # Handles synchronous calls (e.g., GenServer.call/2)
   def handle_call({:play, guess}, _from, state) do
     state_set = MapSet.new(state)
     guess_set = MapSet.new(guess)
@@ -25,17 +24,25 @@ defmodule Megasena.Server do
       |> MapSet.intersection(guess_set)
       |> Enum.count()
 
-    {:reply, "You guessed #{correct_guesses} numbers!", state}
+    {:reply, correct_guesses, state}
   end
 
-  # # Handles asynchronous messages (e.g., GenServer.cast/2)
-  # def handle_cast({:set_numbers, numbers}, _state) do
-  #   # Here you would update the state with the given numbers
-  #   {:noreply, numbers}
-  # end
+  def handle_call(:get_numbers, _from, state) do
+    {:reply, state, state}
+  end
 
-  # # Optional: Handle other messages
-  # def handle_info(_msg, state) do
-  #   {:noreply, state}
-  # end
+  def get_numbers() do
+    GenServer.call(__MODULE__, :get_numbers)
+  end
+
+  def guess_numbers(guess) do
+    GenServer.call(__MODULE__, {:play, guess})
+  end
+
+  # Convenience function to start a new instance and inspect the numbers
+  def new(numbers) do
+    {:ok, pid} = MegaSena.Server.start_link(numbers)
+    IO.inspect(MegaSena.Server.get_numbers(), label: "Generated numbers")
+    pid
+  end
 end

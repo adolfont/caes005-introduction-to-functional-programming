@@ -1,18 +1,8 @@
 defmodule MegaSena do
-  @moduledoc """
-  Documentation for `MegaSena`.
-  """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Megasena.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def main(tries, numbers, guesses) do
+    MegaSena.Server.new(numbers)
+    MegaSena.Player.new(guesses, numbers)
+    MegaSena.Player.play(tries)
   end
 end
