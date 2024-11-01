@@ -7,8 +7,8 @@ N = 8 -- board size
 local function is_place_ok(board, line, column)
     for i = 1, line - 1 do                       -- for each queen already placed
         if (board[i] == column) or               -- same column?
-            (board[i] - i == column - line) or   -- same daigonal?
-            (board[i] + i == column + line) then -- same daigonal?
+            (board[i] - i == column - line) or   -- same diagonal?
+            (board[i] + i == column + line) then -- same diagonal?
             return false                         -- place can be attacked
         end
     end
