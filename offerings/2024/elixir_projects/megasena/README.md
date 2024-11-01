@@ -1,7 +1,15 @@
-# Megasena
+# MegaSena
 
-**TODO: Add description**
+By using MegaSena, I hope you get convinced that bets are not a good idea.
 
+
+Download the project and, if you have Elixir installed, just do:
+
+$ mix run --no-halt
+
+
+
+<!--
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
@@ -19,3 +27,4 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/megasena>.
 
+-->

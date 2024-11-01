@@ -3,12 +3,12 @@ defmodule MegaSena.Application do
 
   def start(_type, _args) do
     # Start the supervisor
-    numbers = 2
-    guesses = 20
+    numbers = 6
+    guesses = 10
     result = MegaSena.Supervisor.start_link({numbers, guesses})
 
     # Start a game with a set number of tries
-    MegaSena.main(100)
+    MegaSena.main(100000)
 
     result
   end
