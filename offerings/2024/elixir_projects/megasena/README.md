@@ -28,3 +28,8 @@ and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/megasena>.
 
 -->
+
+## Uses of OTPSparq
+
+1. <https://chatgpt.com/share/67250adf-400c-8002-8640-9c1a8e916ae5>
+2. <https://chatgpt.com/share/67250ab6-3090-8002-b085-340a0a3f00b0>
