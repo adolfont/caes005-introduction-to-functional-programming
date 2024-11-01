@@ -1,32 +1,36 @@
 defmodule MegaSena.Player do
   use GenServer
 
-  # Client API
   def start_link({guesses, numbers}) do
     GenServer.start_link(__MODULE__, {guesses, numbers}, name: __MODULE__)
   end
 
   # Server (GenServer) Callbacks
-  @spec init(any()) :: {:ok, %{numbers: any(), plays: 0, server: any(), wins: 0}}
   def init({guesses, numbers}) do
-    # Check if MegaSena.Server is already started, otherwise start it
+    # Ensure MegaSena.Server is started
     server =
-      case MegaSena.Server.start_link({guesses, numbers}) do
+      case MegaSena.Server.start_link(numbers) do
         {:ok, pid} -> pid
         {:error, {:already_started, pid}} -> pid
       end
 
+    # Initialize state with server pid and other data
     {:ok, %{server: server, plays: 0, wins: 0, guesses: guesses, numbers: numbers}}
   end
 
   # Play a single round, calling the server with a guess and updating state
-  def handle_call({:play, guess}, _from, state = %{server: server, plays: plays, wins: wins, guesses: _guesses, numbers: numbers}) do
-
+  def handle_call(
+        {:play, guess},
+        _from,
+        state = %{server: server, plays: plays, wins: wins, guesses: _guesses, numbers: numbers}
+      ) do
     correct_guesses = GenServer.call(server, {:play, guess})
 
-
     new_wins = if correct_guesses == numbers, do: wins + 1, else: wins
-    response = "Your play #{inspect(guess, charlists: :as_lists)} guessed #{correct_guesses} numbers correctly!"
+
+    response =
+      "Your play #{inspect(guess, charlists: :as_lists)} guessed #{correct_guesses} numbers correctly!"
+
     # IO.puts("numbers: #{numbers}")
     # IO.puts("wins: #{wins}")
     # IO.puts("new_wins: #{new_wins}")
@@ -40,8 +44,8 @@ defmodule MegaSena.Player do
 
   # Public API to play a specified number of times with a generated guess
   def play(n) do
-
     %{guesses: guesses} = get_state()
+
     Enum.each(1..n, fn _ ->
       guess = 1..60 |> Enum.to_list() |> Enum.shuffle() |> Enum.take(guesses) |> Enum.sort()
       IO.inspect(GenServer.call(__MODULE__, {:play, guess}), label: "Play result")

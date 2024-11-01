@@ -12,6 +12,8 @@ defmodule MegaSena.Server do
   def init(numbers) do
     all_numbers = 1..60 |> Enum.shuffle() |> Enum.take(numbers) |> Enum.sort()
 
+    dbg(all_numbers)
+
     {:ok, all_numbers}
   end
 

@@ -1,8 +1,6 @@
 defmodule MegaSena do
-
-  def main(tries, numbers, guesses) do
-    MegaSena.Server.new(numbers)
-    MegaSena.Player.new(guesses, numbers)
+  def main(tries) do
+    # Start the game by calling the `play` function in `MegaSena.Player`
     MegaSena.Player.play(tries)
   end
 end
