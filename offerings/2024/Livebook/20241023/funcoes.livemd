@@ -32,6 +32,15 @@ defmodule Matematica do
   def potencia(x, y \\ 1) do
     x ** y
   end
+  
+  def fatorial(0), do: 1
+  def fatorial(n) when is_integer(n) and n>0 do
+    x+1   
+    1..n
+    |> Enum.to_list()
+    |> Enum.reduce(fn x, acc -> x * acc end)
+  end
+  end
 end
 
 ```
