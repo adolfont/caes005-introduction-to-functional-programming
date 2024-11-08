@@ -1,0 +1,52 @@
+# Nx Tensors
+
+```elixir
+Mix.install([
+  {:nx, "~> 0.9.1"}
+])
+```
+
+## Creating a tensor
+
+```elixir
+tensor = Nx.tensor([1, 2, 3, 4])
+
+```
+
+## Applying a transformation that updates the tensor
+
+```elixir
+updated_tensor = Nx.add(tensor, 10)
+
+```
+
+## Showing the updated tensor
+
+```elixir
+IO.inspect(updated_tensor) # Updated tensor
+
+```
+
+## Showing the original tensor
+
+```elixir
+IO.inspect(tensor)         # Original tensor
+
+```
+
+## Another tensor
+
+```elixir
+another_tensor = Nx.tensor([[1, 2, 3], [4,5,6], [7,8,9]])
+
+```
+
+```elixir
+Nx.add(another_tensor, 3)
+```
+
+```elixir
+[[0,1], [2, 3]]
+|> Nx.tensor()
+|> Nx.all()
+```
