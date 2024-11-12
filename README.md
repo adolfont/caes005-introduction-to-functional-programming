@@ -68,7 +68,7 @@ Functional Programming: concepts and main Languages.
 Functions: 
 - functions as first class citizens
 - named functions and anonymous functions
-- currying
+- currying, partial application
 - modules.
 
 Pattern Matching. 
