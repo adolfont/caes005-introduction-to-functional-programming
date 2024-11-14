@@ -3,13 +3,22 @@
 This is a course offered by the Graduate Program in Applied Computing (PPGCA) of the 
 Federal University of Technology - Parana (UTFPR), originally intended for graduate students, but some undergraduate students and professionals can attend.
 
+
+## 2025 offering
+
+The "Introduction to Functional Programming" course will be a fully remote learning experience. 
+
+Interested in joining? Send an e-mail to adolfo@utfpr.edu.br.
+
+<!--
+
 ## 2024 offering
 
 The "Introduction to Functional Programming" course, scheduled from September 30th to December 18th, will be a fully remote learning experience. Classes will be held on **Thursdays** from 17:50 to 21:10 (GMT-3). I expect students to keep their cameras on during most of the sessions.
 
 Interested in joining? Go to [PPGCA's site](https://www.utfpr.edu.br/cursos/coordenacoes/stricto-sensu/ppgca-ct) to learn more.
 
-
+-->
 
 
 
@@ -59,7 +68,7 @@ Functional Programming: concepts and main Languages.
 Functions: 
 - functions as first class citizens
 - named functions and anonymous functions
-- currying
+- currying, partial application
 - modules.
 
 Pattern Matching. 
