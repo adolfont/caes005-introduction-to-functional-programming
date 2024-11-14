@@ -1,0 +1,189 @@
+# Estruturas de Controle
+
+## if
+
+```elixir
+if true do
+  "A"
+end
+```
+
+```elixir
+if false do
+  "A"
+end
+```
+
+```elixir
+if true do
+  "A"
+else
+  "B"
+end
+```
+
+```elixir
+if false do
+  "A"
+else
+  "B"
+end
+```
+
+```elixir
+if true, do: "A", else: "B"
+```
+
+```elixir
+if false, do: "A", else: "B"
+```
+
+```elixir
+if nil, do: "A", else: "B"
+```
+
+```elixir
+if 0, do: "A", else: "B"
+```
+
+```elixir
+x = 10
+y = 11
+
+if x > y do
+  "x é o maior"
+else
+  "y é o maior"
+end
+```
+
+```elixir
+x = 12
+y = 11
+
+if x > y do
+  "x é o maior"
+else
+  "y é o maior"
+end
+```
+
+```elixir
+x = 10
+y = 11
+z = "Adolfo"
+w = :maria
+
+if (x == 10 and w == "Adolfo") do
+  "Adolfo é o maior"
+else
+  if z > 35 do
+    "Adolfo perdeu"
+  else 
+    if is_atom(w) do
+      "w é um átomo"
+    end 
+  end 
+end
+```
+
+## case
+
+```elixir
+# {:ok, 35} ou {:error, :not_a_number}
+
+defmodule M do
+  def divide(x, y) when is_number(x) and is_number(y) do
+    if y != 0 do
+      {:ok, x/y}
+    else
+      {:error, :not_a_number}
+    end
+  end
+  def divide(_x, _y), do:  {:error, :argument_not_number}
+end
+```
+
+```elixir
+M.divide(2,0)
+```
+
+```elixir
+M.divide(234, 33)
+```
+
+```elixir
+M.divide("Adolfo", :gustavo)
+```
+
+```elixir
+x = 100
+y = 1
+
+case M.divide(x,y) do
+  {:ok, result} -> result
+end
+```
+
+```elixir
+x = 100
+y = 0
+
+case M.divide(x,y) do
+  {:ok, result} -> result
+  {:error, :not_a_number} -> "Erro na divisão!"
+end
+```
+
+```elixir
+x = "100"
+y = "1"
+
+case M.divide(x,y) do
+  {:ok, result} -> result
+  {:error, :not_a_number} -> "Erro divisão por zero!"
+  {:error, :argument_not_number} -> "Ao menos um dos argumentos não é um número!"
+end
+```
+
+```elixir
+x = 100
+y = :A10
+
+case M.divide(x,y) do
+  {:ok, result} -> "O resultado da divisão é #{result}"
+  {:error, :not_a_number} -> "Erro divisão por zero!"
+  _anything_else -> "Não sei o que aconteceu"
+end
+```
+
+## Cond
+
+```elixir
+x = 1
+y = 24
+z = 25
+
+cond do
+  x > 1 -> "x é maior do que 1"
+  y > 2 -> "y é maior do que 2"
+  z > 20 -> "z é maior do que 20"
+  true -> "nenhuma das condições é verdadeira"
+end
+```
+
+## with
+
+```elixir
+
+with {:ok, value} <- M.divide(100, 3),
+    {:error, atom} <- M.divide("Adolfo", "Neto"),
+    {:error, atom2} <- M.divide(100, 2) do
+  IO.puts "O value é #{value}"
+  IO.puts "O atom é #{atom}"
+  IO.puts "O atom2 é #{atom2}"
+else
+  x -> IO.puts "#{inspect(x)} não deu certo"
+end
+
+```
