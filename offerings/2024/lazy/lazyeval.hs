@@ -14,7 +14,7 @@ takeFibs n = take n fibs
 
 main :: IO ()
 main = do
-  let first10Fibs = takeFibs 10
+  let first10Fibs = takeFibs 12
   print first10Fibs
   -- Output: [1,1,2,3,5,8,13,21,34,55]
 
