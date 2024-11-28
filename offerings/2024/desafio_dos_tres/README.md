@@ -65,4 +65,4 @@ Onde `.` representa células vazias.
 
 ## Para implementar
 
-- Vocẽ pode usar escript ou [mix task](https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks)
+- Você pode usar escript ou [mix task](https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks)
