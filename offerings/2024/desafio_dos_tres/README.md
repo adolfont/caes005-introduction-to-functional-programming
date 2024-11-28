@@ -63,3 +63,6 @@ Onde `.` representa células vazias.
 - **Turno 3:** Jogador 3 apaga o `X` e coloca `#`.
 - **Turno 4:** Jogador 1 **não pode apagar o `#` do Jogador 3** porque apagou no turno anterior. Ele deve jogar em uma célula vazia.
 
+## Para implementar
+
+- Vocẽ pode usar escript ou [mix task](https://github.com/adolfont/caes005-introduction-to-functional-programming/tree/main/offerings/2023/projects/tasks)
