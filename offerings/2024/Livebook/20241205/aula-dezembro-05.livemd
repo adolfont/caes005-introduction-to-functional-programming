@@ -1,0 +1,232 @@
+# Aula dezembro 05
+
+## Descrição
+
+```elixir
+%{{1,1} => "1"}
+```
+
+Escreva um programa que converta
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+"""
+ABC
+DEF
+GHI
+"""
+```
+
+em
+um mapa que imita uma matriz
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+%{{1,1} => "A" ... {3,3}=>"I"}
+```
+
+```elixir
+input = """
+ABC
+DEF
+GHI
+"""
+```
+
+```elixir
+Enum.map(String.split(input), fn x -> String.graphemes(x) end)
+```
+
+```elixir
+parsedInput =
+  input
+  |> String.split()
+  |> Enum.map(&String.graphemes/1)
+```
+
+```elixir
+String.graphemes("abc")
+```
+
+```elixir
+for l <- parsedInput do
+  for r <- l do 
+      IO.inspect(r)
+  end
+end
+```
+
+```elixir
+for {line, i} <- Enum.with_index(parsedInput) do
+  for {letter, j} <- Enum.with_index(line) do
+    {letter, i, j}
+  end
+end
+|> List.flatten()
+|> Enum.reduce(%{}, fn {letter, row, columm}, acc ->
+  Map.put(acc, {row + 1, columm + 1}, letter)
+end)
+```
+
+```elixir
+"""
+ABC
+DEF
+GHI
+"""
+|> String.split()
+|> Enum.map(&String.graphemes/1)
+|> Enum.with_index()
+|> Enum.flat_map(fn {line, i} ->
+  Enum.with_index(line)
+  |> Enum.map(fn {letter, j} -> {letter, i, j} end)
+end)
+|> Enum.reduce(%{}, fn {letter, row, columm}, acc ->
+  Map.put(acc, {row + 1, columm + 1}, letter)
+end)
+```
+
+```elixir
+Enum.with_index(parsedInput)
+```
+
+```elixir
+
+Enum.reduce([1, 11145, 674, 1000], 0,
+  fn x, acc -> 
+    x+acc
+  end
+)
+```
+
+## Verificação da Existência de Padrões
+
+```elixir
+[
+  [{1,1},{2,2},{3,3}],
+  [{3,1},{2,2},{3,3}],
+      [{1,1},{1,2},{2,1},{2,2}] 
+]
+```
+
+```elixir
+"""
+X..
+.X.
+..X
+"""
+
+"""
+..X
+.X.
+X..
+"""
+
+"""
+XX.
+XX.
+...
+"""
+
+"""
+.XX
+.XX
+...
+"""
+
+"""
+...
+XX.
+XX.
+"""
+
+"""
+...
+.XX
+.XX
+"""
+```
+
+```elixir
+tabuleiro =
+  """
+  X..
+  XX.
+  ...
+  """
+
+padrao = [{1, 1}, {1, 2}, {2, 1}, {2, 2}]
+
+defmodule Jogo do
+  def cria_mapa(tabuleiro) do
+    tabuleiro
+    |> String.split()
+    |> Enum.map(&String.graphemes/1)
+    |> aux()
+  end
+
+  defp aux(parsed_input) do
+    for {line, i} <- Enum.with_index(parsed_input) do
+      for {letter, j} <- Enum.with_index(line) do
+        {letter, i, j}
+      end
+    end
+    |> List.flatten()
+    |> Enum.reduce(%{}, fn {letter, row, columm}, acc ->
+      Map.put(acc, {row + 1, columm + 1}, letter)
+    end)
+  end
+
+  def satisfaz(tabuleiro, padrao) do
+    mapa = Jogo.cria_mapa(tabuleiro)
+    Enum.all?(padrao, fn x -> mapa[x] == "X" end)
+  end
+end
+
+Jogo.satisfaz(tabuleiro, padrao) == true
+
+# Jogo.cria_mapa(tabuleiro)
+```
+
+```elixir
+# Refactored by ElixirSparq
+tabuleiro = """
+XX.
+XX.
+...
+"""
+
+padrao = [{1, 1}, {1, 2}, {2, 1}, {2, 2}]
+
+defmodule Jogo2 do
+  def cria_mapa(tabuleiro) do
+    tabuleiro
+    |> String.split()
+    |> Enum.map(&String.graphemes/1)
+    |> aux()
+  end
+
+  defp aux(parsed_input) do
+    parsed_input
+    |> Enum.with_index()
+    |> Enum.reduce(%{}, fn {line, i}, acc ->
+      line
+      |> Enum.with_index()
+      |> Enum.reduce(acc, fn {letter, j}, acc_inner ->
+        Map.put(acc_inner, {i + 1, j + 1}, letter)
+      end)
+    end)
+  end
+
+  def satisfaz(tabuleiro, padrao) do
+    mapa = cria_mapa(tabuleiro)
+    Enum.all?(padrao, fn x -> mapa[x] == "X" end)
+  end
+end
+
+Jogo2.satisfaz(tabuleiro, padrao)
+
+
+```
