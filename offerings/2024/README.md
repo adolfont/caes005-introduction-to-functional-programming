@@ -4,6 +4,14 @@
 
 
 
+## Invited talks
+
+- Lee Barney (BYU-Idaho)
+- Zoey Pessanha
+- Ulf Riehm and Bas Wegh
+- Eduardo Lemos
+
 ## Evaluation
 
-Take a look at the 2023 evaluation. 
+- A paper
+- A project
