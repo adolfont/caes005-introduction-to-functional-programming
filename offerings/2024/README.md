@@ -16,10 +16,11 @@
 
 ## Invited talks
 
-- Lee Barney (BYU-Idaho)
-- Zoey Pessanha
+- [Unsafe Impedance, Lee Barney (BYU-Idaho)](https://youtu.be/HEhOYitn2ZU)
+- [Introdução à linguagem Haskell, Zoey Pessanha](https://majestic-brisket-0c6.notion.site/Introdu-o-linguagem-Haskell-145f9e92597480dc9625dfdf8fe32c5e?pvs=4)
 - Ulf Riehm and Bas Wegh - [Herrmann Ultrasonics](https://www.herrmannultrasonics.com/en-us/)
-- Eduardo Lemos
+- [Além das Terras de Java - Uma Introdução ao Lisp da JVM para Programação Funcional, Eduardo Lemos](https://www.youtube.com/watch?v=UyN1Sw1nBbo)
+
 
 ## Evaluation
 
