@@ -8,7 +8,8 @@
 - 52 students (including PPGCA students and external participants) enrolled
 - Of these, 24 completed the course without failing due to absence
 - And 17 were present in the final class
-- 
+
+  
 ![last class](https://github.com/user-attachments/assets/37c3a9b4-0b2c-4239-8583-4d39a9f8e727)
 
 
