@@ -5,8 +5,8 @@
 
 ## Numbers
 
-- 52 students (including PPGCA students and external participants) enrolled
-- Of these, 24 completed the course without failing due to absence
+- 52 students (7 PPGCA students and 45 external participants) enrolled
+- Of these, 24 (6 PPGCA students and 18 external participants) completed the course without failing due to absence
 - And 17 were present in the final class
 
   
