@@ -8,7 +8,7 @@
 
 - Lee Barney (BYU-Idaho)
 - Zoey Pessanha
-- Ulf Riehm and Bas Wegh
+- Ulf Riehm and Bas Wegh - [Herrmann Ultrasonics](https://www.herrmannultrasonics.com/en-us/)
 - Eduardo Lemos
 
 ## Evaluation
