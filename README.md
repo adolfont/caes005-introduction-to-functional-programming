@@ -6,11 +6,11 @@ Federal University of Technology - Parana (UTFPR), originally intended for gradu
 
 ## 2025 offering
 
-The "Introduction to Functional Programming" course will be a fully remote learning experience. 
-
-Interested in joining? Send an e-mail to adolfo@utfpr.edu.br.
+The "Introduction to Functional Programming" course will likely be fully remote. More details will be available soon. Classes are expected to begin in early August.
 
 <!--
+
+Interested in joining? Send an e-mail to adolfo@utfpr.edu.br.
 
 ## 2024 offering
 
