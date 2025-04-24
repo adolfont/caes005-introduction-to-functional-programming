@@ -25,5 +25,6 @@
 - GRUPO DE ESTUDOS EM HASKELL DA UFABC https://haskell.pesquisa.ufabc.edu.br/
 - Programação Funcional, André Rauber Du Bois (UFPEL)  https://youtube.com/playlist?list=PLT3QeyTkGXU5jGOQxmNUM3schl_oB0lfy&si=GYUhTwq1DZTm6roo
 - Programação em Haskell (UFMG) https://homepages.dcc.ufmg.br/~camarao/haskell/
+- Curso Introdução à Programação Funcional usando a Linguagem Elixir - prof. André Rauber Du Bois - Computação - Universidade Federal de Pelotas https://ardubois.github.io/elixir/
 
 
