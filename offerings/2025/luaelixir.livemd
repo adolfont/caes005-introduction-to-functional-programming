@@ -1,0 +1,58 @@
+# Lua and Elixir
+
+```elixir
+Mix.install([
+  {:lua, "~> 0.2.1"}
+])
+```
+
+## Example
+
+```elixir
+defmodule MyAPI do
+  use Lua.API
+      
+  deflua double(v), do: 2 * v
+end
+```
+
+```elixir
+import Lua, only: [sigil_LUA: 2]
+
+```
+
+```elixir
+lua = Lua.new() |> Lua.load_api(MyAPI)
+
+```
+
+```elixir
+{[10], _} = Lua.eval!(lua, ~LUA[return double(5)])
+
+```
+
+```elixir
+Lua.eval!(lua, ~LUA[return double(5)])
+```
+
+## Factorial in Lua
+
+```elixir
+code = ~LUA"""
+function factorial(n)
+    if n == 0 then
+        return 1
+    else
+        return n * factorial(n - 1)
+    end
+end
+
+return factorial(10)
+"""
+```
+
+```elixir
+Lua.eval!(code)
+
+
+```
