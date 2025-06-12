@@ -28,6 +28,8 @@ The *Introduction to Functional Programming* course will be delivered fully remo
 Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education, Training, & Adoption Working Group of the Erlang Ecosystem Foundation](https://erlef.org/wg/education). He is also co-creator and co-host of the [Elixir em Foco podcast](https://elixiremfoco.com/), a Portuguese-language podcast about Elixir and the BEAM ecosystem.
 [Watch course-related videos here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
 
+[1st Workshop on Software Engineering for Functional Programming (SE4FP 2025)](https://bit.ly/3Tr3mgt)
+
 ## Learning Objectives
 
 By the end of this course, you will be able to:
