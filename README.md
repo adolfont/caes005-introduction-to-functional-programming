@@ -3,6 +3,10 @@
 This is a course offered by the Graduate Program in Applied Computing (PPGCA) of the 
 Federal University of Technology - Parana (UTFPR), originally intended for graduate students, but some undergraduate students and professionals can attend.
 
+## Syllabus
+
+Functional Programming: concepts and main Languages. Functions: functions as first class citizens, named functions and anonymous functions, currying, modules. Pattern Matching. Data structures and immutability. Recursion. Collection processing. Lazy evaluation. Control flow. Project implementation involving a functional language. Overview of functional languages for concurrency. Using LLMs for functional programming. 
+
 
 ## 2025 offering
 
