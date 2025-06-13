@@ -17,6 +17,7 @@ Project implementation using a functional language.
 Overview of functional languages for concurrency.
 Using LLMs to support functional programming.
 
+
 ## 2025 Offering
 
 The *Introduction to Functional Programming* course will be delivered fully remotely. More details will be available soon. Classes are expected to begin in early August and will take place on **Mondays**, from **15:50 to 18:40 (UTC-3)**.
@@ -29,6 +30,14 @@ Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education
 [Watch course-related videos here](https://youtube.com/playlist?list=PLF5ttO8F-IsQGrQdSBLuGps8CUFNt2P-3).
 
 Adolfo is one of the organizers of the [1st Workshop on Software Engineering for Functional Programming (SE4FP 2025)](https://bit.ly/3Tr3mgt).
+
+## Invited talks
+
+In the past, we have had invited talks from:
+- [Lee Barney](https://youtu.be/sVg0svb8mcI?si=mZr3gVkdDrvWLa6A) - It was this talk, but we haven't published the video.
+- [Laura Castro](https://www.youtube.com/watch?v=6gu9EXRraG8)
+- [Simon Thompson](https://www.youtube.com/watch?v=i9SUR1v1bhY)
+- [Brujo Benavides](https://youtu.be/6MTSl2OArd0?si=-uL87vlK6tNP7YEq)
 
 ## Learning Objectives
 
