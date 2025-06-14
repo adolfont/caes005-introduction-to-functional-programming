@@ -24,6 +24,13 @@
 
 ---
 
+# O que são funções?
+
+- Carnielli-Epstein
+
+---
+
+
 # Elixir: uma linguagem funcional
 
 - Criada por José Valim
@@ -48,14 +55,14 @@ IO.puts Matematica.quadrado(4)  # 16
 ````
 
 * Organizadas em módulos
-* Chamadas com ponto
+* Chamadas com nome do módulo e ponto
 * Podem ter múltiplas cláusulas
 
 
 ---
 
 
-# Funções com Pattern Matching
+# Funções com _Pattern Matching_ (e múltiplas cláusulas)
 
 ```elixir
 defmodule Fatorial do
@@ -251,9 +258,9 @@ IO.puts multiplica_por_10.(5)  # 50
 
 # Elixir na Prática
 
-* Usado por empresas como Discord, Plataformatec, Bleacher Report, Nubank
+* Usado por empresas como Discord e Remote.
 * Excelente para aplicações distribuídas e tolerantes a falhas
-* Produtividade alta com `mix`, `iex`, `Phoenix`, `LiveView`
+* Produtividade com `mix`, `iex`, `Phoenix`, `LiveView`
 
 ---
 
