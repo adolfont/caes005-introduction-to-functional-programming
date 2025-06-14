@@ -272,7 +272,7 @@ IO.puts multiply_by_10.(5)  # 50
 
 ---
 
-### **How to use:**
+### **How to generate a PDF:**
 
 1. Save this content as `slides.md`
 2. Generate the PDF:
@@ -280,13 +280,24 @@ IO.puts multiply_by_10.(5)  # 50
 ```bash
 pandoc -t beamer -V theme:metropolis -o slides.pdf slides.md
 ```
+---
+
+### Some links
 
 [1] https://www.youtube.com/watch?v=b8q3CRsfi2M
+
 [2] https://www.rocketseat.com.br/blog/artigos/post/programacao-funcional-guia-completo
+
 [3] https://www.alura.com.br/curso-online-elixir-sintaxe-programacao-funcional-pattern-matching
+
 [4] https://www.youtube.com/watch?v=53Lv3efp7Rk
+
 [5] https://www.youtube.com/watch?v=wJoo7Yicu5g
+
 [6] https://pt.wikipedia.org/wiki/Elixir_(linguagem_de_programa%C3%A7%C3%A3o)
+
 [7] https://www.eca.usp.br/acervo/producao-academica/002835871.pdf
+
 [8] https://repositorio.mcti.gov.br/bitstream/mctic/5184/1/2010_quimica_verde_no_brasil_2010-2030.pdf
+
 [9] https://ainfo.cnptia.embrapa.br/digital/bitstream/item/61895/1/quimica-verde.pdf
