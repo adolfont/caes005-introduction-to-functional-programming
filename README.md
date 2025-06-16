@@ -43,6 +43,7 @@ In the past, we have hosted invited talks by:
 ### Invited Talks Scheduled for 2025
 
 - **September 8** – [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
+- **November 3** – [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
 
 ## Learning Objectives
 
