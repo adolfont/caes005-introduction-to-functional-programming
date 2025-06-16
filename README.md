@@ -31,13 +31,18 @@ Adolfo Neto is an Associate Professor at UTFPR. He is a member of the [Education
 
 Adolfo is one of the organizers of the [1st Workshop on Software Engineering for Functional Programming (SE4FP 2025)](https://bit.ly/3Tr3mgt).
 
-## Invited talks
+## Invited Talks
 
-In the past, we have had invited talks from:
-- [Lee Barney](https://youtu.be/sVg0svb8mcI?si=mZr3gVkdDrvWLa6A) - It was this talk, but we haven't published the video.
-- [Laura Castro](https://www.youtube.com/watch?v=6gu9EXRraG8)
-- [Simon Thompson](https://www.youtube.com/watch?v=i9SUR1v1bhY)
-- [Brujo Benavides](https://youtu.be/6MTSl2OArd0?si=-uL87vlK6tNP7YEq)
+In the past, we have hosted invited talks by:
+
+* [Lee Barney](https://youtu.be/sVg0svb8mcI?si=mZr3gVkdDrvWLa6A) – This was the talk, but the video has not been published.
+* [Laura Castro](https://www.youtube.com/watch?v=6gu9EXRraG8)
+* [Simon Thompson](https://www.youtube.com/watch?v=i9SUR1v1bhY)
+* [Brujo Benavides](https://youtu.be/6MTSl2OArd0?si=-uL87vlK6tNP7YEq)
+
+### Invited Talks Scheduled for 2025
+
+- **September 8** – [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
 
 ## Learning Objectives
 
