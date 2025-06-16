@@ -44,6 +44,7 @@ In the past, we have hosted invited talks by:
 
 - **September 8** – [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
 - **November 3** – [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
+- More to come...
 
 ## Learning Objectives
 
