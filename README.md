@@ -20,7 +20,7 @@ Using LLMs to support functional programming.
 
 ## 2025 Offering
 
-The *Introduction to Functional Programming* course will be delivered fully remotely. More details will be available soon. Classes are expected to begin in early August and will take place on **Mondays**, from **15:50 to 18:40 (UTC-3)**.
+The *Introduction to Functional Programming* course will be delivered fully remotely. More details will be available soon. Classes are expected to begin in early August and will take place on **Tuesdays**, from **15:50 to 18:40 (UTC-3)**. _I had to change it from Mondays to Tuesdays._
 
 **Interested in joining?** Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfR_0IToplIeHo-neJJEHi9hbo67M4CarOhmi2b28WIVJsLXg/viewform?usp=dialog) to express your interest. You will be notified when enrollment opens.
 
@@ -42,8 +42,8 @@ In the past, we have hosted invited talks by:
 
 ### Invited Talks Scheduled for 2025
 
-- **September 8** – [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
-- **November 3** – [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
+- **September 9** – [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
+- **November 4** – [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
 - More to come...
 
 ## Learning Objectives
