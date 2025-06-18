@@ -46,6 +46,41 @@ In the past, we have hosted invited talks by:
 - **November 4** – [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
 - More to come...
 
+## Schedule
+
+- 12/August: First class – Functional Programming: Concepts and Major Languages.  Topics: First-class functions, named and anonymous functions.
+- 19/August: to be defined  
+- 26/August: to be defined  
+- 2/September: to be defined  
+- 9/September: Invited talk by [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
+- 16/September: to be defined  
+- 23/September: No class – Instructor at [CBSOFT](https://cbsoft.sbc.org.br/2025/cbsoft/?lang=en) and [SE4FP](https://se4fp.github.io/2025/)
+- 30/September: to be defined  
+- 7/October: to be defined  
+- 14/October: to be defined  
+- 21/October: to be defined  
+- 28/October: to be defined  
+- 4/November: Invited talk by [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
+- 11/November: to be defined  
+- 18/November: to be defined  
+- 25/November: Final project presentations
+- 2/December: Final project presentations 
+- 9/December: Final project presentations  
+
+
+<!-- Functional programming: concepts and major languages.
+Functions: first-class functions, named and anonymous functions, currying, partial application, modules.
+Pattern matching.
+Data structures and immutability.
+Recursion.
+Collection processing.
+Lazy evaluation.
+Control flow.
+Project implementation using a functional language.
+Overview of functional languages for concurrency.
+Using LLMs to support functional programming. -->
+
+
 ## Learning Objectives
 
 By the end of this course, you will be able to:
