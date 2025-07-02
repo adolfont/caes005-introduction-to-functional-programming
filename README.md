@@ -27,6 +27,12 @@ The *Introduction to Functional Programming* course will be delivered fully remo
 
 -->
 
+Applications are now open for external students who wish to enroll in courses from the Professional Master’s Program.
+
+If you need a certificate at the end of the course, please register at https://bit.ly/FORM_1_2025 and https://bit.ly/FORM_FOR_EXTERNALS. Acceptance will follow the schedule available at https://bit.ly/PPGCA_2_2025. All materials are in Portuguese. Please use a translation service and feel free to email me if you have trouble understanding any item. Classes start on August 12, 2025.
+
+If you don’t need a certificate and just want to attend live classes or watch the recordings, join the course’s Google Classroom (send an email to adolfo.neto @ erlef.org and ask for the link).
+
 
 ## Instructor
 
