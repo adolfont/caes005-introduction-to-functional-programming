@@ -52,6 +52,7 @@ In the past, we have hosted invited talks by:
 
 ### Invited Talks Scheduled for 2025
 
+- **September 2** – [Mackenzie Morgan](https://mackenzie.morgan.name/)
 - **September 9** – [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
 - **November 4** – [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
 - More to come...
