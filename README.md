@@ -62,7 +62,7 @@ In the past, we have hosted invited talks by:
 - 12/August: First class – Functional Programming: Concepts and Major Languages.  Topics: First-class functions, named and anonymous functions.
 - 19/August: to be defined  
 - 26/August: to be defined  
-- 2/September: to be defined  
+- 2/September: Talk or interview with [Mackenzie Morgan](https://mackenzie.morgan.name/)
 - 9/September: Invited talk by [Brujo Benavides (Erlang Engineer)](https://www.linkedin.com/in/elbrujohalcon/)
 - 16/September: to be defined  
 - 23/September: No class – Instructor at [CBSOFT](https://cbsoft.sbc.org.br/2025/cbsoft/?lang=en) and [SE4FP](https://se4fp.github.io/2025/)
