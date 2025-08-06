@@ -73,7 +73,7 @@ In the past, we have hosted invited talks by:
 - 28/October: to be defined  
 - 4/November: Invited talk by [Simon Thompson (Emeritus Professor of Logic and Computation)](https://www.linkedin.com/in/simonthompson/)
 - 11/November: to be defined  
-- 18/November: to be defined  
+- 18/November: Invited talk by Fabrício Olivetti de França and Emilio Francesquini (UFABC) on Dependent Types.
 - 25/November: Final project presentations
 - 2/December: Final project presentations 
 - 9/December: Final project presentations  
