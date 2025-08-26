@@ -1,0 +1,442 @@
+# August 26th, 2025
+
+## Exercise 1
+
+### Exercise 1: Rock, Paper, Scissors with Tuples
+
+[](https://github.com/adolfont/caes005-introduction-to-functional-programming/blob/main/offerings/2025/notes/20250826.md#exercise-1-rock-paper-scissors-with-tuples)
+
+1. Represent each game round as a tuple:
+
+   ```elixir
+    {:player1, "rock", :player2, "scissors"}
+   ```
+
+2. Write a function `winner/1` that takes a round tuple and returns another tuple indicating the winner:
+
+   ```elixir
+    {:winner, :player1}
+   ```
+
+   If it’s a draw, return:
+
+   ```elixir
+    {:draw, "rock"}
+   ```
+
+3. Then, test it with different rounds.
+
+---
+
+### ✅ Try it in `iex`:
+
+[](https://github.com/adolfont/caes005-introduction-to-functional-programming/blob/main/offerings/2025/notes/20250826.md#-try-it-in-iex)
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+RPS.winner({:alice, "rock", :bob, "scissors"})
+# {:winner, :alice}
+
+RPS.winner({:alice, "paper", :bob, "paper"})
+# {:draw, "paper"}
+```
+
+---
+
+👉 This forces you to:
+
+* Pattern match on **tuples**.
+* Use them to store structured data.
+* Return results also as tuples.
+
+## Solution by Felipe Augusto
+
+```elixir
+defmodule RPS do
+  def winner({_p1, move, _p2, move}) do
+    {:draw, move}
+  end
+
+  def winner({p1, "rock", _p2, "scissors"}), do: {:winner, p1}
+  def winner({p1, "scissors", _p2, "paper"}), do: {:winner, p1}
+  def winner({p1, "paper", _p2, "rock"}), do: {:winner, p1}
+
+  def winner({_p1, "scissors", p2, "rock"}), do: {:winner, p2}
+  def winner({_p1, "paper", p2, "scissors"}), do: {:winner, p2}
+  def winner({_p1, "rock", p2, "paper"}), do: {:winner, p2}
+  def winner(_), do: :nowinner
+end
+```
+
+```elixir
+{:winner, :alice} == RPS.winner({:alice, "rock", :bob, "scissors"})
+
+```
+
+```elixir
+{:draw, "paper"} == RPS.winner({:alice, "paper", :bob, "paper"})
+
+```
+
+```elixir
+RPS.winner({"Adolfo", "rock", "Alice", "paper"})
+```
+
+```elixir
+RPS.winner({"Adolfo", "pedra", "Alice", "papel"})
+```
+
+## Function Pattern Matching
+
+```elixir
+defmodule PMExample do
+  def f1(an_integer) when is_integer(an_integer) do
+    an_integer
+  end
+  def f1(a_float) when is_float(a_float) do
+    a_float*10
+  end
+  def f1(_) do
+    -1
+  end
+
+
+  def f1(name, age) when is_binary(name) and is_integer(age), do: "Name: #{name}, Age: #{age}"
+  def f1(name, age) when is_binary(name) and is_float(age), do: "Name: #{name}, Age: #{age*10}"
+  def f1(_,_), do: -2
+  
+end
+```
+
+```elixir
+PMExample.f1(:Adolfo, 151.1)
+```
+
+## Exercise 2
+
+### Exercise 2: Student Grades with Keyword Lists
+
+[](https://github.com/adolfont/caes005-introduction-to-functional-programming/blob/main/offerings/2025/notes/20250826.md#exercise-2-student-grades-with-keyword-lists)
+
+1. Represent each student as a **keyword list** with keys for `:name` and `:grades`. Example:
+
+   ```elixir
+    [name: "Alice", grades: [8, 7, 10]]
+   ```
+
+2. Write a function `average/1` that takes such a keyword list and returns another keyword list with the student’s name and their average grade.
+
+   Example:
+
+   ```elixir
+    average([name: "Alice", grades: [8, 7, 10]])
+    # => [name: "Alice", average: 8.33]
+   ```
+
+---
+
+### ✅ Try in `iex`:
+
+[](https://github.com/adolfont/caes005-introduction-to-functional-programming/blob/main/offerings/2025/notes/20250826.md#-try-in-iex)
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+Students.average([name: "Alice", grades: [8, 7, 10]])
+# [name: "Alice", average: 8.33]
+
+Students.average([name: "Bob", grades: [5, 6, 7, 8]])
+# [name: "Bob", average: 6.5]
+```
+
+---
+
+👉 This helps you practice:
+
+* Accessing values from a **keyword list** with `student[:key]`.
+* Storing structured data with keyword lists.
+* Returning results as a keyword list.
+
+## Solution by Felipe Negrelle
+
+```elixir
+defmodule RPSFelipe do
+  def winner({_, m1, _, _}) when m1 != "rock" and m1 != "paper" and m1 != "scissors" do {:error, "Invalid Parameters"} end
+  def winner({_, _, _, m2}) when m2 != "rock" and m2 != "paper" and m2 != "scissors" do {:error, "Invalid Parameters"} end
+  def winner({_, m1, _, m2}) when m1 == m2 do {:draw, m1} end
+  def winner({p1, m1, _, m2}) when m1 == "rock" and m2 == "scissors" do {:winner, p1} end
+  def winner({p1, m1, _, m2}) when m1 == "scissors" and m2 == "paper" do {:winner, p1} end
+  def winner({_, m1, p2, m2}) when m1 == "paper" and m2 == "rock" do {:winner, p2} end
+  def winner({_, _, p2, _}), do: {:winner, p2}
+end
+
+```
+
+```elixir
+defmodule StudentsFelipe do
+  def average([name: name, grades: grades]) when is_binary(name) and is_list(grades) do
+    [name: name, average: Float.round((Enum.sum(grades) / length(grades)), 2)] 
+  end
+end
+```
+
+```elixir
+StudentsFelipe.average([name: "Alice", grades: [8, 7, 10]])
+```
+
+```elixir
+StudentsFelipe.average([name: "Bob", grades: [5, 6, 7, 8]])
+```
+
+## Felipe Neves
+
+```elixir
+defmodule RPSFNeves do
+  def winner({player1, move1, player2, move2}) do
+    case {move1, move2} do
+      {same_move, same_move} -> {:draw, same_move}
+      {"rock", "scissors"} -> {:winner, player1}
+      {"scissors", "paper"} -> {:winner, player1}
+      {"paper", "rock"} -> {:winner, player1}
+      _ -> {:winner, player2}
+    end
+  end
+end
+```
+
+```elixir
+RPSFNeves.winner({:player1, "paper", :player2, "rock"})
+
+```
+
+## Ricardo da Rocha
+
+```elixir
+defmodule Students do
+def average([name: name, grades: [grade1, grade2, grade3] ]) do
+    [name: name, average: (grade1 + grade2 + grade3)/3]
+  end
+end
+
+Students.average([name: "Alice", grades: [8, 7, 10]])
+```
+
+## Carlos Serathiuk
+
+```elixir
+defmodule StudentsCS do
+  def average(student) do
+    grades = student[:grades]
+
+    sum = Enum.sum(grades)
+    count = Enum.count(grades)
+
+    avg = sum / count
+    
+    [name: student[:name], average: avg]
+  end
+end
+
+StudentsCS.average([name: "Alice", grades: [8, 7, 10]])
+```
+
+## Vishrut
+
+```elixir
+defmodule StudentsVS do
+	def average(student_data) do
+		avg_grade = Enum.sum(student_data[:grades]) / length(student_data[:grades])
+		[name: student_data[:name], average: avg_grade]
+	end
+end
+
+StudentsVS.average([name: "Alice", grades: [8, 7, 10]])
+```
+
+## Felipe Neves
+
+```elixir
+defmodule StudentsFNeves do
+  def average(student_list) do
+    grades = student_list[:grades]
+    avg = Enum.sum(grades) / length(grades)
+    [name: student_list[:name], average: avg]
+  end
+end
+
+```
+
+```elixir
+StudentsFNeves.average([name: "Alice", grades: [8, 7, 10]])
+
+```
+
+## Lucas Bazante
+
+```elixir
+defmodule StudentsLB do
+  def average(name: name, grades: grades) do
+    [
+      name: name,
+      average:
+        (Enum.reduce(
+           grades,
+           0,
+           fn x, y -> x + y end
+         ) / length(grades))
+        |> Float.round(2)
+    ]
+  end
+end
+```
+
+```elixir
+StudentsLB.average([name: "Alice", grades: [8, 7, 10]])
+```
+
+Felipe Augusto below
+
+```elixir
+#Felipe Augusto
+defmodule Student do
+  def average(student) do
+    name = student[:name]
+    grades = student[:grades]
+
+    avg = Enum.sum(grades) / length(grades)
+
+    [name: name, average: Float.round(avg, 2)]
+  end
+end
+```
+
+### Fabio Kleis
+
+```elixir
+defmodule StudentsFK do
+  def average([name: name, grades: values]) when length(values) > 0 do
+    [name: name, average: Enum.sum(values) / length(values) |> Float.round(2)]
+  end
+end
+```
+
+## Keyword List Pattern Matching in Functions
+
+```elixir
+defmodule PMKL do
+  def ex1(name: name, age: age) do
+    "Name #{name}, Age: #{age}"
+  end
+end
+```
+
+```elixir
+PMKL.ex1(name: "Adolfo", age: 7657)
+```
+
+## Exercise 3
+
+### Exercise 3: Inventory Management with Maps
+
+[](https://github.com/adolfont/caes005-introduction-to-functional-programming/blob/main/offerings/2025/notes/20250826.md#exercise-3-inventory-management-with-maps)
+
+1. Represent a store’s inventory as a **map**, where the keys are product names and the values are the quantities.
+
+   Example:
+
+   ```elixir
+    %{"apple" => 10, "banana" => 5, "orange" => 7}
+   ```
+
+2. Write functions:
+
+   * `add_item/3` → adds a quantity of an item (new or existing).
+   * `remove_item/3` → removes a quantity, but never goes below zero.
+   * `in_stock?/2` → returns `true` if the item has at least one unit in stock.
+
+---
+
+### ✅ Try in `iex`:
+
+[](https://github.com/adolfont/caes005-introduction-to-functional-programming/blob/main/offerings/2025/notes/20250826.md#-try-in-iex-1)
+
+<!-- livebook:{"force_markdown":true} -->
+
+```elixir
+inv = %{"apple" => 10, "banana" => 5}
+
+inv = Inventory.add_item(inv, "apple", 3)
+# %{"apple" => 13, "banana" => 5}
+
+inv = Inventory.remove_item(inv, "banana", 10)
+# %{"apple" => 13, "banana" => 0}
+
+Inventory.in_stock?(inv, "banana")
+# false
+```
+
+---
+
+👉 This gives you practice with:
+
+* Creating and updating **maps**.
+* Using `Map.update/4` and `Map.get/3`.
+* Returning new maps (immutability).
+
+## Solution
+
+```elixir
+defmodule Inventory do
+  def add_item(map,item_name,item_quantity) do
+    Map.update(map,item_name,item_quantity, 
+      fn x -> x + item_quantity end)
+  end
+  def remove_item(map,item_name,item_quantity) do
+    Map.update(map,item_name,item_quantity, 
+      fn x -> max(0, x - item_quantity) end)
+  end
+  def in_stock?(map, item_name) do
+    Map.get(map, item_name) != nil and
+      Map.get(map, item_name) != 0
+  end
+end
+```
+
+```elixir
+inv = %{"apple" => 10, "banana" => 5}
+```
+
+```elixir
+inv = Inventory.add_item(inv, "apple", 3)
+# %{"apple" => 13, "banana" => 5}
+```
+
+```elixir
+inv = Inventory.add_item(inv, "avocado", 3)
+
+```
+
+```elixir
+inv = Inventory.remove_item(inv, "banana", 10)
+
+```
+
+```elixir
+Map.keys(inv)
+```
+
+```elixir
+Inventory.in_stock?(inv, "banana")
+
+```
+
+```elixir
+Inventory.in_stock?(inv, "apple")
+
+```
+
+```elixir
+Inventory.in_stock?(inv, "melon")
+
+```
