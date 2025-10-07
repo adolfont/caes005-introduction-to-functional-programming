@@ -224,6 +224,9 @@ def triplePoint := makeScaler 3.0
 #eval triplePoint p
 -- Output: Point3D.mk 3.0 6.0 9.0
 
+#eval 2^3
+
+#eval (λ x y ↦ x^y) 2 40
 
 def age := 25
 
