@@ -7,7 +7,7 @@
 -- Lean (version 4.0.0-nightly-2023-03-10, commit 0477276f66b0, Release)
 
 -- VS Code plugin version:
--- lean4  v0.0.113 
+-- lean4  v0.0.113
 -- Lean 4 language support for VS Code
 
 #eval 1 + 2 * 5
@@ -59,6 +59,8 @@ def maximum (n : Nat) (k : Nat) : Nat :=
 
 #eval maximum 2 3
 #check maximum 2
+#check maximum
+
 
 
 -- Defining Types
@@ -96,13 +98,14 @@ structure WrongPoint where
 
 def wrong_origin : WrongPoint := { x := 0.0, y := 0.0 }
 
--- error
--- #eval wrong_origin
+-- error before, not anymore
+#eval wrong_origin
+
 
 structure Point where
   x : Float
   y : Float
-deriving Repr
+-- deriving Repr
 
 def origin : Point := { x := 1.0, y := 2.0 }
 
@@ -126,7 +129,7 @@ structure Point3D where
   x : Float
   y : Float
   z : Float
-deriving Repr
+-- deriving Repr
 
 def origin3D : Point3D := { x := 0.0, y := 0.0, z := 0.0 }
 
@@ -187,12 +190,12 @@ def Point.modifyBoth (f : Float → Float) (p : Point) : Point :=
 structure RectangularPrism where
   new ::
   height : Float
-  width : Float 
+  width : Float
   depth : Float
-deriving Repr
+-- deriving Repr
 
-def RectangularPrism.volume (p: RectangularPrism) : Float := 
-  p.height * p.width * p.depth 
+def RectangularPrism.volume (p: RectangularPrism) : Float :=
+  p.height * p.width * p.depth
 
 def a_volume : RectangularPrism := RectangularPrism.new 1 20 3
 
@@ -203,9 +206,9 @@ structure Segment where
   new ::
   endpoint1 : Point
   endpoint2 : Point
-deriving Repr
+-- deriving Repr
 
-def Segment.length (p1: Point) (p2: Point) : Float := 
+def Segment.length (p1: Point) (p2: Point) : Float :=
   Float.sqrt ((Float.pow (p2.x-p1.x) 2) + (Float.pow (p2.y-p1.y) 2))
 
 
@@ -218,12 +221,10 @@ def p2 : Point := { x := -1.0, y := -2.0 }
 -- Which names are introduced by the declaration of RectangularPrism?
 --  height, width and  depth
 
--- Which names are introduced by the following declarations of Hamster and Book? 
+-- Which names are introduced by the following declarations of Hamster and Book?
 -- name and fluffy
 --  title, author and price
 
 -- What are their types?
 -- String, Bool
 -- String, String, Float
-
-
