@@ -65,4 +65,13 @@ defmodule MegaSena.Player do
     IO.inspect(MegaSena.Player.get_state(), label: "Initial Player State")
     pid
   end
+
+  def bla(1, x) do
+    1 + x
+
+  end
+  def bla(2, y) do
+    2 + y
+
+  end
 end

@@ -17,14 +17,20 @@
 
 -- Pattern Matching
 
+
+-- **Toggle InfoView**
+
 def isZero (n : Nat) : Bool :=
   match n with
   | Nat.zero => true
-  | Nat.succ k => false
+  | Nat.succ _k => false
 
 
 #eval isZero Nat.zero
 #eval isZero 5
+#check isZero
+#check isZero 5
+
 
 def pred (n : Nat) : Nat :=
   match n with
@@ -32,6 +38,7 @@ def pred (n : Nat) : Nat :=
   | Nat.succ k => k
 
 #eval pred 5
+#eval Nat.pred 5
 
 
 structure Point3D where
@@ -39,6 +46,10 @@ structure Point3D where
   y : Float
   z : Float
 deriving Repr
+-- deriving Repr automatically generates a default way to print or display values of Point3D.
+
+#eval Point3D.mk 1.0 2.0 3.0
+
 
 -- "In this case, it would have been much simpler to just use the z accessor, but structure patterns are occasionally the simplest way to write a function."
 def depth (p : Point3D) : Float :=
@@ -113,3 +124,63 @@ def factorial (n : Nat)  : Nat :=
 #eval factorial 10
 
 -- 1.6 Polymorphism https://lean-lang.org/functional_programming_in_lean/getting-to-know/polymorphism.html
+
+
+
+-- Anonymous Functions
+
+#eval (fun x => x + 1) 5  -- returns 6
+-- #eval (fun x => x + 1)
+#check (fun x => x + 1)
+
+#eval (fun x y => x * y) 3 4  -- returns 12
+#check (fun x y => x * y)
+
+def addOne := fun x => x + 1
+#eval addOne 10  -- returns 11
+
+#eval (λ x => x + 1) 7  -- returns 8
+#check (λ x => x + 1)
+
+-- Anonymous functions with Point3D objects
+
+#eval (fun x y z => Point3D.mk x y z) 1.0 2.0 3.0
+-- Output: Point3D.mk 1.0 2.0 3.0
+
+
+def p1 := Point3D.mk 1.0 2.0 3.0
+def p2 := Point3D.mk 4.0 5.0 6.0
+
+#eval (fun a b => Point3D.mk (a.x + b.x) (a.y + b.y) (a.z + b.z)) p1 p2
+-- Output: Point3D.mk 5.0 7.0 9.0
+
+#eval (fun p factor => Point3D.mk (p.x * factor) (p.y * factor) (p.z * factor)) p1 2.0
+-- Output: Point3D.mk 2.0 4.0 6.0
+
+-- Function that receives another function as argument
+
+-- Function that receives another function `f` and a point `p`
+def applyToPoint (f : Float → Float) (p : Point3D) : Point3D :=
+  Point3D.mk (f p.x) (f p.y) (f p.z)
+
+-- Example usage: double all coordinates
+def p := Point3D.mk 1.0 2.0 3.0
+#eval applyToPoint (fun x => x * 2) p
+-- Output: Point3D.mk 2.0 4.0 6.0
+
+
+-- Function that returns another function
+
+def makeScaler (factor : Float) : Point3D → Point3D :=
+  fun p => Point3D.mk (p.x * factor) (p.y * factor) (p.z * factor)
+
+-- Example usage
+-- def p := Point3D.mk 1.0 2.0 3.0
+
+def doublePoint := makeScaler 2.0
+#eval doublePoint p
+-- Output: Point3D.mk 2.0 4.0 6.0
+
+def triplePoint := makeScaler 3.0
+#eval triplePoint p
+-- Output: Point3D.mk 3.0 6.0 9.0
