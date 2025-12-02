@@ -15,7 +15,14 @@ Lazy evaluation.
 Control flow.
 Project implementation using a functional language.
 Overview of functional languages for concurrency.
-Using LLMs to support functional programming.
+
+
+<!-- Using LLMs to support functional programming. -->
+
+
+## Optional?
+
+- CPS (continuation-passing-style)
 
 
 ## 2025 Offering
