@@ -25,6 +25,10 @@ Overview of functional languages for concurrency.
 - CPS (continuation-passing-style)
 
 
+## Rules 
+
+- No open camera, no presence.
+
 ## 2025 Offering
 
 The *Introduction to Functional Programming* course will be delivered fully remotely. More details will be available soon. Classes are expected to begin in early August and will take place on **Tuesdays**, from **15:50 to 18:40 (UTC-3)**. 
