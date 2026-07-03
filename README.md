@@ -38,7 +38,7 @@ Overview of functional languages for concurrency.
 
 ## 2026 offering
 
-The *Introduction to Functional Programming* course will take place in a hybrid format: 80 per cent remote, 20 per cent in person. Classes are expected to begin on August 18th and will take place on **Tuesdays**, from **17:50 to 20:20 (UTC-3)**.  -->
+The *Introduction to Functional Programming* course will take place in a hybrid format: 80 per cent remote, 20 per cent in person. Classes are expected to begin on August 18th and will take place on **Tuesdays**, from **17:50 to 20:20 (UTC-3)**.  
 
 🇧🇷 Teremos 3 encontros presenciais. As datas das atividades presenciais já estão nesta [planilha](https://docs.google.com/spreadsheets/d/e/2PACX-1vT8ozOqCLBz8laQf7Lej_Bt_5cNEhqm_OFuVoxGxyTMDSVx0xDR66aqMI2eXc7tDlmB48J8vfhtfYP-/pubhtml?gid=0&single=true)
 
