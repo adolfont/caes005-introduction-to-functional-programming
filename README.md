@@ -33,6 +33,15 @@ Overview of functional languages for concurrency.
 
 - No open camera, no presence.
 
+## 2026 offering
+
+The *Introduction to Functional Programming* course will take place in a hybrid format: 80 per cent remote, 20 per cent in person. Classes are expected to begin on August 18th and will take place on **Tuesdays**, from **17:50 to 20:20 (UTC-3)**.  -->
+
+🇧🇷 Teremos 3 encontros presenciais. As datas das atividades presenciais já estão nesta [planilha](https://docs.google.com/spreadsheets/d/e/2PACX-1vT8ozOqCLBz8laQf7Lej_Bt_5cNEhqm_OFuVoxGxyTMDSVx0xDR66aqMI2eXc7tDlmB48J8vfhtfYP-/pubhtml?gid=0&single=true)
+
+**Interested in joining?** Please send me an email: adolfo AT utfpr.edu.br.
+
+
 <!-- ## 2025 Offering
 
 The *Introduction to Functional Programming* course will be delivered fully remotely. More details will be available soon. Classes are expected to begin in early August and will take place on **Tuesdays**, from **15:50 to 18:40 (UTC-3)**.  -->
