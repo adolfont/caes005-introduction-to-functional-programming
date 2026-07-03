@@ -3,7 +3,10 @@
 This course is offered by the Graduate Program in Applied Computing (PPGCA) at the
 Federal University of Technology – Paraná (UTFPR). It is primarily intended for graduate students, but advanced undergraduates and professionals may also attend.
 
+<!-- 
 **If you are interested in joining the 2026 class, send an e-mail to adolfo at utfpr dot edu dot br and explain why. The class will probably start on August 18th and will take place every Tuesday until December 15th, from 17h50 to 20h20 (UTC-3).**
+
+-->
 
 An example of a class: [Language Processing in Haskell, Simon Thompson](https://youtu.be/Q3T1DyZlsws)
 
