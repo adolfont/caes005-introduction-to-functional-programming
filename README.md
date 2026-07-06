@@ -44,6 +44,9 @@ The *Introduction to Functional Programming* course will take place in a hybrid 
 
 **Interested in joining?** Please send me an email: adolfo AT utfpr.edu.br.
 
+## Readings
+
+- [Haskell: The Craft of Functional Programming, Simon Thompson](https://link.amazon/B045XBXgt)
 
 <!-- ## 2025 Offering
 
