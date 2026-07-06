@@ -8,7 +8,9 @@ Federal University of Technology – Paraná (UTFPR). It is primarily intended f
 
 -->
 
-An example of a class: [Language Processing in Haskell, Simon Thompson](https://youtu.be/Q3T1DyZlsws)
+An example of a class: [Language Processing in Haskell, Simon Thompson](https://youtu.be/Q3T1DyZlsws).
+
+_In this age of so much "AI" everywhere (which I hate), this course will be much nmore focused on discussions that on regular lectures._  
 
 ## Syllabus
 
