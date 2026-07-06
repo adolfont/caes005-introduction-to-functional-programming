@@ -47,6 +47,7 @@ The *Introduction to Functional Programming* course will take place in a hybrid 
 ## Readings
 
 - [Haskell: The Craft of Functional Programming, Simon Thompson](https://link.amazon/B045XBXgt)
+- [Computability: Computable Functions, Logic, and the Foundations of Mathematics, Richard L. Epstein and Walter Carnielli](https://link.amazon/B0eISIl5I) - Chapter on functions
 
 <!-- ## 2025 Offering
 
