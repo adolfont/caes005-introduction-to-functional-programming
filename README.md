@@ -1,8 +1,7 @@
 # CAES005 – Introduction to Functional Programming
 
 
-**IMPORTANT! This is an old version of this repo! Go to the new version at <https://codeberg.org/adolfont/caes005-introduction-to-functional-programming>
-**
+**IMPORTANT! This is an old version of this repo! Go to the new version at <https://codeberg.org/adolfont/caes005-introduction-to-functional-programming>**
 
 This course is offered by the Graduate Program in Applied Computing (PPGCA) at the
 Federal University of Technology – Paraná (UTFPR). It is primarily intended for graduate students, but advanced undergraduates and professionals may also attend.
